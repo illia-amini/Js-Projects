@@ -1,5 +1,6 @@
-//Hm-01
+//Hm-01;
 //instrouction-below:
+//Camelcase-written;
 
 /*
 .1-ex; write a code that insert nums to the end of index2. use push() & normal way.
@@ -51,12 +52,12 @@ var Isodd = true ;//bool
 var Iseven = false ;//bool
 var Istrue = true //bool
 var Isfalse = false ;//bool
-var = ;//bool
-var = ;//bool
-var = ;//bool
-var = ;//bool
-var = ;//bool
-var = ;//bool
+var Is=  ;//bool
+var Is=  ;//bool
+var Is=  ;//bool
+var Is=  ;//bool
+var Is=  ;//bool
+var Is=  ;//bool
 //4-array;
 var = ;//array
 var = ;//array
