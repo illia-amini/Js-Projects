@@ -47,11 +47,38 @@ var Single = 'True';//str
 var Major = 'Electrical&Electronic engineering';//str
 var Uni = 'Lyon Univercity';//str
 //3-bool
-
+var Isodd = true ;//bool
+var Iseven = false ;//bool
+var Istrue = true //bool
+var Isfalse = false ;//bool
+var = ;//bool
+var = ;//bool
+var = ;//bool
+var = ;//bool
+var = ;//bool
+var = ;//bool
 //4-array;
-
+var = ;//array
+var = ;//array
+var = ;//array
+var = ;//array
+var = ;//array
+var = ;//array
+var = ;//array
+var = ;//array
+var = ;//array
+var = ;//array
 //5-object;
-
+var = ;//object
+var = ;//object
+var = ;//object
+var = ;//object
+var = ;//object
+var = ;//object
+var = ;//object
+var = ;//object
+var = ;//object
+var = ;//object
 //02-e-Datatype
 
 //03-s-
