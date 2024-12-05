@@ -1,4 +1,19 @@
 //Hm-01
+//instrouction-below:
+
+/*
+.1-ex; write a code that insert nums to the end of index2. use push() & normal way.
+     array=[1,2,[45,56,43,],3,4]
+.2- 10 ex for each datatype.
+.3- console.table(), write with students ex.
+.4- read and write a code for console 5 or 6 at last. 
+.5-javascript reffrence; w3schools, math section 10 code.
+.6-javascript reffrence; w3schools, array section 5 code. 
+.7-javascript reffrence; w3schools, string array section 3/5 code. 
+.8-upload ur project on ur github pannel.
+.9-code with mosh, as much as we've learned at the class.
+.10-study the textbooks untill page 15.
+*/
 
 //01-s,multidimensional-Array
 
@@ -38,4 +53,21 @@ var Uni = 'Lyon Univercity';//str
 //5-object;
 
 //02-e-Datatype
+
+//03-s-
+
+//04-s-
+
+//05-s-
+
+//06-s-
+
+//07-s-
+
+//08-s-
+
+//09-s-
+
+//10-s-
+
 //
