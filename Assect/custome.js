@@ -193,7 +193,7 @@ console.table(Students);
 
 //04-e-consol
 
-//05-s-math-syntax
+//05-s-math-methodes
 
 //01
 //Math.round()
@@ -222,11 +222,11 @@ num = prompt('Enter any num:');
 console.log(Math.sign(num));
 //06
 //Math.min() & Math.max()
-//1-Math.min()
+//01-Math.min()
 var Minnum = null;
 Minnum = Math.min(1,232332,-3,2332,4554);
 console.log(Minnum);
-//2-Math.max()
+//02-Math.max()
 var Maxnum = null;
 Maxnum =Math.max(1,23,43353,-1,34)
 console.log(Maxnum);
@@ -253,15 +253,45 @@ var num = null;
 num = Math.random();
 console.log(num);
 
-//05-e-math-syntax
+//05-e-math-methode
 
 //06-s-array-syntax
 
 //06-e-array-syntax
 
-//07-s-string
+//07-s-string-methodes
 
-//07-e-string
+//01
+//String charAt() & String charCodeAt()
+//01-String charAt()
+var Text = null;
+Text = prompt("Enter ur name;");
+alert("The First char of ur name will print at console section");
+console.log(Text.charAt(0));
+//02-String charCodeAt()
+var Text = null;
+Text = prompt("Enter ur name;");
+alert("The First char's code of ur name will print at console section");
+console.log(Text.charCodeAt(0));
+//String at()
+
+//03
+//String slice()
+
+//04
+//String substring()
+
+//05
+//toUpperCase() & toLowercase()
+
+//06
+//String.Length
+var Txt=null;
+Txt=prompt('Enter ur name:');
+alert('The lenght of ur name is marked at console section')
+console.log(Txt.length);
+
+//07-e-string-methodes
 
 //08-s-
 /*
