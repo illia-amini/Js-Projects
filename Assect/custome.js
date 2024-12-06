@@ -135,6 +135,7 @@ var Object10 = [
         Favfood:'Pizza',
     }
 ];//object#object & array-02
+
 /*
 :)
 to-run-any-of-wrriten-codes-above\
@@ -251,11 +252,12 @@ console.log(Math.sqrt(num));
 var num = null;
 num = Math.random();
 console.log(num);
+
 //05-e-math-syntax
 
-//06-s-array
+//06-s-array-syntax
 
-//06-e-array
+//06-e-array-syntax
 
 //07-s-string
 
