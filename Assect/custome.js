@@ -192,9 +192,41 @@ console.table(Students);
 
 //04-e-consol
 
-//05-s-math
+//05-s-math-syntax
 
-//05-e-math
+//01
+//Math.round()
+var num = null
+num = prompt('Enter any float num:')
+console.log(Math.round(num))
+//02
+//Math.ceil()
+
+//03
+//Math.flow()
+
+//04
+//Math.turnc()
+
+//05
+//Math.sign()
+
+//06
+//Math.min() & Math.max()
+
+//07
+//Math.abs()
+
+//08
+//Math.pow()
+
+//09
+//Math.sqrt()
+
+//10
+//Math.random()
+
+//05-e-math-syntax
 
 //06-s-array
 
