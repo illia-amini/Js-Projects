@@ -196,36 +196,61 @@ console.table(Students);
 
 //01
 //Math.round()
-var num = null
-num = prompt('Enter any float num:')
-console.log(Math.round(num))
+var num = null;
+num = prompt('Enter any float num:');
+console.log(Math.round(num));
 //02
 //Math.ceil()
-
+var num = null;
+num = prompt('Enter any float num:');
+console.log(Math.ceil(num));
 //03
-//Math.flow()
-
+//Math.floor()
+var num = null;
+num = prompt('Enter any float num:');
+console.log(Math.floor(num));
 //04
 //Math.turnc()
-
+var num = null;
+num = prompt('Enter any float num:');
+console.log(Math.trunc(num));
 //05
 //Math.sign()
-
+var num = null;
+num = prompt('Enter any num:');
+console.log(Math.sign(num));
 //06
 //Math.min() & Math.max()
-
+//1-Math.min()
+var Minnum = null;
+Minnum = Math.min(1,232332,-3,2332,4554);
+console.log(Minnum);
+//2-Math.max()
+var Maxnum = null;
+Maxnum =Math.max(1,23,43353,-1,34)
+console.log(Maxnum);
 //07
 //Math.abs()
-
+var num = null;
+num = prompt('Enter any num:');
+console.log(Math.abs(num));
 //08
 //Math.pow()
-
+var num1 = null;
+var num2 = null;
+num1 = prompt('Enter any num:');
+num2 = prompt('Enter ur power:')
+console.log(Math.pow(num1,num2));
 //09
 //Math.sqrt()
-
+var num = null;
+num = prompt('Enter any num:');
+console.log(Math.sqrt(num));
 //10
 //Math.random()
-
+var num = null;
+num = Math.random();
+console.log(num);
 //05-e-math-syntax
 
 //06-s-array
