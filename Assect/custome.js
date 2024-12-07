@@ -274,23 +274,60 @@ Text = prompt("Enter ur name;");
 alert("The First char's code of ur name will print at console section");
 console.log(Text.charCodeAt(0));
 //String at()
-
+let name = "illia amini";
+let letter = name.at(6);
+console.log(letter);
 //03
-//String slice()
-
+//String slice()#include substr() & substring()
+//01-values>=0
+var Txt = null;
+Txt = prompt("Enter ur name:");
+alert("The prime three char of ur name is marked at console section");
+console.log(Txt.slice(0, 3));
+//02-values<0
+var Txt = null;
+Txt = prompt("Enter ur name:");
+alert("The last three char of ur name except last char, is marked at console section");
+console.log(Txt.slice(-4,-1));
+//03=simple-value
+var Txt = null;
+Txt = prompt("Enter ur name:");
+alert("except first char of ur name ,the rest is marked at console section");
+console.log(Txt.slice(1));
 //04
-//String substring()
-
+//String substring() & String Substr()
+//01-String substring()
+var str = "Apple, Banana, Kiwi";
+var part = str.substring(7, 13);
+//02-String substr()
+//Error-404
+/*
+var str ='ali,reza,amini';
+var slice= str.substr(4,4);
+*/
 //05
 //toUpperCase() & toLowercase()
-
+//Error-404
+/*
+var Text = null;
+Text =prompt('Enter ur name;');
+alert("The First char's of ur name will print at console section");
+console.log(Text.toUppercase());
+*/
 //06
 //String.Length
 var Txt=null;
 Txt=prompt('Enter ur name:');
-alert('The lenght of ur name is marked at console section')
+alert('The lenght of ur name is marked at console section');
 console.log(Txt.length);
-
+//07
+//String.concat()
+var name01 = null;
+var name02 = null;
+name01 = prompt("Enter ur name;");
+name02 = prompt("Enter ur surename;");
+Fullname = name01.concat(" ", name02);
+console.log(Fullname);
 //07-e-string-methodes
 
 //08-s-
