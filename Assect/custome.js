@@ -8,9 +8,9 @@
 .2-10 ex for each datatype.
 .3-console.table(), write with students ex.
 .4-study and write a code for console 5 or 6 at last. 
-.5-javascript reffrence; w3schools, math section 10 code.
-.6-javascript reffrence; w3schools, array section 5 code. 
-.7-javascript reffrence; w3schools, string array section 3/5 code. 
+.5-javascript reffrence; w3schools, math methodes 10 lines code.
+.6-javascript reffrence; w3schools, array methodes 5 lines code. 
+.7-javascript reffrence; w3schools, string methodes 3/5 lines code. 
 .8-upload ur project on ur github pannel.
 .9-code with mosh, as much as we've learned at the class.
 .10-study the textbooks untill page 15.
@@ -255,10 +255,53 @@ console.log(num);
 
 //05-e-math-methode
 
-//06-s-array-syntax
+//06-s-array-methodes
+//01
+//.length & .at()
+//01-length
+var Fruits = ['Banana','Apple','Orange'];
+console.log(Fruits.length);
+//02-at
+var Fruits = ['Banana','Apple','Orange'];
+console.log(Fruits.at(2));
+//02
+//.toSrting()
+var Fruits = ['Banana','Apple','Orange'];
+console.log(Fruits.toString());
+//03
+//.join()
+var Fruits = ['Banana','Apple','Orange'];
+console.log(Fruits.join(' * '));
+//04
+//.pop() & .push()
+//01-pop()
+//it-returns-the-value-which-popped-out-either-in-console-or-alert.
+//it-pop-out-from-the-last
+var Fruits = ['Banana','Apple','Orange'];
+console.log(Fruits.pop());
+//02-push()
+//it-returns-the-length-of-array-not-the-arguments
+var Fruits = ['Banana','Apple','Orange'];
+console.log(Fruits.push('Cocount','Kiwi'));
+//05
+//.shift() & .unshift()
+//01-shift()
+//it-returns-the-methode-removes-the-first-element-and-shift-all-other-elements-to-a-lower-index
+//The shift() method returns the value that was "shifted out":
+var Fruits = ['Banana','Apple','Orange'];
+console.log(Fruits.shift());
+//02-unshift()
+//The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
+//The unshift() method returns the new array length:
+var Fruits = ['Banana','Apple','Orange'];
+console.log(Fruits.unshift('Lemon'));
+//06
+//delete()
+//better-to-use-pop()-shift()-instead-but-index-is-either-first-or-last
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+delete fruits[2];
 
-//06-e-array-syntax
-
+//06-e-array-methodes
 //07-s-string-methodes
 
 //01
