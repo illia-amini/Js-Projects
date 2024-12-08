@@ -374,7 +374,7 @@ var name01 = null;
 var name02 = null;
 name01 = prompt("Enter ur name;");
 name02 = prompt("Enter ur surename;");
-Fullname = name01.concat(" ", name02);
+var fullName = name01.concat(" ", name02);
 console.log(Fullname);
 //07-e-string-methodes
 
