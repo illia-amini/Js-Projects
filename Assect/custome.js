@@ -189,9 +189,73 @@ console.table(students);
 
 //03-e-consol.table()
 
-//04-s-consol
+//04-s-consol.methodes
 
-//04-e-consol
+//01-clear()
+/*
+.The clear() method clears the console.
+.The clear() method also write "Console was cleared" in the console.
+*/
+console.clear();
+//02-error()
+/*
+.The error() method writes an error message to the console.
+.The console is useful for testing purposes.
+.red-badge
+*/
+//ex-01
+console.error('you made a bad mistake hhh!!!');
+//ex-02
+const myObj01 = { firsname: "John", lastname: "Doe" };
+console.error(myObj01);
+//03-warn()
+/*
+.The warn() method writes a warning to the console.
+.yellow-badge
+*/
+//ex-01
+console.warn("This is a warning!");
+//ex-02
+const myObj02 = {firstname:"John", lastname:"Doe"};
+console.warn(myObj02);
+//04-info()
+/*
+The info() method writes a message to the console.
+*/
+//ex-01
+console.info("Hello world!");
+//ex-02
+const myObj = {firstname:"John", lastname:"Doe"};
+console.info(myObj);
+//05-group() & groupCollapesd()
+//01-group()
+/*
+The group() method starts a message group.
+All new messages will be written inside this group.
+*/
+console.log("Hello world!");
+console.group();
+console.log("Hello again, this time inside a group!");
+//02-groupCollapesd()
+/*
+The groupCollapsed() method starts a collapsed message group.
+In the Console, click the expand button to open the new message group.
+All new messages will now be written inside this group.
+*/
+console.log("Hello world!");
+console.groupCollapsed();
+console.log("Hello again, this time inside a collapsed group!");
+//03-groupEnd()
+/*
+The groupEnd() ends a message group.
+*/
+console.log("Hello world!");
+console.group();
+console.log("Hello again, this time inside a group!");
+console.groupEnd();
+console.log("and we are back.");
+
+//04-e-consol.methodes
 
 //05-s-math-methodes
 
