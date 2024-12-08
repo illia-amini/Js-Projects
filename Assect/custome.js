@@ -18,70 +18,70 @@
 
 //01-s,multidimensional-Array
 
-var Array01=[1,2,[45,56,43],3,4];
-Array01[2][3]='add a random num here';
-console.log(Array01);
+var $array01=[1,2,[45,56,43],3,4];
+$array01[2][3]='add a random num here';
+console.log($array01);
 
 //01-e,multidimensional-Array
 
 //02-s-Datatype
 
 //1-num
-var Age = 22;//int
-var Mathexam = 90.2;//float
-var Cputemp = 26;//int
-var Ceratine = 12.6;//float
-var Fingers = 10;//int
-var Bananaprice = 75.4;//float
-var Days = 7;//int
-var Airpollution = 100.2;//float
-var Continents = 7;//int
-var Petrollitre; 25.6//float
+var age = 22;//int
+var mathExam = 90.2;//float
+var cpuTemp = 26;//int
+var ceratine = 12.6;//float
+var fingers = 10;//int
+var bananaPrice = 75.4;//float
+var days = 7;//int
+var airPollution = 100.2;//float
+var continents = 7;//int
+var PetrolLitre; 25.6//float
 //2-str
-var Name = 'Ali';//str
-var Surename = 'Amini';//str
-var Fathername= 'Reza';//str
-var email = 'illiaamini2002ir@gmail.come';//str
-var Pass ='12345';//str
-var Dateofbirth = '26/06/2002';//str
-var Sex = 'Male';//str
-var Single = 'True';//str
-var Major = 'Electrical&Electronic engineering';//str
-var Uni = 'Lyon Univercity';//str
+var name = 'Ali';//str
+var sureName = 'Amini';//str
+var fatherName= 'Reza';//str
+var $email = 'illiaamini2002ir@gmail.come';//str
+var $pass ='12345';//str
+var dateofBirth = '26/06/2002';//str
+var sex = 'Male';//str
+var single = 'True';//str
+var major = 'Electrical&Electronic engineering';//str
+var uni = 'Lyon Univercity';//str
 //3-bool
-var Isodd = true ;//bool#1
-var Iseven = false ;//bool#0
-var Istrue = true //bool#1
-var Isfalse = false ;//bool#0
-var Ismarried = true ;//bool#1
-var Isday= false ;//bool#0
-var Isnight= true ;//bool#1
-var Isexpensive= false;//bool#0
-var Ischeap= true;//bool#1
-var Isbig= false ;//bool#0
+var isOdd = true ;//bool#1
+var isEven = false ;//bool#0
+var is$True = true //bool#1
+var is$False = false ;//bool#0
+var isMarried = true ;//bool#1
+var isDay= false ;//bool#0
+var isNight= true ;//bool#1
+var isExpensive= false;//bool#0
+var isCheap= true;//bool#1
+var isBig= false ;//bool#0
 //4-array;
 //#use-[],brackets.
-var Array01 =[1,3,5,7,9] ;//array#odd-num
-var Array02 = [2,4,6,8,];//array#even-num
-var Array03 =[2,3,5,7] ;//array#prime-num
-var Array04 =['ali','reza','amini'] ;//array#str
-var Array05 =['alireza','amini','22'] ;//array#str
-var Array06 =['html','css','js'] ;//array#str
-var Array07 =['bool','str','num','object','array'] ;//array#str
-var Array08 =['true','false','0','1','ali'] ;//array#str
-var Array09 =[1,2,3[4,5,6],7,8,[9,10]] ;//array#multidiemeinsion-2d
-var Array10 =[1,2,3,[4,5,6,[7,8,9]],10] ;//array#multidiemeinsion-3d
+var $array01 =[1,3,5,7,9] ;//array#odd-num
+var $array02 = [2,4,6,8,];//array#even-num
+var $array03 =[2,3,5,7] ;//array#prime-num
+var $array04 =['ali','reza','amini'] ;//array#str
+var $array05 =['alireza','amini','22'] ;//array#str
+var $array06 =['html','css','js'] ;//array#str
+var $array07 =['bool','str','num','object','array'] ;//array#str
+var $array08 =['true','false','0','1','ali'] ;//array#str
+var $array09 =[1,2,3[4,5,6],7,8,[9,10]] ;//array#multidiemeinsion-2d
+var $array10 =[1,2,3,[4,5,6,[7,8,9]],10] ;//array#multidiemeinsion-3d
 //5-object;
 //#use-{},curely brackets.
-var Object01 = {Age:22,Firstname:'Illia',Lastname:'Amini' };//object#bio
-var Object02 = {Birth:2002,Gender:'Male'};//object#bio-02
-var Object03 = {Favsport:'Archery',Favsport02:'Socer',Trophy:3};//object#bio-3
-var Object04 = {Edu:'Enginear',Uni:'Lyon uni',Books:0};//object#bio-04
-var Object05 = {Weigth:80.5,Height:188.8,Skin:'white'};//object#bio-05
-var Object06 = {Favmovie:'Nobody',Favseries:'Thlo',Timewatched:3};//object#bio-06
-var Object07 = {Favfood:'Nypizza',Favfood02:'Kebab',Eatinweek:2};//object#bio-07
-var Object08 = {Married:false,Programmer:true,Student:true};//object
-var Object09 = [
+var _object01 = {Age:22,Firstname:'Illia',Lastname:'Amini' };//object#bio
+var _object02 = {Birth:2002,Gender:'Male'};//object#bio-02
+var _object03 = {Favsport:'Archery',Favsport02:'Socer',Trophy:3};//object#bio-3
+var _object04 = {Edu:'Enginear',Uni:'Lyon uni',Books:0};//object#bio-04
+var _object05 = {Weigth:80.5,Height:188.8,Skin:'white'};//object#bio-05
+var _object06 = {Favmovie:'Nobody',Favseries:'Thlo',Timewatched:3};//object#bio-06
+var _object07 = {Favfood:'Nypizza',Favfood02:'Kebab',Eatinweek:2};//object#bio-07
+var _object08 = {Married:false,Programmer:true,Student:true};//object
+var _object09 = [
     std1=
     {
         Name:'illia',
@@ -118,8 +118,8 @@ var Object09 = [
         Child:3
     }
 ];//object#object & array-01
-var Object10 = [
-        Mybio=
+var _object10 = [
+        myBio=
     {
         Name:'illia',
         Surename:'Amini',
@@ -148,7 +148,7 @@ visit-the-result-on-consile-section\
 
 //03-s-consol.table()
 
-var Students = [
+var students = [
     std1=
     {
         Name:'illia',
@@ -185,7 +185,7 @@ var Students = [
         Child:3
     }
 ]
-console.table(Students);
+console.table(students);
 
 //03-e-consol.table()
 
@@ -223,13 +223,13 @@ console.log(Math.sign(num));
 //06
 //Math.min() & Math.max()
 //01-Math.min()
-var Minnum = null;
-Minnum = Math.min(1,232332,-3,2332,4554);
-console.log(Minnum);
+var $minnum = null;
+$minnum = Math.min(1,232332,-3,2332,4554);
+console.log($minnum);
 //02-Math.max()
-var Maxnum = null;
-Maxnum =Math.max(1,23,43353,-1,34)
-console.log(Maxnum);
+var _maxnum = null;
+_maxnum =Math.max(1,23,43353,-1,34)
+console.log(_maxnum);
 //07
 //Math.abs()
 var num = null;
@@ -256,45 +256,46 @@ console.log(num);
 //05-e-math-methode
 
 //06-s-array-methodes
+
 //01
 //.length & .at()
 //01-length
-var Fruits = ['Banana','Apple','Orange'];
-console.log(Fruits.length);
+var fruits = ['Banana','Apple','Orange'];
+console.log(fruits.length);
 //02-at
-var Fruits = ['Banana','Apple','Orange'];
-console.log(Fruits.at(2));
+var fruits = ['Banana','Apple','Orange'];
+console.log(fruits.at(2));
 //02
 //.toSrting()
-var Fruits = ['Banana','Apple','Orange'];
-console.log(Fruits.toString());
+var fruits = ['Banana','Apple','Orange'];
+console.log(fruits.toString());
 //03
 //.join()
-var Fruits = ['Banana','Apple','Orange'];
-console.log(Fruits.join(' * '));
+var fruits = ['Banana','Apple','Orange'];
+console.log(fruits.join(' * '));
 //04
 //.pop() & .push()
 //01-pop()
 //it-returns-the-value-which-popped-out-either-in-console-or-alert.
 //it-pop-out-from-the-last
-var Fruits = ['Banana','Apple','Orange'];
-console.log(Fruits.pop());
+var fruits = ['Banana','Apple','Orange'];
+console.log(fruits.pop());
 //02-push()
 //it-returns-the-length-of-array-not-the-arguments
-var Fruits = ['Banana','Apple','Orange'];
-console.log(Fruits.push('Cocount','Kiwi'));
+var fruits = ['Banana','Apple','Orange'];
+console.log(fruits.push('Cocount','Kiwi'));
 //05
 //.shift() & .unshift()
 //01-shift()
 //it-returns-the-methode-removes-the-first-element-and-shift-all-other-elements-to-a-lower-index
 //The shift() method returns the value that was "shifted out":
-var Fruits = ['Banana','Apple','Orange'];
-console.log(Fruits.shift());
+var fruits = ['Banana','Apple','Orange'];
+console.log(fruits.shift());
 //02-unshift()
 //The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
 //The unshift() method returns the new array length:
-var Fruits = ['Banana','Apple','Orange'];
-console.log(Fruits.unshift('Lemon'));
+var fruits = ['Banana','Apple','Orange'];
+console.log(fruits.unshift('Lemon'));
 //06
 //delete()
 //better-to-use-pop()-shift()-instead-but-index-is-either-first-or-last
@@ -302,41 +303,42 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 delete fruits[2];
 
 //06-e-array-methodes
+
 //07-s-string-methodes
 
 //01
 //String charAt() & String charCodeAt()
 //01-String charAt()
-var Text = null;
-Text = prompt("Enter ur name;");
+var text = null;
+text = prompt("Enter ur name;");
 alert("The First char of ur name will print at console section");
-console.log(Text.charAt(0));
+console.log(text.charAt(0));
 //02-String charCodeAt()
-var Text = null;
-Text = prompt("Enter ur name;");
+var text = null;
+text = prompt("Enter ur name;");
 alert("The First char's code of ur name will print at console section");
-console.log(Text.charCodeAt(0));
+console.log(text.charCodeAt(0));
 //String at()
-let name = "illia amini";
-let letter = name.at(6);
+let $name= "illia amini";
+let letter = $name.at(6);
 console.log(letter);
 //03
 //String slice()#include substr() & substring()
 //01-values>=0
-var Txt = null;
-Txt = prompt("Enter ur name:");
+var txt = null;
+txt = prompt("Enter ur name:");
 alert("The prime three char of ur name is marked at console section");
-console.log(Txt.slice(0, 3));
+console.log(txt.slice(0, 3));
 //02-values<0
-var Txt = null;
-Txt = prompt("Enter ur name:");
+var txt = null;
+txt = prompt("Enter ur name:");
 alert("The last three char of ur name except last char, is marked at console section");
-console.log(Txt.slice(-4,-1));
+console.log(txt.slice(-4,-1));
 //03=simple-value
-var Txt = null;
-Txt = prompt("Enter ur name:");
+var txt = null;
+txt = prompt("Enter ur name:");
 alert("except first char of ur name ,the rest is marked at console section");
-console.log(Txt.slice(1));
+console.log(txt.slice(1));
 //04
 //String substring() & String Substr()
 //01-String substring()
@@ -349,20 +351,23 @@ var str ='ali,reza,amini';
 var slice= str.substr(4,4);
 */
 //05
-//toUpperCase() & toLowercase()
-//Error-404
-/*
-var Text = null;
-Text =prompt('Enter ur name;');
-alert("The First char's of ur name will print at console section");
-console.log(Text.toUppercase());
-*/
+//toUpperCase() & toLowerCase()
+//01-toUpperCase
+var text = null;
+text =prompt('Enter ur name;');
+alert("all chars of ur name will convert to upper case at console section");
+console.log(text.toUpperCase());
+//02-tolowerCase()
+var text = null;
+text =prompt('Enter ur name;');
+alert("all chars of ur name will convert to lower case at console section");
+console.log(text.toLowerCase());
 //06
 //String.Length
-var Txt=null;
-Txt=prompt('Enter ur name:');
+var txt=null;
+txt=prompt('Enter ur name:');
 alert('The lenght of ur name is marked at console section');
-console.log(Txt.length);
+console.log(txt.length);
 //07
 //String.concat()
 var name01 = null;
@@ -387,10 +392,18 @@ untill- -videos-is-watched-by-illiaamini.
 */
 //09-e-
 
-//10-s-
-/*
-the-given-book-is-read-by-illiaamini.
-*/
-//10-e-
+//10-s-jsbook
+//the-js-book-is-read-by-illiaamini-till-page-15th.
+//exercise of jsbook;
+//01
+var array1=[1,45,23,12,1,-5];
+//index....[0,1,2,3,4,5]
+console.log(array1[1]);
+//returns 45
+//02
+var arr2D=[[7,25],[5,24],[65,23,14]];
+console.log(arr2D[1][0]);
+//returns-5
+//10-e-jsbook
 
 //
