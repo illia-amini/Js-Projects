@@ -13,7 +13,7 @@
 .7-javascript reffrence; w3schools, string methodes 3/5 lines code. 
 .8-upload ur project on ur github pannel.
 .9-code with mosh, as much as we've learned at the class.
-.10-study the textbooks untill page 15.
+.10-study jsbook untill page 15.
 */
 
 //01-s,multidimensional-Array
