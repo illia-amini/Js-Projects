@@ -4,17 +4,18 @@
 //Camelcase-written;
 
 /*
-.1-ex; write a code that insert nums to the end of index2. use push() & normal way.
+.1-write a code that add some nums to the end of index2.(required)
      array=[1,2,[45,56,43,],3,4]
-.2-10 ex for each datatype.
-.3-console.table(), write with students ex.
-.4-study and write a code for console 5 or 6 at last. 
-.5-javascript reffrence; w3schools, math methodes 10 lines code.
-.6-javascript reffrence; w3schools, array methodes 5 lines code. 
-.7-javascript reffrence; w3schools, string methodes 3/5 lines code. 
-.8-upload ur project on ur github pannel.
-.9-code with mosh, as much as we've learned at the class.
-.10-study jsbook untill page 15.
+.2-10 ex for each datatype.(required)
+.3-console.table(), write with students ex.(required)
+.4-javascript reffrence; w3schools, console methodes 5 lines code.(required)
+.5-javascript reffrence; w3schools, math methodes 10 lines code.(required)
+.6-javascript reffrence; w3schools, array methodes 5 lines code.(required)
+.7-javascript reffrence; w3schools, string methodes 3/5 lines code.(required)
+.8-upload ur project on ur github pannel.(learn-github-first)(required)
+.9-code with mosh, as much as we've learned at the js class.(required)
+.10-study jsbook untill page 15.(required)
+.11-study cleancode book or cleancode via codewithmosh on git.ir.(optional) 
 */
 
 //01-s,multidimensional-Array
