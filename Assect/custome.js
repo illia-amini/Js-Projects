@@ -450,17 +450,20 @@ All-of-the-projects-were-published-on-my-githubpanel-visit-via-links-below.
 #illia-amini
 #https://github.com/illia-amini/javascr-test.git
 */
+
 //08-e-
 
-//09-s-
+//09-s-code-with-mosh
 /*
 untill- -videos-is-watched-by-illiaamini.
 */
-//09-e-
+
+//09-e-code-with-mosh
 
 //10-s-jsbook
 //the-js-book-is-read-by-illiaamini-till-page-15th.
 //exercise of jsbook;
+
 //01
 var array1=[1,45,23,12,1,-5];
 //index....[0,1,2,3,4,5]
@@ -470,6 +473,7 @@ console.log(array1[1]);
 var arr2D=[[7,25],[5,24],[65,23,14]];
 console.log(arr2D[1][0]);
 //returns-5
+
 //10-e-jsbook
 
 //
