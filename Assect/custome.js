@@ -469,8 +469,22 @@ const firstName ='code-with'; lastName = 'Mosh'; age = 30;
 console.log(firstName,' * ',lastName,' * ',age);
 //ex04
 let $num;
-console.info(typeof($num));
-//undeifiend-is-primetive-value type
+console.info(typeof($num));//undeifiend-is-primetive-value type
+//ex05
+let person = {//objects-literal-called-curley-braces
+    firstName : 'code-with',
+    //each-var-is-key-of-our-object
+    lastName : 'Mosh',
+    age : 30
+}
+console.log(person.age);//Dot notation-to-acess-object-propieties
+//ex06
+let selectedColors =['red','blue'];
+//index-------------[0,1]
+selectedColors[2] = 'yellow'
+//the-length-is-dynamic-can-be-changed
+console.log(selectedColors[1]);//returns-blue
+console.log(selectedColors.length);//returns-the-size-of-our-array
 //09-e-code-with-mosh
 
 //10-s-jsbook
