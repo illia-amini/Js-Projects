@@ -457,7 +457,20 @@ All-of-the-projects-were-published-on-my-githubpanel-visit-via-links-below.
 /*
 untill- -videos-is-watched-by-illiaamini.
 */
-
+//ex01
+//this is my first js code,code with mosh
+console.log('Hello World');
+//ex02
+//by-default-all-of-the-primary-value-of-var-is-undefined-in-console-section-unless-u-define-any-value.
+let course ='Mosh';
+console.log(course);
+//ex03
+const firstName ='code-with'; lastName = 'Mosh'; age = 30;
+console.log(firstName,' * ',lastName,' * ',age);
+//ex04
+let $num;
+console.info(typeof($num));
+//undeifiend-is-primetive-value type
 //09-e-code-with-mosh
 
 //10-s-jsbook
