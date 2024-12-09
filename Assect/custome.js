@@ -442,6 +442,7 @@ name01 = prompt("Enter ur name;");
 name02 = prompt("Enter ur surename;");
 var fullName = name01.concat(" ", name02);
 console.log(Fullname);
+
 //07-e-string-methodes
 
 //08-s-
@@ -455,7 +456,7 @@ All-of-the-projects-were-published-on-my-githubpanel-visit-via-links-below.
 
 //09-s-code-with-mosh
 /*
-untill- -videos-is-watched-by-illiaamini.
+untill-folder:2-video:6-watched-by-illiaamini.
 */
 //ex01
 //this is my first js code,code with mosh
@@ -485,6 +486,7 @@ selectedColors[2] = 'yellow'
 //the-length-is-dynamic-can-be-changed
 console.log(selectedColors[1]);//returns-blue
 console.log(selectedColors.length);//returns-the-size-of-our-array
+
 //09-e-code-with-mosh
 
 //10-s-jsbook
@@ -503,4 +505,5 @@ console.log(arr2D[1][0]);
 
 //10-e-jsbook
 
-//
+//written-by-illia.amini
+//mind-of-king-,-hear-of-warrior
