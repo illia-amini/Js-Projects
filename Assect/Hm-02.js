@@ -45,20 +45,30 @@ alert(`New texts are ready,\nur first text is: ${$userTempText01}\nurseconde tex
 //6- Quadratic-equation
 
 //7- Km-to-m
-var $userKmNum = parseInt(prompt("Enter ur number:")); //recive a num from user.
+var $userKmNum = parseInt(prompt("Enter ur length in km:")); //recive a num from user.
 var $kmToMeter = $userKmNum * 10 ** 3; //convert km to meter.
 console.log("To Meter:", $kmToMeter, "m"); //returns the result in normal template.
 alert(`ur km length (${$userKmNum}), to Meter is: ${$kmToMeter} m`); //returns the result in backtik template.
 //8- Calsius-to-Fahrenheit
-var $userCalNum = parseInt(prompt('Enter ur number:'));//recive a num from user.
-//9- Randome-num
-
+var $userCelsiusNum = Number(prompt('Enter ur temp in calcius:'));//recive a num from user.
+console.log('To Fahrenheit:',($userCelsiusNum * 1.8)+32,'f');//returns the result in normal template.
+alert(`ur celsisus (${$userCelsiusNum}), to fahrenheit is: ${($userCelsiusNum * 1.8)+32}f`);//returns the result in backtik template.
+//9- Random-num
+var $userRandNum = parseInt(prompt('Enter ur number:'));//recive a num from user.
+console.log();//returns the result in normal template.
+alert(``);//returns the result in backtik template.
 //10- +,-,0
-var $userNum = parseInt(prompt('Enter ur number:'));//recive a num from user.
+var $userNum = Number(prompt('Enter ur number:'));//recive a num from user.
+console.log();//returns the result in normal template.
+alert(``);//returns the result in backtik template.
 //11- Odd-even
 var $userKmNum = parseInt(prompt('Enter ur number:'));//recive a num from user.
+console.log();//returns the result in normal template.
+alert(``);//returns the result in backtik template.
 //12- Max,Min-num
-var $userKmNum = parseInt(prompt('Enter ur number:'));//
+var $userKmNum = Number(prompt('Enter ur number:'));//
+console.log();//returns the result in normal template.
+alert(``);//returns the result in backtik template.
 //1-e-programiz
 
 //2-s-if-switch
