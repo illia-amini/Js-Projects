@@ -71,9 +71,17 @@ alert(`ur celsisus (${$userCelsiusNum}), to fahrenheit is: ${($userCelsiusNum * 
 //end
 
 //9- Random-num
-var $userRandNum = parseInt(prompt('Enter ur number:'));//recive a num from user.
-console.log();//returns the result in normal template.
-alert(``);//returns the result in backtik template.
+var $randomNum =Math.floor((Math.random()*100) + 1);//returns a random num between 0 to 100.
+/*
+Math.floor() in order to round numbers to down,also u can write ceil to round to upper one.
+Math.random() will find random num with float parts in all number you can limit this func,
+with mark  *number it will find number randome number untill mentioned number,but the mentioned number is not included,
+do not forget, and write hole in a ()
+for includong the number u have got two option either, wirte a number greater then ur wanted num,or
+write +1 at the out of the()
+*/
+console.log('Reset to recive a new number;',$randomNum);//returns the result in normal template.
+alert(`Reset to recive a new number between 0 to 100 always;\n${$randomNum}`);//returns the result in backtik template.
 //end
 
 //10- +,-,0
