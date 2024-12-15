@@ -1,7 +1,7 @@
 //Hm-02;
 
 //instrouction-below:
-//Camelcase-written;
+//camelCase-written;
 
 /*
 .1-solve,first 12 ex of programiz js section.
