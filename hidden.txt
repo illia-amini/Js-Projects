@@ -1,0 +1,442 @@
+this is a hidden file
+javascr tutorials:
+<============:()===========>
+***********+++++++++***************
+
+1-class of js;01
+-----------------------------------
+.Html:hyper text of mark of languge.
+css;design languge. sass is pre processor of css
+java script is a programing languge.
+
+.Featured of javascript:
+1-front-end:> java script.action, apply all event base in website like slider
+2-back-end:>node.js , java , php , c++, c# , go, rust****
+3-web-app:>react js , pwa ***** so new,give a featured to user to have application which works like web,is up to date all the time,so fast,google can seo much better
+4-mobile-app:>react-native, the diffrent between this with web app is this option just for a unique platform,windeows, linux, apple, nativeley for each platform
+5-windeows\mac-app:>electron
+6-Game.
+
+.server <.. Api...> front app, the coonection between server and front is caled Api(Application programming interface), if a  hacker can access to api, make a sitution to hack web app or mobile app
+
+.programmming languge
+1-cmpile languge: c++, java, you do not need to install  any compiler to run code, it will hole cmpile code to machine languges binary codes, export file is .exe or .apk, if there si a bug in code it will not compile the code to machine languge, compiler is faster then interpretter becuse its connect to cpu directly.
+2-interpreter(script) languge: phyton,java script, you mshold install interprete of their languge to be able to run the code, but in chorome engine that is called v-8 engine the interpretter of java script and phton... is alredy installed, line by line code translate to machine languges, if any line face a problem the rest below codes will not run
+
+.alert(' '),is a function.it will present a sm on page,like alert 
+ex;
+alert(' hi how are you?')
+
+.make a custome.js file in assect and then import to html file via (script src) at the end of body tag also add noscript at the begining of the code.
+
+.use noscript at the beging of body, in the case of if user turend off javascr in thir own browser or our javascr code somehow will not run, noscript will present the reason 
+
+.command line in javascr;
+in html: <!------ ------>
+in css: /*
+in phyton: ''' ''' , """ """, #
+in js: // , <one line. /*  */ , <multiline comment
+
+.(;);is not neceesery in js, but you better to use it, at the end of the each order,mark a ; or use prietter to use everytime
+alert('hello'); 
+alert('how are you');
+or in one line; you can summerize in one line
+alert('hello');alert('how are you')
+
+.indention; in js is not neccesery like pyhton,cbut you better to use it,to prevent of confusion.but prietter apply all of them on your code
+if{
+     dadada 
+}
+.varaibles:
+for defining a varaibles use;
+1- var username = 'ali';
+alert(username)
+*it will print ali
+
+*variables name must be understanble, prevent of define the varibles with confuesing words,like x,y,...*
+
+**tip***
+the standard of nmaing varaibles in js is Camelcase
+Camelcase;the first char is capital and the rest are small. in js var.
+PascalCase;the first char of the first word and the first word of the second word are capital and the rest are small. in js class name.
+snake-case;all of the words are are small,just there is a - between names. in phyton classname,php.
+***tip***
+
+.Datatype;
+1-num; int or float
+.-int; 1,2,3,-4,-5,-6,... ex; var age=22
+.-float; 1.5,2.4,3.5,... ex; var score=2.2
+2-str; 'a','b','2','-3',... ex; var city='tehran'
+3-bool; True(1),Flase(0) ex; var isodd=false  
+4-null; it is a object,and means nothing, during the programme you will give a value to it. ex; var test=null; cnsole.log(test) * it will print null. []=squarebrace
+5-array;  it is array of samethin,ex; var points[1,5,7,5,4]
+(list in phyton),whenever you have got smae type of Datatype like same type of str, same type of num. for examples studends.> var students['ali','amir','hossein']
+it atarts with 0 and each value inside of it call index, for example var studens has 3 index and 'ali' is 0 index, 'amir' is 1 index and 'hossein' is 2 index. total 3 index.
+6-object; it is diffrent type of datatype regearding sm. ex; var std1 {name:'ali',surename:'amini',age:22, fathername:'reza'}. {}=curleybrace
+whenever you have got differnt types of datatypes that regerds to sm we put all in {}
+if you are looking for special index you can write like that, for ex console.log(std1.name) * it will print ali
+
+***tip***
+in the futher,surely you must combine array with objects for api 
+***tip***
+
+*jasonplaceholder; is a  website for api.*
+
+.consol.log();
+there is a order;
+console.log()
+inside of the () teh str or varaibles in chorome, press inspect console part you can watch it, or another featured from console you can use as notepad for js developer.
+.log() is a func to print inside of () in console part 
+ex;
+var name = 'ali'
+consloe.log(name)
+*it will print ali in console section.
+*also you can define the errors.
+
+.console.clear();
+it will clear console area
+.prompt();
+whenever u want to recive an order or input from user we use this order to recive an input(in phyton input())
+ex;
+var firstname=null;
+firstname=prompt('enter ur name;','alireza') the seconde '' means by default show the socond'', if user enter a name apply the first ''
+console.log('welcome'+ firstname+!!)
+
+.push();
+whenever you want add some index to the end of your array you can use this func.
+ex;
+array 1=[1,45,23,12,-1,-5]
+array1.push(12,14,15)
+console.log(array1):> it will print, array 1=[1,45,23,12,-1,-5,12,14,15]
+
+.splice();
+whenever you want remove some index from your array;
+ex;
+array 1=[1,45,23,12,-1,-5]
+array1.splice(2,1)و remove 45 ( the first number in( ) splice, means the number of index and the seconde num means how many index after mentionend index you want to delete for ex her (2,1) means index number 2 and 1 i index after that delete )
+console.log(array1):> it will print, array 1=[1,23,12,-1,-5]
+ex parts;
+
+1- show index in array
+var array 1=[1,45,23,12,-1,-5];
+console.log(array1[1]):>it will print 45
+2-show index in array
+var array 1=[1,45,23,12,-1,-5];
+console.log(array1[5]):>it will print -5
+3-show plus indexes in array
+var array 1=[1,45,23,12,-1,-5];
+consol.log(array1[3] + array1[4]):> it will print 12 + 1 = 13
+4-show replace indexes in array
+var array 1=[1,45,23,12,-1,-5];
+array1[4]= 6;
+consol.log(array1);> it will change -1 to 6 ,  array 1=[1,45,23,12,6,-5]
+5- show add an index in array
+var array 1=[1,45,23,12,-1,-5];
+array1[6]=10;
+consloe.log(array1);> it will printarray 1=[1,45,23,12,-1,-5,10]
+
+.nesting array: 
+there are some arraye that can be inside of each other
+we have 2 deminsion(2d) array and 3 deminsion array(3d)
+ex; 2d deminsion
+array=[1,2,[45,56,43,],3,4] 
+this array has 4 index, which the second ones is another array, so its called nesting array.
+if you want to call an  index from nesteing arrray you should follow below instructer;
+array=[2][2];> it will print 43. the first num in [] means the index from first array and the second num means the second index from second array cool!!!!!
+ex; Hm
+array=[1,2,[45,56,43,],3,4]
+array=[2,6]=10
+consol.log(array)
+ex; 3d arrays
+array=[1,2,[45,56,43,[1,2,4,5,6,7]],3,4] 
+array=[2][3][4];> it will print 6
+
+add/remove item in objects;
+ex;
+var std1={
+     name='ali'
+     surename='amini'
+     age=22
+}
+#add 
+std1.fathername='reza'
+console.log(std1);
+std1={
+     name='ali'
+     surename='amini'
+     age=22
+     fathername='reza'
+}
+#remove
+delete std1.age;
+consloe.log(std1)
+std1={
+     name='ali'
+     surename='amini'
+     fathername='reza'
+}
+
+***tip**
+you can make some changes in console.log(), for more info search in google, mdn web-docs website 
+***tip**
+
+.Hm-01;
+
+.1-ex; write a code that insert nums to the end of index2. use push() & normal way.
+     array=[1,2,[45,56,43,],3,4]
+.2- 10 ex for each datatype
+.3- console.table(), write with students ex.
+.4- read and write a code for console 5 or 6 at last. 
+.5-javascript reffrence; w3schools, math section 10 code.
+.6-javascript reffrence; w3schools, array section 5 code. 
+.7-javascript reffrence; w3schools, string array section 3/5 code. 
+.8-upload ur project on ur github pannel.
+.9-code with mosh, as much as we've learned at the class.
+.10-study the textbooks untill page 15.
+
+***********+++++++++***************
+***********+++++++++***************
+***********+++++++++***************
+***********+++++++++***************
+***********+++++++++***************
+
+2-w3shools js-tutorials:
+-----------------------------------
+
+1-The JavaScript syntax defines two types of values:
+Fixed values:literals
+1-numbers;2.2 3
+2-string;'ali'
+Variable values:varaibles
+to declare varaibles use
+1-var
+2-let
+3-const
+and equal sign
+ex; let x;
+     x=2;
+
+<============:()===========>
+
+2-operators in java(+ - * / )
+
+<============:()===========>
+
+3-comments in javascr(// */ /*)
+
+<============:()===========>
+
+4-A JavaScript name must begin with:
+1-A letter (A-Z or a-z)
+2-A dollar sign ($)
+3-Or an underscore (_)
+
+<============:()===========>
+
+5-JavaScript is Case Sensitive
+All JavaScript identifiers are case sensitive. 
+The variables (lastName) and (lastname), are two different variables.
+
+<============:()===========>
+
+6-JavaScript and Camel Case
+Underscore:
+first_name, last_name, master_card, inter_city.
+Upper Camel Case (Pascal Case):
+FirstName, LastName, MasterCard, InterCity.
+Lower Camel Case:
+JavaScript programmers tend to use camel case that starts with a lowercase letter:
+firstName, lastName, masterCard, interCity.
+
+<============:()===========>
+
+7-JavaScript Variables;
+Variables are Containers for Storing Data
+JavaScript Variables can be declared in 4 ways:
+1-Automatically;not suggested*
+ex; 
+x=2;
+y=3;
+z=x+y;
+2-Using var;
+ex;
+var x=2;
+var y=3;
+var z=x+y;
+
+****Note*****
+The var keyword was used in all JavaScript code from 1995 to 2015.
+The let and const keywords were added to JavaScript in 2015.
+The var keyword should only be used in code written for older browsers.
+*****Note*****
+
+3-Using let;
+ex;
+let x=5;
+let y=3;
+let z=x+y;
+4-Using const;
+ex;
+const x=2;
+const y=3;
+const z=x+y;
+5-mixed;
+ex;
+const price1 = 5;
+const price2 = 6;
+let total = price1 + price2;
+<============:()===========>
+
+tip****
+When to Use var, let, or const?
+1. Always declare variables
+2. Always use const if the value should not be changed
+3. Always use const if the type should not be changed (Arrays and Objects)
+4. Only use let if you can't use const
+5. Only use var if you MUST support old browsers.
+tip****
+
+<============:()===========>
+
+7-Math syntax.
+for using math operation in js u should use math syntax
+math syntax in js= Math.Properties ()
+ex;
+Math.E //return euler's num 
+Math.PI //return pi 
+Math.SQRT2 //return the square root of 2
+Math.SQRT1_2 //return the square root of 1/2
+Math.LN2 //return natural logharitm of 2
+Math.LN10 //return naturl  logharitm of 10
+Math.LOG2E //return base 2 logharitm of E
+Math.LOG10E //return base10 logharitm of E
+
+.Number to int;*important*
+> use to turn float yo int
+1-Math.round(x) //return x ronded to its nearest int
+2-Math.ceil(x) //return  x ronded up to its nearest int
+3-Math.floor(x) //return x rounde down to its nearest int
+4-Math.trunc(x) //return the int part of x 
+5-Math.sign(x) // return if x is negative,null or positive
+6-Math.pow(x,y) //return the value of x to the power of y
+7-Math.sqrt(x) //return the value of the square root of x
+8-Math.abs(x) //return the absolute value of x
+9-Math.min() & Math.max()// can be used to find the lowest or highest value in a list of arguments
+10-Math.random()//return a random num between 0 (inclusive) and 1(exclusive)
+
+<============:()===========>
+
+8-String methodes.
+1-lenght;
+ex; 
+ var Txt='ali'
+ console.log*(Txt.length)
+ *it will print length of Txt or the quantity of char
+
+2-cahrAt(x);
+ return the char at a given position in a string.
+ ex;
+var Text='Hello world'
+console.log((Text.carAt(0)))
+*it will print H
+
+3-charCodeAt(x);
+The charCodeAt() method returns the code of the character 
+at a specified index in a string:
+The method returns a UTF-16 code (an integer between 0 and 65535).
+ex;
+let text = "HELLO WORLD";
+let char = text.charCodeAt(0);
+* it will prin a num regard to H here.
+
+4-string at();
+
+5-String slice();
+
+slice() extracts a part of a string and returns the extracted 
+part in a new string.
+The method takes 2 parameters: start position, 
+and end position (end not included). like (3,6) 6th char is not include, means 3th till 5th char.
+.also in () of slice if you write just a num like 3 it starts slice from that num till end, like slice(3)
+.also you can slice from end to start, if you start with - . for ex -1 means the first char of right side of th str. slice(-1), or start from greater num to smaller num slice(-12,-6)
+ex;
+let text ='ali','reza','mohamad';
+let part = text.slice(3,7)
+6-String substring();
+
+<============:()===========>
+
+9-array methodes;
+
+<============:()===========>
+***********+++++++++***************
+***********+++++++++***************
+***********+++++++++***************
+***********+++++++++***************
+
+3-code with mosh.js
+-----------------------------------
+.you can use js codes in the either browser or node.
+in browser like firefox or chrome, the js engine has already installed
+in chrome called v8 and in fire fox called spider monkey !!!
+
+.node is baded  from c++ that you can write js codes there 
+and retuns any result u want, but mostly used for back-end developer
+
+.Ecma script vs js ;
+
+Ecma sript is a scripting-languge (interprter), that is specifaction
+in other words, Ecma script defines what a interperter languge
+should look like.
+
+js is and implementation of specifaction, 
+
+different between them, like
+js is like a car, and ecma like rules of roade, all of the cars must obey of rules of road in order ro be safe and effective
+similarly, all implementation of js must follow the standards set out by ECMA script in order to be consistent and reliable.
+
+.put <script> tag at the end of the body section Always
+
+ .separtion of concerns;*important
+ separate html which is all about content from js that all about behavior
+ also seperate css which is all about design,(for use seperation of concerns use External methode).
+
+ .varabiles;
+ we use varabiles to store data temporaily.
+ you should obey of naming var;
+ 1-cannot be reserved keyword
+ 2-shold be meaningful
+ 3-cannot start wit a num (1num)
+ 4-cannot contain a space or hyphen(-)
+ 5-use cammelCase or cammel notaion to name varaibles in js
+ 6- use ; to minimize your codes line.but better the define each var in each line its modern
+
+ .interestRate;
+ in coding there are two posiblites,
+ 1- u wannna reasigned yor codes value called(interRate);
+ taht the valu of ur var maybe gonna be changed use two elemnts two define ur codes
+ .var
+ .let
+ if u wanna swap the value of ur code, u wont face any problem
+ 2-u wanna define a constant value for ur codes, that will not be changed,
+ in this case use only and only this element;
+ .const 
+ it means you are not gonna change ur varaible value at all, if so, you gonna face a bug surel hhhhh!!!!
+
+ .Datatype;
+ in js we have got two type of datattype;
+ 1-primitve/value types; str,num,bool,undifiend,null
+ 2-refrences types;object,array,function
+
+.
+ *** js is a dynamic languge ****
+ what does  it meaning??? dynamic
+
+we have two type of programming languge
+1-startic languge; c,c++,java
+2-dynamic languge; js,pyhton
+in static you are not able to convert the value of data type 
+to other datattype ever,howerver, in dynamic you can do this 
+
+.object;{}
+.array;[]
