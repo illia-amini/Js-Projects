@@ -66,16 +66,51 @@ var $userKmNum = parseInt(prompt('Enter ur number:'));//recive a num from user.
 console.log();//returns the result in normal template.
 alert(``);//returns the result in backtik template.
 //12- Max,Min-num
-var $userKmNum = Number(prompt('Enter ur number:'));//
+//1-Max
+//First-methode
+var $userMaxNum01 = Number(prompt('Enter ur First number:'));//recive first num of user.
+var $userMaxNum02 = parseInt(prompt('Enter ur Second number:'));//recive scond num of user.
+var $userMaxNum03 = Number(prompt('Enter ur Third number:'));//recive third num of user.
+var $largestNum = null;
+
 console.log();//returns the result in normal template.
 alert(``);//returns the result in backtik template.
+
+//Second-methode
+var $userMaxNum04 = Number(prompt('Enter ur First number:'));//recive first num of user.
+var $userMaxNum05 = parseInt(prompt('Enter ur Second number:'));//recive scond num of user.
+var $userMaxNum06 = Number(prompt('Enter ur Third number:'));//recive third num of user.
+var $largestNum02 = Math.max($userMaxNum04,$userMaxNum05,$userMaxNum06);//find max in user numbers
+console.log('The largest number among ur numbers is:',$largestNum02);//returns the result in normal template.
+alert(`Hmm,The largest Number is;\n${$largestNum02}`);//returns the result in backtik template.
+
+//2-Min
+//First-methode
+var $userMinNum01 = parseInt(prompt('Enter ur First number:'));//recive first num of user.
+var $userMinNum02 = Number(prompt('Enter ur Second number:'));//recive seconde num of user.
+var $userMinNum03 = parseInt(prompt('Enter ur Third number:'));//recive third num of user.
+var $weakesttNum = null;
+
+console.log();//returns the result in normal template.
+alert(``);//returns the result in backtik template.
+
+//Second-methode
+var $userMinNum04 = parseInt(prompt('Enter ur First number:'));//recive first num of user.
+var $userMinNum05 = Number(prompt('Enter ur Second number:'));//recive seconde num of user.
+var $userMinNum06 = parseInt(prompt('Enter ur Third number:'));//recive third num of user.
+console.log('The weakest number among ur numbers is:',Math.min($userMinNum04,$userMinNum05,$userMinNum06));//returns the result in normal template.
+alert(`Hmm,The weakest number is;\n${Math.min($userMinNum04,$userMinNum05,$userMinNum06)}`);//returns the result in backtik template.
+
 //1-e-programiz
 
 //2-s-if-switch
 //2-e-if-switch
+
 //3-s-textbooks-ex
 //3-e-textbooks-ex
+
 //4-s-code-with-mosh-ex
 //4-e-code-with-mosh-ex
+
 //written-by-illia.amini
 //mind-of-king-,-hear-of-warrior
