@@ -36,21 +36,29 @@ var $userBasenum = parseInt(prompt('Enter ur Base:'));//recive base length.
 console.log('The Area of ur tringle is:',($userBasenum * $userHeightanum)/2);//returns the result in normal template.
 alert(`The Area of ur triangle with height of ${$userHeightanum} and base of ${$userBasenum} is:\n${($userBasenum * $userHeightanum)/2}`);//returns the result in backtik template.
 //5- Temp
-
+var $userTempText01 = prompt('Enter ur First text:');//recive first str of user.
+var $userTempText02 = prompt('Enter ur Second text:');//recive second str of user.
+var $temp = null;//define a temp.
+$temp =$userTempText01; $userTempText01 = $userTempText02 ; $userTempText02 = $temp;//convert operations.
+console.log('ur first text now:',$userTempText01,'***','ur Seconde tex now:',$userTempText02);//returns the result in normal template.
+alert(`New texts are ready,\nur first text is: ${$userTempText01}\nurseconde text is: ${$userTempText02}`);//returns the result in backtik template.
 //6- Quadratic-equation
 
 //7- Km-to-m
-
+var $userKmNum = parseInt(prompt("Enter ur number:")); //recive a num from user.
+var $kmToMeter = $userKmNum * 10 ** 3; //convert km to meter.
+console.log("To Meter:", $kmToMeter, "m"); //returns the result in normal template.
+alert(`ur km length (${$userKmNum}), to Meter is: ${$kmToMeter} m`); //returns the result in backtik template.
 //8- Calsius-to-Fahrenheit
-
+var $userCalNum = parseInt(prompt('Enter ur number:'));//recive a num from user.
 //9- Randome-num
 
 //10- +,-,0
-
+var $userNum = parseInt(prompt('Enter ur number:'));//recive a num from user.
 //11- Odd-even
-
+var $userKmNum = parseInt(prompt('Enter ur number:'));//recive a num from user.
 //12- Max,Min-num
-
+var $userKmNum = parseInt(prompt('Enter ur number:'));//
 //1-e-programiz
 
 //2-s-if-switch
