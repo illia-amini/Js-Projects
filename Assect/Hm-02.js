@@ -6,7 +6,7 @@
 /*
 .1-solve,first 12 ex of programiz js section.
 .2-5 ex of if, 5 ex of switch
-.3-read textbooks,until page
+.3-read textbooks,until page 29
 .4-code with mosh conditional structer videos
 */
 
