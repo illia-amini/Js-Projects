@@ -356,7 +356,7 @@ and write inside of a backtik `
 8-conditional structer:
 .u can use logical op in here also.
 1- if & else; 
-varnum= 15;
+varnum = 15;
 if(num<20){
      comsole.log('oftadi')
 }else{
@@ -376,8 +376,36 @@ if(hour>=0 && hour <6 ){
      console.log('hour is not valid')
 }
 
-3- switch;
+3-Triple operation;
+? means true here, and : means false
+if our condtion would be true the str after ? will run,
+otherwise th str after : will apply
+ex;
+var temp = 12;
+var numberType = (temp%2==0)?'even' : 'odd';
+consloe.log(numberTYPE);
+ex;
+var userAge = 20;
+var userStatus = (userAge>=18)?'old' : 'not old'
 
+4- switchcase;
+whenever u dont have any range u better choose switchecase.
+here is look like mathcase in phyton,
+but at the end of the order in case u should write break.
+break means if the case is coorect do not run other sitution.
+and we have default,that means else if the hole case are not run, apply deafult.
+ex;
+var favColor = 'red';
+switch (favColor):{
+     case 'red':
+     consloe.log('ur fav is red');
+     break;
+     case 'yellow';
+     consloe.log('ur fav is yellow');
+     break;
+     default:
+     consloe.log(' ur fav is not yellow and red');
+}
 
 ***********+++++++++***************
 ***********+++++++++***************
