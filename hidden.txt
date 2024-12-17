@@ -323,19 +323,61 @@ consloe.log(10+'15'); => returns 1015(str)
 consloe.log(10+15+'15'); => returns 2515(str)
 consloe.log(10+15+'15'+(10+15)); => returns 251525(str)
 
-7-backtik module,
-`${}`
-like format in phyton the vlink part define ${} and inside of {} use 0 or 1 ,or ur var name
-and write inside of a backtik `
-
 2-output
 
-2.confirm()
+1.confirm()
 it will work like alert(), u will see a notification and u shold prees on ok or cancel button
 ex;
 
 var isOk:confirm('is everything okay?');
 consloe.log(isOk);
+
+2.getElementById(" ");
+first u should write a syntax of html like p span div ... and
+give an id to it, then in js section write;
+
+var element = document.getElementById("demo");
+console.log(element.innerHTML / inneText);
+
+u can acces to the topic inside of the tag,document means this document,by using inner html,with html syntax
+with out syntax innerText
+
+3.elemment.innertext(" ");
+to change the topic inside of syntax which has an id 
+
+4.document.write(" ");
+not recommended 
+
+7-backtik module,
+`${}`
+like format in phyton the vlink part define ${} and inside of {} use 0 or 1 ,or ur var name
+and write inside of a backtik `
+
+8-conditional structer:
+.u can use logical op in here also.
+1- if & else; 
+varnum= 15;
+if(num<20){
+     comsole.log('oftadi')
+}else{
+     console.log('pass')
+}
+
+2- elseif;
+for more conditional structer,as soon as a condtion is true the rest condition will not check. 
+var hour=number(prompt('Enter ur time;'))
+if(hour>=0 && hour <6 ){
+     consloe.log('midnight')
+}else if(hour>=6 && hour < 12){
+     consol.log('morning')
+}else if(hour>=12 && hour<18 ){
+     consol.log('noon')
+}else{
+     console.log('hour is not valid')
+}
+
+3- switch
+
 
 ***********+++++++++***************
 ***********+++++++++***************

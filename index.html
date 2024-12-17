@@ -8,7 +8,13 @@
   </head>
   <body>
     <noscript>plz,reactive ur web browser javascr</noscript>
+    <p id="demo">Lorem ipsum dolor sit amet.</p>
     <h1>Hello world!</h1>
-    <script></script>
+    <script>
+      var element = document.getElementById("demo");
+      console.log(element.innerHTML);
+      element.innerText = "Hello welcome";
+      document.write("my name is ali"); //not recommended,at all.
+    </script>
   </body>
 </html>
