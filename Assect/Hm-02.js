@@ -128,7 +128,7 @@ alert(``);//returns the result in backtik template.
 
 //Second-methode
 var $userMinNum04 = parseInt(prompt('Enter ur First number:'));//recive first num of user.
-var $userMinNum05 = Number(prompt('Enter ur Second number:'));//recive seconde num of user.
+var $userMinNum05 = Number(prompt('Enter ur Second number:'));//recive second num of user.
 var $userMinNum06 = parseInt(prompt('Enter ur Third number:'));//recive third num of user.
 console.log('The weakest number among ur numbers is:',Math.min($userMinNum04,$userMinNum05,$userMinNum06));//returns the result in normal template.
 alert(`Hmm,The weakest number is;\n${Math.min($userMinNum04,$userMinNum05,$userMinNum06)}`);//returns the result in backtik template.
@@ -140,6 +140,32 @@ alert(`Hmm,The weakest number is;\n${Math.min($userMinNum04,$userMinNum05,$userM
 //2-e-if-switch
 
 //3-s-textbooks-ex
+//1-page23
+var userNum01 = Number(prompt('Enter ur first number:'));//recive first num of user.
+var userNum02 = parseInt(prompt('Enter ur second number:'));//recive seconde num of user.
+console.log(`${userNum01} + ${userNum02} =${userNum01 + userNum02} `);//returns the result in backtik template.
+console.log(`${userNum01} - ${userNum02} =${userNum01 - userNum02} `);//returns the result in backtik template.
+console.log(`${userNum01} * ${userNum02} =${userNum01 * userNum02} `);//returns the result in backtik template.
+console.log(`${userNum01} / ${userNum02} =${userNum01 / userNum02} `);//returns the result in backtik template.
+
+//2-page23
+/*
+in html;
+<p id ='demo'></p>
+in js;
+var element=document.getElementById('demo');
+console.log(elemmentinnerHtml);
+element.innerText('hi');
+*/
+//3-page23
+/*
+1-\n : new line.
+2-\\ :
+3-\ :
+4-\ :
+*/
+///5-page29
+
 //3-e-textbooks-ex
 
 //4-s-code-with-mosh-ex

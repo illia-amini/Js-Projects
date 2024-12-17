@@ -342,7 +342,7 @@ console.log(element.innerHTML / inneText);
 u can acces to the topic inside of the tag,document means this document,by using inner html,with html syntax
 with out syntax innerText
 
-3.elemment.innertext(" ");
+3.elemment.innerText(" ");
 to change the topic inside of syntax which has an id 
 
 4.document.write(" ");
@@ -376,7 +376,7 @@ if(hour>=0 && hour <6 ){
      console.log('hour is not valid')
 }
 
-3- switch
+3- switch;
 
 
 ***********+++++++++***************
