@@ -8,6 +8,7 @@
 .2-5 ex of if, 5 ex of switch
 .3-read textbooks,until page 29
 .4-code with mosh conditional structer videos
+.5-write all math opperation with graphical module.moreover,recive nums from user.
 */
 
 //1-s-programiz
@@ -143,6 +144,9 @@ alert(`Hmm,The weakest number is;\n${Math.min($userMinNum04,$userMinNum05,$userM
 
 //4-s-code-with-mosh-ex
 //4-e-code-with-mosh-ex
+
+//5-s-math-op-s
+//5-s-math-op-e
 
 //written-by-illia.amini
 //mind-of-king-,-hear-of-warrior

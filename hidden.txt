@@ -278,6 +278,65 @@ consloe.log( x===5 ); => it will returns false,the value is same,but the type is
 7- >=  =>  greater  or equal to
 8- <=  =>  less than or equal to
 
+4-Logical opperation:
+
+.and(&&) or(||) not(!)
+
+1.&&
+var age =18;
+consloe.log( age>10 && age<20 ); => returns true, in and whene u recive true that both condition are true, if one true one false or both false u recive false.
+
+2.||
+var age =18;
+consloe.log( age<20 || age>30 ); => returns true; in or when u recive true only one condition is true or both and  vice versa.
+
+3.!
+var age =18;
+consloe.log( !(age<20 || age>30) ); =>returns false,  it will revese what the answer of () is to opposite.
+
+5-opperation precendence;
+
+6-input & output;
+1-input;
+1.prompt(); 
+.to recive an input from user,
+.by deafult the datatype or typof of prompt is str like phyton.
+.U can convert typof datatype to each other with func below.
+
+1-Number(); is a function to convert str to num
+2-preIsent(); is a function to convert str to num
+
+ex;
+
+var num =Number(prompt(;Enter ur num:))
+ex;
+
+var num01 = prompt(enter a num:10);
+var num02 = prompt(enter num2:15);
+consloe.log(num01 + num02 ); => returns for ex 1015 (beacuse the type of both in order to prompt is are str)
+
+***imp .also u can add str with num in js,not error like phyton.but but js will consume nume to str and answer would be sm like upper ex.
+and u can do op  with any num before u reach to str,but after str all num will convert to str.but if there are in () journey is diffrent.
+ex;
+consloe.log(10+15); => returns 15 (num)
+consloe.log(10+'15'); => returns 1015(str)
+consloe.log(10+15+'15'); => returns 2515(str)
+consloe.log(10+15+'15'+(10+15)); => returns 251525(str)
+
+7-backtik module,
+`${}`
+like format in phyton the vlink part define ${} and inside of {} use 0 or 1 ,or ur var name
+and write inside of a backtik `
+
+2-output
+
+2.confirm()
+it will work like alert(), u will see a notification and u shold prees on ok or cancel button
+ex;
+
+var isOk:confirm('is everything okay?');
+consloe.log(isOk);
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
