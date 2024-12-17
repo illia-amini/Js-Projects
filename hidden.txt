@@ -374,8 +374,44 @@ let part = text.slice(3,7)
 
 #season02:
 
-1-
-
+1-Math operations:
+var y=5;
+var i=y+2;
+console.log(i); => it will print 7
+console.log('i = '+i) => it will print i = 7 #also u can us , instead of +
+.u can overwrite anyvar in js,means u can convert value of var in new line.
+.math op:
+1-Addition:+
+2-Subtraction:-
+3-Miltipication:*
+4-Division:/
+5-Modul:%
+***imp 6-Increment:++
+ex:
+var t=10;
+var g=t;
+consloe.log(t); => here t is 10
+consloe.log(g); => here g is 10
+===========------
+var t=10;
+t++ => t=t+1
+var g=t;
+consloe.log(t); => here t is 11
+consloe.log(g); => here g is 11
+===========------
+var t=10;
+var g=t++; => ***imp  always in op it start ltr.here firs it comes and count g shich its 10,after that it will go and do Increment op,
+consloe.log(t); => here t is 11
+consloe.log(g); => here g is 10
+===========------
+var t=10;
+var g=++t; => ***imp here its reverse, first t will plus 1 ,after that it pour to g.
+consloe.log(t); => here t is 11
+consloe.log(g); => here g is 11
+***imp 7-Decrement:--
+ex;
+hole situition foor increment exsist for decremnt.
+8-Power:**
 <============:()===========>
 ***********+++++++++***************
 ***********+++++++++***************
