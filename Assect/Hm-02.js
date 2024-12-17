@@ -165,7 +165,22 @@ element.innerText('hi');
 4-\ :
 */
 ///5-page29
-
+var userName = prompt('Enter ur name;');
+var userSureName = prompt('Enter ur surename;');
+var userTime = prompt('Enter the time;');
+if(userTime >= 0 && userTime < 6){
+    console.log(`Hi Good Midnight ${userName} ${userSureName},\nat ${userTime} oclock, u entered to ur pannel.`);
+}else if (userTime >= 6 && userTime < 12 ){
+    console.log(`Hi Good Morning ${userName} ${userSureName},\nat ${userTime} oclock, u entered to ur pannel.`);
+}else if (userTime >= 12 && userTime < 16){
+    console.log(`Hi Good Noon ${userName} ${userSureName},\nat ${userTime} oclock, u entered to ur pannel.`);
+}else if (userTime >= 16 && userTime < 20){
+    console.log(`Hi Good Afternoon ${userName} ${userSureName},\nat ${userTime} oclock, u entered to ur pannel.`);
+}else if (userTime >= 20 && userTime < 24){
+    console.log(`Hi Good Night ${userName} ${userSureName},\nat ${userTime} oclock, u entered to ur pannel.`);
+}else{
+    console.log('invalid time')
+}
 //3-e-textbooks-ex
 
 //4-s-code-with-mosh-ex
