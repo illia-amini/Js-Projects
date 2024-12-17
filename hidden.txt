@@ -5,6 +5,8 @@ javascr tutorials:
 
 1-class of js;01
 -----------------------------------
+#season 01:
+
 .Html:hyper text of mark of languge.
 css;design languge. sass is pre processor of css
 java script is a programing languge.
@@ -194,6 +196,88 @@ you can make some changes in console.log(), for more info search in google, mdn 
 .9-code with mosh, as much as we've learned at the class.
 .10-study the textbooks untill page 15.
 
+#season02:
+
+1-Math operations:
+var y=5;
+var i=y+2;
+console.log(i); => it will print 7
+console.log('i = '+i) => it will print i = 7 #also u can us , instead of +
+.u can overwrite anyvar in js,means u can convert value of var in new line.
+.math op:
+1-Addition:+ (u can use in str to connect two str)
+2-Subtraction:-
+3-Miltipication:*
+4-Division:/
+5-Modul:%
+***imp 6-Increment:++
+ex:
+var t=10;
+var g=t;
+consloe.log(t); => here t is 10
+consloe.log(g); => here g is 10
+===========------
+var t=10;
+t++ => t=t+1
+var g=t;
+consloe.log(t); => here t is 11
+consloe.log(g); => here g is 11
+===========------
+var t=10;
+var g=t++; => ***imp  always in op it start ltr.here firs it comes and count g shich its 10,after that it will go and do Increment op,
+consloe.log(t); => here t is 11
+consloe.log(g); => here g is 10
+===========------
+var t=10;
+var g=++t; => ***imp here its reverse, first t will plus 1 ,after that it pour to g.
+consloe.log(t); => here t is 11
+consloe.log(g); => here g is 11
+***imp 7-Decrement:--
+ex;
+hole situition foor increment exsist for decremnt.
+8-Power:**
+
+2-Assignment opperation(math opertion v.0.2):
+.
+ex:
+var x=10;
+var y=5;
+x+=y => x=x+y
+consloe.log(x) => it will print 15
+.
+1- +=  =>  x+=y
+2- -=  =>  x-=y
+3- *=  =>  x*=y
+4- /=  =>  x/=y 
+5- %=  =>  x%=y 
+
+3-Comprasion operation:
+in comprasion operation,the result will be in bool
+which its true either false 
+.
+ex;
+var x=5;
+consloe.log( x==5 ); => it will check if x is eqaul to 5 or not,true 
+.
+1- ==  => it will check if two datatype is equal to eachother or not,( the type of datatype is not important)
+ex;
+
+var x="5";
+consloe.log( x==5 ); => it will returns true,although the type is diffrent one is str and another is num, but the value of both are same. and that is important
+
+2- ===  => it will check if two datatype is eqaul to each other or not,(the type of datatype is important)
+ex;
+
+var x="5";
+consloe.log( x===5 ); => it will returns false,the value is same,but the type is diffrent.and here all details is important.
+
+3- !=  =>  not equal;just values are important.
+4- !==  =>  not equal;values and types are important.
+5- >  =>  greater
+6- <  =>  less than 
+7- >=  =>  greater  or equal to
+8- <=  =>  less than or equal to
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
@@ -370,48 +454,6 @@ let part = text.slice(3,7)
 
 <============:()===========>
 <============:()===========>
-<============:()===========>
-
-#season02:
-
-1-Math operations:
-var y=5;
-var i=y+2;
-console.log(i); => it will print 7
-console.log('i = '+i) => it will print i = 7 #also u can us , instead of +
-.u can overwrite anyvar in js,means u can convert value of var in new line.
-.math op:
-1-Addition:+
-2-Subtraction:-
-3-Miltipication:*
-4-Division:/
-5-Modul:%
-***imp 6-Increment:++
-ex:
-var t=10;
-var g=t;
-consloe.log(t); => here t is 10
-consloe.log(g); => here g is 10
-===========------
-var t=10;
-t++ => t=t+1
-var g=t;
-consloe.log(t); => here t is 11
-consloe.log(g); => here g is 11
-===========------
-var t=10;
-var g=t++; => ***imp  always in op it start ltr.here firs it comes and count g shich its 10,after that it will go and do Increment op,
-consloe.log(t); => here t is 11
-consloe.log(g); => here g is 10
-===========------
-var t=10;
-var g=++t; => ***imp here its reverse, first t will plus 1 ,after that it pour to g.
-consloe.log(t); => here t is 11
-consloe.log(g); => here g is 11
-***imp 7-Decrement:--
-ex;
-hole situition foor increment exsist for decremnt.
-8-Power:**
 <============:()===========>
 ***********+++++++++***************
 ***********+++++++++***************
