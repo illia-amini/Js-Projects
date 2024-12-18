@@ -195,6 +195,7 @@ alert(`Hmm,The weakest number is;\n${Math.min($userMinNum04,$userMinNum05,$userM
 
 //01
 //Area or perimeter of rectangle 
+//if
 var $userWidthNum = Number(prompt('Enter ur Width:'));//recieve width.
 var $userLengthNum =parseInt(prompt('Enter ur length:'));//recieve length. 
 var $rectangelStatus = parseInt(prompt('1-Area or 2-Perimeter'));//user choose here.
@@ -205,6 +206,23 @@ if($rectangelStatus == 1){
 }else{
   console.log('Plz,enter 1 or 2');//if user input is something diffrent.
 };
+
+//swtich
+var $rectangelStatus = parseInt(prompt('1-Area or 2-Perimeter'));//user choose here.
+switch ($rectangelStatus){
+  case 1:{
+    var $userWidthNum = Number(prompt('Enter ur Width:'));//recieve width.
+    var $userLengthNum =parseInt(prompt('Enter ur length:'));//recieve length. 
+    alert(`The area of ur rectangel is;\n${$userWidthNum} * ${$userLengthNum} = ${$userWidthNum *$userLengthNum}`);//returns the are of rectangel.
+    break;
+  }case 2:{
+    var $userWidthNum = Number(prompt('Enter ur Width:'));//recieve width.
+    var $userLengthNum =parseInt(prompt('Enter ur length:'));//recieve length. 
+    alert(`The perimeter of ur rectangel is;\n(${$userWidthNum} * ${$userWidthNum})/2 = ${($userWidthNum * $userLengthNum)/2}`);//returns the peremeit of rectangele.
+    break;
+  }default:
+    console.log('Plz choose either area of pereimeter')
+  }
 //end
 
 //02
@@ -323,10 +341,8 @@ if(userTime >= 0 && userTime < 6){
 
 //3-e-textbooks-ex
 
-//4-s-code-with-mosh-ex
-//4-e-code-with-mosh-ex
+//4-math-op-s
 
-//5-s-math-op-s
 var userNum01 = Number(prompt('Enter ur first number:'));//recive first num of user.
 var userNum02 = parseInt(prompt('Enter ur second number:'));//recive seconde num of user.
 console.log(`${userNum01} + ${userNum02} =${userNum01 + userNum02} `);//returns the result in backtik template.
@@ -335,7 +351,7 @@ console.log(`${userNum01} * ${userNum02} =${userNum01 * userNum02} `);//returns 
 console.log(`${userNum01} / ${userNum02} =${userNum01 / userNum02} `);//returns the result in backtik template.
 //end
 
-//5-s-math-op-e
+//4-math-op-e
 
 //written-by-illia.amini
 //mind-of-king-,-hear-of-warrior
