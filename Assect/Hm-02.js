@@ -252,9 +252,11 @@ if ($userYear % 400 == 0 && $userYear % 100 == 0) {//check if the year is centur
 
 //04
 //Math op
+//if
+
 var $userNum01 = Number(prompt("Enter ur first number:")); //recive first num of user.
 var $userNum02 = parseInt(prompt("Enter ur second number:")); //recive seconde num of user.
-var $userOp = prompt("Enter operation sign:");
+var $userOp = prompt("Enter operation sign:");//opeartion is selected by user.
 if ($userOp == "+") {//first condition.
   console.log(
     `${$userNum01} + ${$userNum02} = ${$userNum01 + $userNum02} `
@@ -280,6 +282,40 @@ if ($userOp == "+") {//first condition.
 }else {
   console.log("invalid operation");
 }
+
+//switch
+var $userNum01 = Number(prompt("Enter ur first number:")); //recive first num of user.
+var $userNum02 = parseInt(prompt("Enter ur second number:")); //recive seconde num of user.
+var $userOp = prompt("Enter operation sign:");//opeartion is selected by user.
+switch($userOp){
+  case '+':{
+    alert(
+    `${$userNum01} + ${$userNum02} = ${$userNum01 + $userNum02} `);
+    break;
+  }case '-':{
+    alert(
+      `${$userNum01} - ${$userNum02} = ${$userNum01 - $userNum02} `);
+      break;
+  }case '*':{
+    alert(
+      `${$userNum01} * ${$userNum02} = ${$userNum01 * $userNum02} `);
+      break;
+  }case '/':{
+    alert(
+      `${$userNum01} / ${$userNum02} = ${$userNum01 / $userNum02} `);
+      break;
+  }case '**':{
+    alert(
+      `${$userNum01} ** ${$userNum02} = ${$userNum01 ** $userNum02} `);
+      break;
+  }case '%':{
+    alert(
+      `${$userNum01} % ${$userNum02} = ${$userNum01 % $userNum02} `);
+      break;
+  }default:{
+    alert('invalid sign operation!!!!');
+  }
+}
 //end
 
 //05
@@ -292,7 +328,6 @@ if('A' in $userFtext || 'a' in $userFtext){
     console.log('No');
 }
 //end
-
 //2-e-if-switch
 
 //3-s-textbooks-ex
@@ -338,7 +373,7 @@ if(userTime >= 0 && userTime < 6){
 }else{
     console.log('invalid time')
 }
-
+//end
 //3-e-textbooks-ex
 
 //4-math-op-s
@@ -350,7 +385,6 @@ console.log(`${userNum01} - ${userNum02} =${userNum01 - userNum02} `);//returns 
 console.log(`${userNum01} * ${userNum02} =${userNum01 * userNum02} `);//returns the result in backtik template.
 console.log(`${userNum01} / ${userNum02} =${userNum01 / userNum02} `);//returns the result in backtik template.
 //end
-
 //4-math-op-e
 
 //written-by-illia.amini
