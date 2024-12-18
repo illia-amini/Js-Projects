@@ -8,9 +8,9 @@ if($userName =='illia_amini' && $userPass== '2002.ir'){
     var $userFirstChoose = parseInt(prompt('Number:'));//Number given.
     switch($userFirstChoose){
         case 1:{}case 2:{}case 3:{}case 4:{}case 5:{}
-    }
+    };//over with switch cases
 }else{
-    alert('Wrong Password or Username')
+    alert('Wrong Password or Username');//wrong pass or usname.
 }
 //w{ritten-by-illia.amini
 //mind-of-king-,-hear-of-warrior
