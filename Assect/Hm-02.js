@@ -259,7 +259,6 @@ if ($userOp == "+") {//first condition.
   console.log("invalid operation");
 }
 //end
-//end
 
 //05
 //
