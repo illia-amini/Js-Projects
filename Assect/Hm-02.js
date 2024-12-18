@@ -195,22 +195,70 @@ alert(`Hmm,The weakest number is;\n${Math.min($userMinNum04,$userMinNum05,$userM
 
 //01
 //countdown
-
+var $userCountNum = Number(prompt('Enter ur time:'));
+if(!($userCountNum !== 0)){
+    console.log('Plz,Enter another time.');
+}else if(!($userCountNum < 0)){
+    var userCounttime = $userCountNum - 1
+}
 //end
 
 //02
 //Username & password
-
+var $userName = prompt("Enter ur Username;");//recive a userrname from user
+var $userPass = parseInt(prompt("Enter ur Password;"));//recive a password from user
+if ($userName == "Illia_Amini" && $userPass == 2002) {//check if 
+    console.log(":)");
+    alert(`Welcome to ur account,${$userName}`);//correct user and pass
+} else {
+    console.log("Wrong Username or Password");//wrong user and pass
+    alert("Try one more time!,");
+    }
 //end
 
 //03
-//leap year
-
+//leap year & century year
+var $userYear = Number(prompt("Enter ur year:"));//recive a year num from user.
+if ($userYear % 400 == 0 && $userYear % 100 == 0) {//check if the year is century year and leap year at the same time.
+    alert(`${$userYear},is a leap year`);
+} else if ($userYear % 4 == 0 && $userYear % 100 != 0) {//check if the year is a leap year
+    alert(`${$userYear},is a leap year`);
+} else {
+    console.log(`${$userYear},is not a leap year`);//check if its not a leap yeaar
+    }
 //end
 
 //04
 //Math op
-
+var $userNum01 = Number(prompt("Enter ur first number:")); //recive first num of user.
+var $userNum02 = parseInt(prompt("Enter ur second number:")); //recive seconde num of user.
+var $userOp = prompt("Enter operation sign:");
+if ($userOp == "+") {//first condition.
+  console.log(
+    `${$userNum01} + ${$userNum02} = ${$userNum01 + $userNum02} `
+  ); //returns the result in backtik template.
+} else if ($userOp == "-") {//seconde condition.
+  console.log(
+    `${$userNum01} - ${$userNum02} = ${$userNum01 - $userNum02} `
+  ); //returns the result in backtik template.
+} else if ($userOp == "*") {//third condition.
+  console.log(
+    `${$userNum01} * ${$userNum02} = ${$userNum01 * $userNum02} `
+  ); //returns the result in backtik template.
+} else if ($userOp == "/") {//fourth condition
+  console.log(
+    `${$userNum01} / ${$userNum02} = ${$userNum01 / $userNum02} `
+  ); //returns the result in backtik template.
+} else if ($userOp == "**") {//fifth condition
+  console.log(
+    `${$userNum01} ** ${$userNum02} = ${$userNum01 ** $userNum02} `
+  ); //returns the result in backtik template.
+}else if($userOp == "%"){//sixth condition
+    console.log(`${$userNum01} % ${$userNum02} = ${$userNum01 % $userNum02} `)
+}else {
+  console.log("invalid operation");
+}
+//end
 //end
 
 //05
