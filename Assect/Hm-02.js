@@ -192,6 +192,33 @@ alert(`Hmm,The weakest number is;\n${Math.min($userMinNum04,$userMinNum05,$userM
 //1-e-programiz
 
 //2-s-if-switch
+
+//01
+//countdown
+
+//end
+
+//02
+//Username & password
+
+//end
+
+//03
+//leap year
+
+//end
+
+//04
+//Math op
+
+//end
+
+//05
+//
+//word existence
+
+//end
+
 //2-e-if-switch
 
 //3-s-textbooks-ex
