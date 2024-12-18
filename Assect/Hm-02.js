@@ -56,6 +56,44 @@ alert(`New texts are ready,\nur first text is: ${$userTempText01}\nurseconde tex
 //end
 
 //6- Quadratic-equation
+// program to solve quadratic equation
+let root1, root2;
+
+// take input from the user
+let a = prompt("Enter the first number: ");
+let b = prompt("Enter the second number: ");
+let c = prompt("Enter the third number: ");
+
+// calculate discriminant
+let discriminant = b * b - 4 * a * c;
+
+// condition for real and different roots
+if (discriminant > 0) {
+    root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+    root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+
+    // result
+    console.log(`The roots of quadratic equation are ${root1} and ${root2}`);
+}
+
+// condition for real and equal roots
+else if (discriminant == 0) {
+    root1 = root2 = -b / (2 * a);
+
+    // result
+    console.log(`The roots of quadratic equation are ${root1} and ${root2}`);
+}
+
+// if roots are not real
+else {
+    let realPart = (-b / (2 * a)).toFixed(2);
+    let imagPart = (Math.sqrt(-discriminant) / (2 * a)).toFixed(2);
+
+    // result
+    console.log(
+    `The roots of quadratic equation are ${realPart} + ${imagPart}i and ${realPart} - ${imagPart}i`
+  );
+}
 //end
 
 //7- Km-to-m
@@ -86,27 +124,39 @@ alert(`Reset to recive a new number between 0 to 100 always;\n${$randomNum}`);//
 //end
 
 //10- +,-,0
-var $userNum = Number(prompt('Enter ur number:'));//recive a num from user.
-console.log();//returns the result in normal template.
-alert(``);//returns the result in backtik template.
+var $userIdNum = Number(prompt('Enter ur number:'));//recive a num from user.
+if ($userIdNum < 0){
+    console.log(`Ur number,${$userIdNum}\nis less than zero.`);//returns the result in backtik template.
+}else if(!($userIdNum != 0)){
+    console.log(`Ur number,${$userIdNum}\nis zero.`);//returns the result in backtik template.
+}else if($userIdNum > 0){
+    console.log(`Ur number,${$userIdNum}\nis greater than zero.`);//returns the result in backtik template.
+}else{
+    console.log('invalid number,');
+}
 //end
 
 //11- Odd-even
-var $userKmNum = parseInt(prompt('Enter ur number:'));//recive a num from user.
-console.log();//returns the result in normal template.
-alert(``);//returns the result in backtik template.
+var $userTypeNum = parseInt(prompt("Enter ur number:")); //recive a num from user.
+var $userNumStatus = ($userTypeNum % 2 != 0) ? 'odd': 'even';
+console.log($userNumStatus); //returns the result in normal template.
 //end
 
 //12- Max,Min-num
 //1-Max
 //First-methode
-var $userMaxNum01 = Number(prompt('Enter ur First number:'));//recive first num of user.
-var $userMaxNum02 = parseInt(prompt('Enter ur Second number:'));//recive scond num of user.
-var $userMaxNum03 = Number(prompt('Enter ur Third number:'));//recive third num of user.
-var $largestNum = null;
-
-console.log();//returns the result in normal template.
-alert(``);//returns the result in backtik template.
+var $userMaxNum01 = Number(prompt("Enter ur First number:")); //recive first num of user.
+var $userMaxNum02 = parseInt(prompt("Enter ur Second number:")); //recive scond num of user.
+var $userMaxNum03 = Number(prompt("Enter ur Third number:")); //recive third num of user.
+var $largesttNum = $userMaxNum01;
+if ($largesttNum <= $userMaxNum02) {//first conditionl is checkead.
+    $largesttNum = $userMaxNum02;
+    }
+if ($largesttNum <= $userMaxNum03) {//seconde conditionl is checkead.
+    $largesttNum = $userMaxNum03;
+    }
+    console.log(`The max number is: ${$largesttNum}`);//returns the result in normal template.
+//end
 
 //Second-methode
 var $userMaxNum04 = Number(prompt('Enter ur First number:'));//recive first num of user.
@@ -115,16 +165,21 @@ var $userMaxNum06 = Number(prompt('Enter ur Third number:'));//recive third num 
 var $largestNum02 = Math.max($userMaxNum04,$userMaxNum05,$userMaxNum06);//find max in user numbers
 console.log('The largest number among ur numbers is:',$largestNum02);//returns the result in normal template.
 alert(`Hmm,The largest Number is;\n${$largestNum02}`);//returns the result in backtik template.
+//end
 
 //2-Min
 //First-methode
 var $userMinNum01 = parseInt(prompt('Enter ur First number:'));//recive first num of user.
 var $userMinNum02 = Number(prompt('Enter ur Second number:'));//recive seconde num of user.
 var $userMinNum03 = parseInt(prompt('Enter ur Third number:'));//recive third num of user.
-var $weakesttNum = null;
-
-console.log();//returns the result in normal template.
-alert(``);//returns the result in backtik template.
+var $weakesttNum = $userMinNum01;
+if($weakesttNum >= $userMinNum02){//first conditionl is checkead.
+$weakesttNum = $userMinNum02;
+}if($weakesttNum >= $userMinNum03){//seconde conditionl is checkead.
+$weakesttNum = $userMinNum03;
+}
+console.log(`The min number is: ${$weakesttNum}`);//returns the result in normal template.
+//end
 
 //Second-methode
 var $userMinNum04 = parseInt(prompt('Enter ur First number:'));//recive first num of user.
@@ -189,6 +244,14 @@ if(userTime >= 0 && userTime < 6){
 //4-e-code-with-mosh-ex
 
 //5-s-math-op-s
+var userNum01 = Number(prompt('Enter ur first number:'));//recive first num of user.
+var userNum02 = parseInt(prompt('Enter ur second number:'));//recive seconde num of user.
+console.log(`${userNum01} + ${userNum02} =${userNum01 + userNum02} `);//returns the result in backtik template.
+console.log(`${userNum01} - ${userNum02} =${userNum01 - userNum02} `);//returns the result in backtik template.
+console.log(`${userNum01} * ${userNum02} =${userNum01 * userNum02} `);//returns the result in backtik template.
+console.log(`${userNum01} / ${userNum02} =${userNum01 / userNum02} `);//returns the result in backtik template.
+//end
+
 //5-s-math-op-e
 
 //written-by-illia.amini
