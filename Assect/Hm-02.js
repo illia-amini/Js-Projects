@@ -194,24 +194,28 @@ alert(`Hmm,The weakest number is;\n${Math.min($userMinNum04,$userMinNum05,$userM
 //2-s-if-switch
 
 //01
-//countdown
-var $userCountNum = Number(prompt('Enter ur time:'));
-if(!($userCountNum !== 0)){
-    console.log('Plz,Enter another time.');
-}else if(!($userCountNum < 0)){
-    var userCounttime = $userCountNum - 1
-}
+//Area or perimeter of rectangle 
+var $userWidthNum = Number(prompt('Enter ur Width:'));//recieve width.
+var $userLengthNum =parseInt(prompt('Enter ur length:'));//recieve length. 
+var $rectangelStatus = parseInt(prompt('1-Area or 2-Perimeter'));//user choose here.
+if($rectangelStatus == 1){
+    alert(`The area of ur rectangel is;\n${$userWidthNum} * ${$userLengthNum} = ${$userWidthNum *$userLengthNum}`);//returns the are of rectangel.
+}else if($rectangelStatus == 2){
+  alert(`The perimeter of ur rectangel is;\n(${$userWidthNum} * ${$userWidthNum})/2 = ${($userWidthNum * $userLengthNum)/2}`);//returns the peremeit of rectangele.
+}else{
+  console.log('Plz,enter 1 or 2');//if user input is something diffrent.
+};
 //end
 
 //02
 //Username & password
-var $userName = prompt("Enter ur Username;");//recive a userrname from user
-var $userPass = parseInt(prompt("Enter ur Password;"));//recive a password from user
-if ($userName == "Illia_Amini" && $userPass == 2002) {//check if 
+var $userName = prompt("Enter ur Username;");//recive a userrname from user.
+var $userPass = parseInt(prompt("Enter ur Password;"));//recive a password from user.
+if ($userName == "Illia_Amini" && $userPass == 2002) {//check if.
     console.log(":)");
-    alert(`Welcome to ur account,${$userName}`);//correct user and pass
+    alert(`Welcome to ur account,${$userName}`);//correct user and pass.
 } else {
-    console.log("Wrong Username or Password");//wrong user and pass
+    console.log("Wrong Username or Password");//wrong user and pass.
     alert("Try one more time!,");
     }
 //end
@@ -224,7 +228,7 @@ if ($userYear % 400 == 0 && $userYear % 100 == 0) {//check if the year is centur
 } else if ($userYear % 4 == 0 && $userYear % 100 != 0) {//check if the year is a leap year
     alert(`${$userYear},is a leap year`);
 } else {
-    console.log(`${$userYear},is not a leap year`);//check if its not a leap yeaar
+    console.log(`${$userYear},is not a leap year`);//check if its not a leap yeaar.
     }
 //end
 
@@ -262,7 +266,13 @@ if ($userOp == "+") {//first condition.
 
 //05
 //word existence
-
+//Does not work!!!
+var $userFtext = prompt('Enter ur text:');
+if('A' in $userFtext || 'a' in $userFtext){
+    console.log('Yes');
+}else{
+    console.log('No');
+}
 //end
 
 //2-e-if-switch
