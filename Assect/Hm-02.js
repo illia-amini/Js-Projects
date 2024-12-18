@@ -261,7 +261,6 @@ if ($userOp == "+") {//first condition.
 //end
 
 //05
-//
 //word existence
 
 //end
