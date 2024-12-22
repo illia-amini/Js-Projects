@@ -15,7 +15,7 @@
 .8-Upload ur project on ur github pannel.(learn-github-first)(required)
 .9-Code with mosh, as much as we've learned at the js class.(required)
 .10-Study jsbook untill page 15.(required)
-.11-Study cleancode book or cleancode via codewithmosh on git.ir.(optional) 
+.11-Study cleancode book or cleancode via codewithmosh on git.ir.(optional)
 */
 
 //01-s,multidimensional-Array

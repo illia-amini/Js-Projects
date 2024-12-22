@@ -4,11 +4,11 @@
 //camelCase-written;
 
 /*
-.1-Solve,first 12 ex of programiz js section.
-.2-5 ex of if, 5 ex of switch
-.3-Read textbooks,until page 29
-.4-Code with mosh conditional structer videos
-.5-Write all math opperation with graphical module.moreover,recive nums from user.
+.1-Solve,first 12 ex of programiz js section.(required)
+.2-5 ex of if, 5 ex of switch.(required)
+.3-Read textbooks,until page 29.(optional)
+.4-Code with mosh opeartion videos.(optional)
+.5-Write all math opperation with graphical module.moreover,recive nums from user.(required)
 */
 
 //1-s-programiz
