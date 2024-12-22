@@ -354,7 +354,9 @@ like format in phyton the vlink part define ${} and inside of {} use 0 or 1 ,or 
 and write inside of a backtik `
 
 8-conditional structer:
+selection,
 .u can use logical op in here also.
+
 1- if & else; 
 varnum = 15;
 if(num<20){
@@ -416,6 +418,53 @@ if u change it it will bug
 
 #Season03;
 
+loop;
+.iteration,
+whenever u want a wrtiiten code run for sveral times as a loop, u should apply this rule on it,
+
+.if u wanna use loop there are 3 options;
+
+1-for;
+ex;
+let i;
+for(i=0;i<=100,i++){
+     consloe.log(i);
+}
+in for () first u define the intial value of i,then u define the range i will be connted, and last the op u want i will apply, first give a value to i then check with seconde comdition if its coreect then new value precent.
+actually u better to define the var in for. ex:
+
+for(let i=0;i<=100,i++){
+     consloe.log(i); precent all steps of i from initial value till last.
+}
+consloe.log(i);its out if loop returns only the last value of i
+
+ex;
+.from 1 to 10;
+for(let i=1;i<=10,i++){
+     consloe.log(i);
+}
+.from 10 to 1;
+for(let i=10;i>=1,i--){
+     consloe.log(i);
+}
+.even nums 2,4,8,16,32,64 form 1 to 64;
+for (let i=1;i<=64;i*=2){
+     consol.log(i)
+}
+.even nums form 0 to 100;
+for (let i=0;i<=100;i+=2){
+     consol.log(i)
+}
+.odd nums form 0 to 100;
+for (let i=1;i<=100;i+=2){
+     consol.log(i)
+}
+
+1-for in;
+2-for of;
+2-while;
+
+3-do while;
 
 ***********+++++++++***************
 ***********+++++++++***************
@@ -441,28 +490,28 @@ ex; let x;
 
 <============:()===========>
 
-2-operators in java(+ - * / )
+2-operators in js(+ - * / )
 
 <============:()===========>
 
-3-comments in javascr(// */ /*)
+3-comments in js(// */ /*)
 
 <============:()===========>
 
-4-A JavaScript name must begin with:
+4-A Js name must begin with:
 1-A letter (A-Z or a-z)
 2-A dollar sign ($)
 3-Or an underscore (_)
 
 <============:()===========>
 
-5-JavaScript is Case Sensitive
-All JavaScript identifiers are case sensitive. 
+5-Js is Case Sensitive
+All Js identifiers are case sensitive. 
 The variables (lastName) and (lastname), are two different variables.
 
 <============:()===========>
 
-6-JavaScript and Camel Case
+6-Js and Camel Case
 Underscore:
 first_name, last_name, master_card, inter_city.
 Upper Camel Case (Pascal Case):
@@ -473,7 +522,7 @@ firstName, lastName, masterCard, interCity.
 
 <============:()===========>
 
-7-JavaScript Variables;
+7-Js variables;
 Variables are Containers for Storing Data
 JavaScript Variables can be declared in 4 ways:
 1-Automatically;not suggested*
