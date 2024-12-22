@@ -449,17 +449,30 @@ for(let i=10;i>=1,i--){
 }
 .even nums 2,4,8,16,32,64 form 1 to 64;
 for (let i=1;i<=64;i*=2){
-     consol.log(i)
+     console.log(i)
 }
 .even nums form 0 to 100;
 for (let i=0;i<=100;i+=2){
-     consol.log(i)
+     console.log(i)
 }
 .odd nums form 0 to 100;
 for (let i=1;i<=100;i+=2){
-     consol.log(i)
+     console.log(i)
 }
-
+.power of 2 the nums from 1 to 10;
+for (let i = 0; i <= 10; i++) {
+        console.log(i ** 2);
+}
+.sum num from 1 to 10;
+var sum=0;
+for (let i=0;i<=10;i++){
+     consloe.log(sum+=i);
+}
+.multipaction nums from 1 t 10;
+var mul=1;
+for (let i=0;i<=10;i++){
+     consloe.log(mul*=i);
+}
 1-for in;
 2-for of;
 2-while;
