@@ -38,34 +38,31 @@ const number = parseInt(prompt("Enter a positive number: "));
       }
 //end
 
-//14
+//14-prime-number-nesting-loop-module
 //end
 
-//15
+//15-factorial
 //end
 
-//16
+//16-mult-table
 //end
 
-//17
+//17-fibonacci
 //end
 
-//18
+//18-armstrong-number
 //end
 
-//19
+//19-armstrong-number-nesting-loop
 //end
 
-//20
+//20-calculator
 //end
 
-//21
+//21-sum-of-natural-nums
 //end
 
-//22
-//end
-
-//23
+//22-same-last-digit
 //end
 
 //1-programiz-e

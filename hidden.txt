@@ -471,8 +471,8 @@ for (let i=0;i<=10;i++){
 .multipaction nums from 1 t 10;
 var mul=1;
 for (let i=0;i<=10;i++){
-     consloe.log(mul*=i);
 }
+consloe.log(mul*=i);
 
 1-for in;
 
