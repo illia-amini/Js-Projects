@@ -49,11 +49,11 @@ if (factorialNum === 1){
   alert('The Factorial of 1 is Zero.\n1!=0.');
 }else if(factorialNum > 1){
   for(let i=1;i<=factorialNum;i++){
-    var newFactorial =factorialNum*i;
-    alert(newFactorial);
+    factorial*=1;
   }
+  alert(`The factorial of ur number is;${factorialNum}!=${newFactorial}`);
 }else{
-  alert('Invalid Num');
+  alert('Invalid Number,Plz Enter a postive number!!!');
 }
 //16-mult-table
 //end
