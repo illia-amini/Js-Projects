@@ -46,7 +46,7 @@ const number = parseInt(prompt("Enter a positive number: "));
 var factorialNum=parseInt(prompt('Enter a positive number: '));
 if (factorialNum === 1){
   alert('The Factorial of 1 is Zero.\n1!=0.')
-}else if(factorialNum >1 ){
+}else if(factorialNum > 1){
 
   alert('Invalid Num');
 }
