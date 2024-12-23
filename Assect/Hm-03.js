@@ -52,6 +52,7 @@ if (factorialNum === 1){
     var newFactorial =factorialNum*i;
     alert(newFactorial);
   }
+}else{
   alert('Invalid Num');
 }
 //16-mult-table
