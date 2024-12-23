@@ -16,12 +16,12 @@
 //13-prime-number
 const number = parseInt(prompt("Enter a positive number: "));
       let isPrime = true;
-      if (number === 1) {// check if number is equal to 1
+      if (number === 1) {// check if number is equal to 1.
         alert("1 is neither prime nor composite number.");
       }
    
-      else if (number > 1) {   // check if number is greater than 1
-        for (let i = 2; i <= number / 2;i++) {// looping through 2 to number/2
+      else if (number > 1) {   // check if number is greater than 1.
+        for (let i = 2; i <= number / 2;i++) {// looping through 2 to number/2.
           if (number % i == 0) {
             isPrime = false;
             break;
@@ -34,7 +34,7 @@ const number = parseInt(prompt("Enter a positive number: "));
         }
       }
       else {
-        alert("The number is not a prime number.");// check if number is less than 1
+        alert("The number is not a prime number.");// check if number is less than 1.
       }
 //end
 
@@ -43,16 +43,16 @@ const number = parseInt(prompt("Enter a positive number: "));
 
 //15-factorial
 //end
-var factorialNum=parseInt(prompt('Enter a positive number: '));
+var factorialNum=parseInt(prompt('Enter a positive number: '));//recive a num from user.
 var factorial=1;
-if (factorialNum === 1){
+if (factorialNum === 1){//first condition will check.
   alert('The Factorial of 1 is Zero.\n1!=0.');
-}else if(factorialNum > 1){
-  for(let i=1;i<=factorialNum;i++){
-    factorial*=1;
+}else if(factorialNum > 1){//seconde condition.*importnat.
+  for(let i=1;i<=factorialNum;i++){//i begin from 1 to user number.
+    factorial*=1;//eachtime factorial = factorial * i.
   }
   alert(`The factorial of ur number is;${factorialNum}!=${factorial}`);
-}else{
+}else{//third condition
   alert('Invalid Number,Plz Enter a postive number!!!');
 }
 //16-mult-table
