@@ -138,6 +138,13 @@ if($firstResult === $secondResult && $firstResult === $secondResult && $secondRe
 //1-programiz-e
 
 //2-textbooks-ex-s
+
+//01-fibonacci
+//end
+
+//02-factorial
+//end
+
 //2-textbooks-ex-e
 
 //3-code-wirh-mosh-s
