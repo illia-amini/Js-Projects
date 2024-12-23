@@ -46,31 +46,40 @@ const number = parseInt(prompt("Enter a positive number: "));
 var factorialNum=parseInt(prompt('Enter a positive number: '));//recive a num from user.
 var factorial=1;
 if (factorialNum === 1){//first condition will check.
-  alert('The Factorial of 1 is Zero.\n1!=0.');
+  alert('The Factorial of 1 is Zero.\n1!=0.');//alert factorial of 1 is 0.
 }else if(factorialNum > 1){//seconde condition.*importnat.
   for(let i=1;i<=factorialNum;i++){//i begin from 1 to user number.
     factorial*=1;//eachtime factorial = factorial * i.
   }
-  alert(`The factorial of ur number is;${factorialNum}!=${factorial}`);
+  alert(`The factorial of ur number is;${factorialNum}!=${factorial}`);//reurns the code in bactik template.
 }else{//third condition
-  alert('Invalid Number,Plz Enter a postive number!!!');
+  alert('Invalid Number,Plz Enter a postive number!!!');//Error will precent if user enter any invalid number. 
 }
 //16-mult-table
 //1-up-to-10
-var $userMultnum = Number(prompt("Enter a poitive number:"));
-      var $Mul = 1;
-      if ($userMultnum >= 1) {
-        var i = 1;
-        while (i <= 10) {
-          var $mulResult = $userMultnum * i;
-          console.log(`${$userMultnum} * ${i} = ${$mulResult}`);
-          i += 1;
-        }
-      } else {
-        confirm("invalid number!!!");
-      }
-//2-up-to-range
-
+var $userMultnum = Number(prompt("Enter a poitive number:"));//recive a num from user.
+if ($userMultnum >= 1) {
+  var i = 0;//define i for loop.
+  while (i <= 10) {
+    var $mulResult = $userMultnum * i;//operation define
+    console.log(`${$userMultnum} * ${i} = ${$mulResult}`);//in console section the mul table is define.
+    i += 1;//i++.
+  }
+} else {
+  confirm("invalid number!!!");//confirm invalid number.
+}
+var $userMultNum = Number(prompt("Enter a poitive number:"));//recive a num from user.
+var $mulRangeNum = parseInt(prompt("Enter ur Range:"));//define the range based on user taste.
+if ($userMultNum >= 1 && $mulRangeNum >= 1) {
+  var i = 0;//define 0.
+  while (i <= $mulRangeNum) {
+    var $mulResult = $userMultNum * i;//operation is defined here.
+    console.log(`${$userMultNum} * ${i} = ${$mulResult}`);//in console section operation is defined.
+    i += 1;//i++.
+  }
+} else {
+  confirm("invalid number!!!");//confirm invalid number.
+}
 //end
 
 //17-fibonacci
