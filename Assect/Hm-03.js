@@ -51,7 +51,7 @@ if (factorialNum === 1){
   for(let i=1;i<=factorialNum;i++){
     factorial*=1;
   }
-  alert(`The factorial of ur number is;${factorialNum}!=${newFactorial}`);
+  alert(`The factorial of ur number is;${factorialNum}!=${factorial}`);
 }else{
   alert('Invalid Number,Plz Enter a postive number!!!');
 }
