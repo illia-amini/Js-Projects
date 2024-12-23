@@ -42,7 +42,6 @@ const number = parseInt(prompt("Enter a positive number: "));
 //end
 
 //15-factorial
-//end
 var factorialNum=parseInt(prompt('Enter a positive number: '));//recive a num from user.
 var factorial=1;
 if (factorialNum === 1){//first condition will check.
@@ -55,6 +54,8 @@ if (factorialNum === 1){//first condition will check.
 }else{//third condition
   alert('Invalid Number,Plz Enter a postive number!!!');//Error will precent if user enter any invalid number. 
 }
+ //end
+ 
 //16-mult-table
 //1-up-to-10
 var $userMultnum = Number(prompt("Enter a poitive number:"));//recive a num from user.
@@ -83,6 +84,13 @@ if ($userMultNum >= 1 && $mulRangeNum >= 1) {
 //end
 
 //17-fibonacci
+var $userFiboNum = parseInt(prompt("Enter ur range:"));//recive a range from user.
+var $n1 = 0;$n2 = 0;$n3 = null;//define the intial value for each var.
+alert($n1);alert($n2);//alert the initial value of $n1 & $n2.
+$n3 = $n1 + $n2;//next var,$n3 is valuing.
+while ($n3 <= $userFiboNum){
+  $n1 = $n2;$n2 = $n3;$n3 = $n1 + $n2;//temp methode apply here.
+}
 //end
 
 //18-armstrong-number
