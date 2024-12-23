@@ -50,6 +50,7 @@ if (factorialNum === 1){
 }else if(factorialNum > 1){
   for(let i=1;i<=factorialNum;i--){
     var newFactorial =factorialNum*i;
+    alert(newFactorial);
   }
   alert('Invalid Num');
 }
