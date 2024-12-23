@@ -43,7 +43,13 @@ const number = parseInt(prompt("Enter a positive number: "));
 
 //15-factorial
 //end
+var factorialNum=parseInt(prompt('Enter a positive number: '));
+if (factorialNum === 1){
+  alert('The Factorial of 1 is Zero.\n1!=0.')
+}else if(factorialNum >1 ){
 
+  alert('Invalid Num');
+}
 //16-mult-table
 //end
 
