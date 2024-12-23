@@ -55,7 +55,7 @@ if (factorialNum === 1){//first condition will check.
   alert('Invalid Number,Plz Enter a postive number!!!');//Error will precent if user enter any invalid number. 
 }
  //end
- 
+
 //16-mult-table
 //1-up-to-10
 var $userMultnum = Number(prompt("Enter a poitive number:"));//recive a num from user.
@@ -84,12 +84,17 @@ if ($userMultNum >= 1 && $mulRangeNum >= 1) {
 //end
 
 //17-fibonacci
-var $userFiboNum = parseInt(prompt("Enter ur range:"));//recive a range from user.
-var $n1 = 0;$n2 = 0;$n3 = null;//define the intial value for each var.
-alert($n1);alert($n2);//alert the initial value of $n1 & $n2.
-$n3 = $n1 + $n2;//next var,$n3 is valuing.
-while ($n3 <= $userFiboNum){
-  $n1 = $n2;$n2 = $n3;$n3 = $n1 + $n2;//temp methode apply here.
+// program to generate fibonacci series up to n terms
+
+// take input from the user
+var $number = parseInt(prompt('Enter the number of terms: '));//recive a range from user.
+let n1 = 0, n2 = 1, nextTerm;//var defines.
+console.log('Fibonacci Series:');//returns fibonacci series.
+for (let i = 1; i <= $number; i++) {
+    console.log(n1);//returns new value of n1.
+    nextTerm = n1 + n2;//operation 1.
+    n1 = n2;//operation 3.
+    n2 = nextTerm;//operation 3.
 }
 //end
 
@@ -100,12 +105,34 @@ while ($n3 <= $userFiboNum){
 //end
 
 //20-calculator
+/*
+the code,
+has written,
+in password section,
+math methode.
+*/
 //end
 
 //21-sum-of-natural-nums
+var $userNumSum = Number(prompt("Enter ur number;")); //recive a num from user.
+var $sum = 0;
+i = 0; //define var sum & i.
+while (i <= $userNumSum) {
+  $sum += i;//operation define.
+  i++; //i++.
+}
+alert(`The Sum of ur num is:\n${$sum}`); //returns the value of sum.
 //end
 
 //22-same-last-digit
+var $firstNum = parseInt(prompt('Enter ur num1:'));var $secondNum = Number(prompt('Enter ur num2:'));var $thirdNum = parseInt(prompt('Enter ur num3:'));//recive 3 var from user.
+var $firstResult = $firstNum % 10;var $secondResult = $secondNum % 10;var $thirdResult = $thirdNum % 10;//define the last digit.
+if($firstResult === $secondResult && $firstResult === $secondResult && $secondResult === $thirdResult){
+  alert(`The numbers of ${$firstNum} & ${$secondNum} & ${$thirdNum} has same last digit.`);//returns has same digits.
+}else{
+  alert(`The numbers of ${$firstNum} & ${$secondNum} & ${$thirdNum} has not same last digit.`);//returns has not same digits.
+}
+
 //end
 
 //1-programiz-e
