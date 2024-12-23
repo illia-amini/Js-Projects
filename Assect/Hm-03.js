@@ -21,7 +21,7 @@ const number = parseInt(prompt("Enter a positive number: "));
       }
    
       else if (number > 1) {   // check if number is greater than 1
-        for (let i = 2; i <= number / 2; i++) {// looping through 2 to number/2
+        for (let i = 2; i <= number / 2;i++) {// looping through 2 to number/2
           if (number % i == 0) {
             isPrime = false;
             break;
