@@ -56,6 +56,21 @@ if (factorialNum === 1){//first condition will check.
   alert('Invalid Number,Plz Enter a postive number!!!');
 }
 //16-mult-table
+//1-up-to-10
+var $userMultnum = Number(prompt("Enter a poitive number:"));
+      var $Mul = 1;
+      if ($userMultnum >= 1) {
+        var i = 1;
+        while (i <= 10) {
+          var $mulResult = $userMultnum * i;
+          console.log(`${$userMultnum} * ${i} = ${$mulResult}`);
+          i += 1;
+        }
+      } else {
+        confirm("invalid number!!!");
+      }
+//2-up-to-range
+
 //end
 
 //17-fibonacci
