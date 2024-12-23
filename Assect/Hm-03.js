@@ -48,8 +48,8 @@ var factorial=1;
 if (factorialNum === 1){
   alert('The Factorial of 1 is Zero.\n1!=0.')
 }else if(factorialNum > 1){
-  for(let i=1;i<=factorialNum;i++){
-    
+  for(let i=1;i<=factorialNum;i--){
+    var newFactorial =factorialNum*i
   }
   alert('Invalid Num');
 }
