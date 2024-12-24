@@ -479,7 +479,24 @@ consloe.log(mul*=i);
 2-for of;
 -----------------------------------
 2-while;
+always remeber define var before while; otherwise u create a unlimited loop.
+and whenever u have a range wrire ur code via for,otherwise choose while.
+ while(condition){
+     order;
+ }
+ ex;
+let i=0;
+while(i<10){
+     console.log(i);
+     i++;
+}returns nums between 0 to 10.
 
+ex;
+let i=0;
+while(i<10){
+     console.log(i);
+     i+=2;
+}returns  even nums between 0 to 10.
 -----------------------------------
 3-do while;
 
