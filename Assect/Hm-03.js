@@ -141,9 +141,11 @@ if($firstResult === $secondResult && $firstResult === $secondResult && $secondRe
 //2-textbooks-ex-s
 
 //01-fibonacci
+//via-func
 //end
 
 //02-factorial
+//via-func
 //end
 
 //2-textbooks-ex-e
