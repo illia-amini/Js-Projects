@@ -497,13 +497,30 @@ while(i<10){
      console.log(i);
      i+=2;
 }returns  even nums between 0 to 10.
+ 
+ ex;
+let i=100;
+while(i<101){
+     console.log(i);
+     i--;
+}returns  even nums between 100 to 0.
 -----------------------------------
 3-do while;
+first u define the order,then u make the condition and condition will be checked,so if u define a invaild var with incorrect initiliza u can  try it for once.
+var i = 10;
+do{
+     consloe.log(i);
+     i++
+}while(i<=5);
+consloe.log(i)
+returns 11 and then break the loop,first order apply then condition will apply,
+-----------------------------------
+4-nested loop(i,j);
 
 -----------------------------------
-4-nesting loo(i,j);
-
------------------------------------
+*********************
+DesignPattern in js => learn it whenever u learned objects in js.
+*********************
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
