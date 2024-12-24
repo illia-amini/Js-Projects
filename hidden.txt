@@ -542,6 +542,33 @@ Function $getUserData(){
 //then u shold caalback func via the pargarph in front of function and u can do it several times.
 $getUserData();
 $getUserData();
+ex;
+function cCsum(num1,num2){
+     let result=num1 + num2;
+     console.log(result);
+}
+cCsum(10,20);//returns 30, first it calls csum func then put 10 to num1 & 20 to num2 the sum then print reult.
+ex;
+function cMin(num1,num2){
+     let result=num1;
+     if(num2<num1){
+          reesult = num2;
+     }
+     console.log(result);
+}
+cMin(10,15);//returns min nums between num1 & num2 .here num1 is 10.
+
+*****tip*******
+return varnum;
+in  function instead of console,log or alert ..., u should use return.
+ex;
+function cCsum(num1,num2){
+     let result=num1 + num2;
+     return result;
+}
+let r = cCsum(10,20);
+consloe.log(r)
+//when us use return after func define a var here like r.
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************

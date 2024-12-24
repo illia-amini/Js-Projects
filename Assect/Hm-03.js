@@ -9,6 +9,7 @@
 .3-Code with mosh function videos.(optional)
 .4-For in & for of loop,self study on w3shools.(required)
 .5-Rewrite,first season of web3 course in for moduel.(required)
+.6-Define Cmax() func.(required)
 */
 
 //1-programiz-s
