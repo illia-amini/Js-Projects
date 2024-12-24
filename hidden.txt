@@ -531,7 +531,17 @@ ex;
       alert(age);
 ------------------------------------
 6-Function;
-
+whenever u write a code and u want to use the code several times in the  programe or uts popular code,u should use func.
+How to ;
+ex;
+//first u define functon like structer below,respect to, camel case,and naming var.
+Function $getUserData(){
+     let fname=prompt('plz enter ur name;');
+     alert(`welcome ${fname}`);
+}
+//then u shold caalback func via the pargarph in front of function and u can do it several times.
+$getUserData();
+$getUserData();
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
