@@ -521,6 +521,17 @@ returns 11 and then break the loop,first order apply then condition will apply,
 *********************
 DesignPattern in js => learn it whenever u learned objects in js.
 *********************
+5-isNan();
+is a function that check if our var is a number or not,if its a num it will print false,and vice versa.
+ex;
+  var age = NaN;
+      while (isNaN(age) || age === 0) {
+        age = Number(prompt("enter ur age:"));
+      }
+      alert(age);
+------------------------------------
+6-Function;
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
