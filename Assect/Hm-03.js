@@ -160,6 +160,28 @@ $fibo($number);
 
 //02-factorial
 //via-func
+var factorialNum = parseInt(prompt("Enter a positive number: ")); //recive a num from user.
+      var factorial = 1;
+      function $factorial(factorialNum) {
+        if (factorialNum === 1) {
+          //first condition will check.
+          alert("The Factorial of 1 is Zero.\n1!=0."); //alert factorial of 1 is 0.
+        } else if (factorialNum > 1) {
+          //seconde condition.*importnat.
+          for (let i = 1; i <= factorialNum; i++) {
+            //i begin from 1 to user number.
+            factorial *= 1; //eachtime factorial = factorial * i.
+          }
+          alert(
+            `The factorial of ur number is; ${factorialNum}!= ${factorial}`
+          ); //reutrns the code in bactik template.
+        } else {
+          //third condition
+          alert("Invalid Number,Plz Enter a postive number!!!"); //Error will precent if user enter any invalid number.
+        }
+      }
+      $factorial(factorialNum);
+
 //end
 
 //2-textbooks-ex-e
