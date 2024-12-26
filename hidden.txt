@@ -621,10 +621,18 @@ demoElemnt.innertext = 'Hello';//change the elemnt inside of argument
 <p>lorem</p>
 <p class='test>lorem</p>
 ***in script write the codes below;
-let elemnts = document.getElementsByClassName('test'.innerHTML)
+let elemnts = document.getElementsByClassName('test'[0].innerHTML.hello)
+let elemnts = document.getElementsByClassName('test'[1].innerHTML.hi)
 consloe.log(elements);
 elements[0].innerhtml = 'test1';
 elements[2].innerhtml = 'test2';
+
+also we have, u can use use these propreites instead of .innerHtml for css section to converet design.
+.innerHtml;
+.title;
+.style.color;
+.style.border;
+.style.background;
 
 ***********+++++++++***************
 ***********+++++++++***************
