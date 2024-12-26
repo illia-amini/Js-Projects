@@ -572,6 +572,44 @@ consloe.log(r)
 
 #season03;
 
+1.recesivly fnction;
+its a kind of func with u use the fun inside itself.
+for ex;
+factorail
+let number = Number(prompt('Enter ur number:));
+function fac(number){
+     if (number === 1);
+     consloe.log(1);
+}else{
+     result =fac(number - 1) * number;
+     return result;
+}
+consloe.log(result)
+
+2.for in & for of;
+ex;
+const person = {fname:"John", lname:"Doe", age:25};
+
+let text = "";
+for (let x in person) {
+  text += person[x];
+}
+ex;
+function sum(){
+     for (let num of arguments){
+          sum+=sum;
+     }
+     return sum;
+}
+console.log(sum(10,12,34)) //returns 34
+
+3.Dom(Document object Model);
+to connect between arguments in html docs.
+ex;
+<p id = "demo"></p>
+let demoElement = document.getElementById('demo');
+consloe.log(demoElement.innertext);//get access to inside of arguments
+demoElemnt.innertext = 'Hello';//change the elemnt inside of argument
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
