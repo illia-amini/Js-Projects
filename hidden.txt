@@ -605,11 +605,27 @@ console.log(sum(10,12,34)) //returns 34
 
 3.Dom(Document object Model);
 to connect between arguments in html docs.
+
+1,getElementById;
 ex;
 <p id = "demo"></p>
 let demoElement = document.getElementById('demo');
 consloe.log(demoElement.innertext);//get access to inside of arguments
 demoElemnt.innertext = 'Hello';//change the elemnt inside of argument
+
+2,getElementsByTagsName;
+
+3,getElementsByClassName;
+<p class='test>lorem</p>
+<p>lorem</p>
+<p>lorem</p>
+<p class='test>lorem</p>
+***in script write the codes below;
+let elemnts = document.getElementsByClassName('test'.innerHTML)
+consloe.log(elements);
+elements[0].innerhtml = 'test1';
+elements[2].innerhtml = 'test2';
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
