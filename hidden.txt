@@ -569,6 +569,9 @@ function cCsum(num1,num2){
 let r = cCsum(10,20);
 consloe.log(r)
 //when us use return after func define a var here like r.
+
+#season03;
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
