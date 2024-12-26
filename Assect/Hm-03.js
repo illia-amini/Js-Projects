@@ -142,6 +142,20 @@ if($firstResult === $secondResult && $firstResult === $secondResult && $secondRe
 
 //01-fibonacci
 //via-func
+var $number = parseInt(prompt("Enter the number of terms: ")); //recive a range from user.
+function $fibo() {
+  let n1 = 0,
+    n2 = 1,
+    nextTerm; //var defines.
+  console.log("Fibonacci Series:"); //returns fibonacci series.
+  for (let i = 1; i <= $number; i++) {
+    console.log(n1); //returns new value of n1.
+    nextTerm = n1 + n2; //operation 1.
+    n1 = n2; //operation 3.
+    n2 = nextTerm; //operation 3.
+  }
+}
+$fibo();
 //end
 
 //02-factorial
