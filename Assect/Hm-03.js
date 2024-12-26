@@ -143,7 +143,7 @@ if($firstResult === $secondResult && $firstResult === $secondResult && $secondRe
 //01-fibonacci
 //via-func
 var $number = parseInt(prompt("Enter the number of terms: ")); //recive a range from user.
-function $fibo() {
+function $fibo($number) {
   let n1 = 0,
     n2 = 1,
     nextTerm; //var defines.
@@ -155,7 +155,7 @@ function $fibo() {
     n2 = nextTerm; //operation 3.
   }
 }
-$fibo();
+$fibo($number);
 //end
 
 //02-factorial
