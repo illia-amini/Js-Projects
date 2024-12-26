@@ -165,13 +165,19 @@ $fibo($number);
 //2-textbooks-ex-e
 
 //3-code-wirh-mosh-s
+/*
+uncompleted yet!!!
+*/
 //3-code-wirh-mosh-e
 
 //4-forin-&-forof-ex-s
-//4-forin-&-forof-ex-e
+/*
+The turtoial,
+is read by,
+Ali Amini.
+*/
 
-//5-rewirte-in-for-s
-//5-rewirte-in-for-e
+//4-forin-&-forof-ex-e
 
 //written-by-illia.amini
 //mind-of-king-,-hear-of-warrior
