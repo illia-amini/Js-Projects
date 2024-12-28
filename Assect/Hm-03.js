@@ -100,6 +100,22 @@ for (let i = 1; i <= $number; i++) {
 //end
 
 //18-armstrong-number
+var $sum = 0;
+var $armNum = Number(prompt("Enter a positive 3digits number;"));
+function $armstrong(x) {
+  var temp = $armNum;
+  while (temp > 0) {
+    let reminder = temp % 10;
+    $sum += reminder * reminder * reminder;
+    temp = parseInt(temp / 10);
+  }
+  if ($sum == $armNum) {
+    return "Armstrong";
+  } else {
+    return "No";
+  }
+}
+alert($armstrong($armNum));
 //end
 
 //19-armstrong-number-nesting-loop

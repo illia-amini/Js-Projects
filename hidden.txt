@@ -571,8 +571,9 @@ consloe.log(r)
 //when us use return after func define a var here like r.
 
 #season03;
+Armstrong ex;
 
-1.recesivly fnction;
+.recesivly fnction;
 its a kind of func with u use the fun inside itself.
 for ex;
 factorail
