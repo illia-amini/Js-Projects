@@ -691,11 +691,23 @@ console.log((document.getElementsByTagName("p")[0].innerHTML = "hello"));
       getElemnt(
         (document.getElementsByTagName("p")[4].innerHTML = "bye 4 now")//does not run??
       );
+
 3,getElementsByClassName;
-<p class='test>lorem</p>
-<p>lorem</p>
-<p>lorem</p>
-<p class='test>lorem</p>
+clling elements by class names;
+and its elements beacuse its plural.not single
+ex;
+    <p>Lorem ipsum dolor sit amet.1</p>
+    <p class="test">Lorem ipsum dolor sit amet.2</p>
+    <p>Lorem ipsum dolor sit amet.3</p>
+    <p class="test">Lorem ipsum dolor sit amet.4</p>
+    <p>Lorem ipsum dolor sit amet.5</p>
+    <script>
+      let elements = document.getElementsByClassName("test");
+      console.log(elements);
+      elements[1].innerHTML = "test2";
+      elements[0].innerHTML = "test3";
+    </script>
+
 ***in script write the codes below;
 let elemnts = document.getElementsByClassName('test'[0].innerHTML.hello)
 let elemnts = document.getElementsByClassName('test'[1].innerHTML.hi)
