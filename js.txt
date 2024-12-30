@@ -670,12 +670,27 @@ ex-02;
 <p id="demo">Lorem ipsum dolor sit amet.</p>
     <script>
       // console.log(document.getElementById("demo").innerHTML);
-      let demoElement = document.getElementById("demo");
+      let demoElement = document.getElementById("demo");//first u demo to acess to element then make changes,
       demoElement.innerHTML = "hello";// the = op replace new text with older one,
       demoElement.innerHTML += "<br>how are u"; //we add a new line, by += op and also beacuse its inner Html we can  use html tags in " " here like <br>,but remeber in inner text u can't
 
 2,getElementsByTagsName;
-
+ tags like <p> or <h1> and ..., 
+ u can acess to each tags by calling their tags but remember to mention which index u want,otherwise 
+ it returns just an array, like document.getElementsByTagName('p')[0]
+ex;
+console.log((document.getElementsByTagName("p")[0].innerHTML = "hello"));
+      let getElemnt = (document.getElementsByTagName("p")[1].innerHTML =
+        "how are u?");
+      getElemnt(
+        (document.getElementsByTagName("p")[2].innerHTML = "my name is")
+      );
+      console.log(
+        (document.getElementsByTagName("p")[3].innerHTML = "Alireza")//does not run??
+      );
+      getElemnt(
+        (document.getElementsByTagName("p")[4].innerHTML = "bye 4 now")//does not run??
+      );
 3,getElementsByClassName;
 <p class='test>lorem</p>
 <p>lorem</p>
