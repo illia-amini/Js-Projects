@@ -645,40 +645,15 @@ ex-03;
         console.log(result);
       }
       max(10, 22, 3, 4, 5, 55454, 3);
-      
-.recesivly fnction;
-its a kind of func with u use the fun inside itself.
-for ex;
-factorail
-let number = Number(prompt('Enter ur number:));
-function fac(number){
-     if (number === 1);
-     consloe.log(1);
-}else{
-     result =fac(number - 1) * number;
-     return result;
-}
-consloe.log(result)
-
-2.for in & for of;
-ex;
-const person = {fname:"John", lname:"Doe", age:25};
-
-let text = "";
-for (let x in person) {
-  text += person[x];
-}
-ex;
-function sum(){
-     for (let num of arguments){
-          sum+=sum;
-     }
-     return sum;
-}
-console.log(sum(10,12,34)) //returns 34
 
 3.Dom(Document object Model);
-to connect between arguments in html docs.
+.to access between arguments in html docs.
+.The Html Dom tree of objects.
+.node; is tag in html docs ex; <html>, <head>,<body>
+wahtever written  between these tags is considread as  a node. 
+Dom here comes acess to each node make some changes.
+in original, js can change html, css style, html atrributes, ...
+tis actions all call Dom.
 
 1,getElementById;
 ex;
@@ -707,6 +682,22 @@ also we have, u can use use these propreites instead of .innerHtml for css secti
 .style.color;
 .style.border;
 .style.background;
+
+.recesivly fnction;
+its a kind of func with u use the fun inside itself.
+for ex;
+factorail
+let number = Number(prompt('Enter ur number:));
+function fac(number){
+     if (number === 1);
+     consloe.log(1);
+}else{
+     result =fac(number - 1) * number;
+     return result;
+}
+consloe.log(result)
+
+
 
 ***********+++++++++***************
 ***********+++++++++***************

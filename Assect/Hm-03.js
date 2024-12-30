@@ -217,5 +217,5 @@ Ali Amini.
 
 //4-forin-&-forof-ex-e
 
-//written-by-illia.amini
-//mind-of-king-,-hear-of-warrior
+//Written-by-illia.amini
+//Mind-of-king-,-Heart-of-warrior

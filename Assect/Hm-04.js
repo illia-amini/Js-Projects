@@ -48,3 +48,6 @@ function $cMax() {
 $cSum(10,2,3);// here u can what nums u want.
 
 //1-max() & min () & sum ()-e
+
+//Written-by-illia.amini
+//Mind-of-king-,-Heart-of-warrior   

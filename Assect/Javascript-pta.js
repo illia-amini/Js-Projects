@@ -44,3 +44,6 @@
       //   $count -= i;
       //   console.log($count);
       // }
+
+      //Written-by-illia.amini
+      //Mind-of-king-,-Heart-of-warrior
