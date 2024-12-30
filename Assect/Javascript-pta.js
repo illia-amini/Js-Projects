@@ -22,14 +22,20 @@
       ja
       j
       */
+
       //upper pattern's code
+
       var $java = "javascript";
+
       var $count = [];
+
       for (let i of $java) {
         $count += i;
         console.log($count);
       }
+
       //lower pattern's code
+      
       // ?? is how to star from end char to first char ?? 
       // for (let i of $java) {
       //   $count -= i;
