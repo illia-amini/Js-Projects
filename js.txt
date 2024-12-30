@@ -578,6 +578,15 @@ var stds = ["alo", "reza", "moh", "avs"];
       for (let std of stds) {
         console.log(`welcome ${std}`);
       }
+.for in:
+whenever u have an object or even array,
+to see the index imporaant index of elemnts use for in;
+ex;
+var stds = ["alo", "reza", "moh", "avs"];
+      for (let std in stds) {
+        console.log(`welcome ${std}`);// retuens welcome 0 welcome 1 ,,,
+      }
+      now if u write ${std[i]}// returns welcome ali ,welcome reza ,welcome moh
 
 .recesivly fnction;
 its a kind of func with u use the fun inside itself.
