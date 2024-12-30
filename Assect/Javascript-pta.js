@@ -1,6 +1,6 @@
  /*
       pattern;
-      
+
       console log javascript as pattern below:
 
       j
@@ -23,6 +23,7 @@
       jav
       ja
       j
+      
       */
 
       //upper pattern's code
