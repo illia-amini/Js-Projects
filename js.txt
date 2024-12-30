@@ -591,6 +591,33 @@ var stds = ["alo", "reza", "moh", "avs"];
       }
       now if u write ${std[i]}// returns welcome ali ,welcome reza ,welcome moh
 
+***tip**
+Array is itterabile.//beacuse the elements are sorted
+objects is not itterabile.//beacuse the elements are not sorted
+***tip**
+
+.Unlimited Func inputs:
+
+like min() & max() functions.u can give how many inputs u want.
+now how we can define such a this func;
+us should use console.log(arguments): it means,
+hom many argumwnts that user enters it recives and put all of them in
+(arguments),normally if we dont use (arguments) it put our inputs in parameter
+but in this case u can define many arguments u want
+ex;just remeber to write consloe.log(arguments) in function body...
+function sum(){
+     sum = 0
+     consloe.log(arguments);
+     for(let num  of arguments){//for of
+          sum+=num
+          or 
+     for(let num  in arguments){//for in
+          sum+=arguments[num]
+     }
+     return sum
+}
+consloe.log(sum(10,15,20));//returns 45
+
 .recesivly fnction;
 its a kind of func with u use the fun inside itself.
 for ex;
