@@ -571,7 +571,13 @@ consloe.log(r)
 //when us use return after func define a var here like r.
 
 #season03;
-Armstrong ex;
+.for of:
+whenever u have an array and u want to see all elements by elements of 
+array, is tead of using simple for, use for of ex;
+var stds = ["alo", "reza", "moh", "avs"];
+      for (let std of stds) {
+        console.log(`welcome ${std}`);
+      }
 
 .recesivly fnction;
 its a kind of func with u use the fun inside itself.
