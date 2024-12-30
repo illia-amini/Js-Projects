@@ -656,7 +656,8 @@ in original, js can change html, css style, html atrributes, ...
 tis actions all call Dom.
 
 1,getElementById;
-
+the tips are written in ex, also we say get element by id, beacuse id is unique.
+and only a tag can handle an id tag not some tags, so id is single.
 ex;
 
 <p id = "demo"></p>
