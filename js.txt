@@ -581,8 +581,11 @@ var stds = ["alo", "reza", "moh", "avs"];
 .for in:
 whenever u have an object or even array,
 to see the index imporaant index of elemnts use for in;
+in objects u can access to keyname,in array show index num.
 ex;
 var stds = ["alo", "reza", "moh", "avs"];
+     var std1={fname:'ali',lname:'amini'}//${i};returns fname and lname
+                                         // ${std1[i]} returns fname ali,lname amini
       for (let std in stds) {
         console.log(`welcome ${std}`);// retuens welcome 0 welcome 1 ,,,
       }
