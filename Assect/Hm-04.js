@@ -4,10 +4,11 @@
 //camelCase-written;
 
 /*
-.1-write max() & min() & sum() codes by using arguments.(optional))
-.2-5 ex of if, 5 ex of switch.(required)
-.3-Read textbooks,until page 29.(optional)
-.4-Code with mosh opeartion videos.(optional)
+.1-Write max() & min() & sum() codes by using arguments.(optional))
+.2-Navbar.(required)
+.3-Modal.(required)
+.4-Programize from 23 to 33.(required)
+.5-Make two buttons if u press add and another one decrease the timer.(optional)
 */
 
 //1-max() & min () & sum ()-s
@@ -48,6 +49,18 @@ function $cMax() {
 $cSum(10,2,3);// here u can what nums u want.
 
 //1-max() & min () & sum ()-e
+
+//2-side-nav-s
+//2-side-nav-e
+
+//3-modal-s
+//3-modal-e
+
+//4-programize-task-s
+//4-programize-task-e
+
+//5-timer-s
+//5-timer-e
 
 //Written-by-illia.amini
 //Mind-of-king-,-Heart-of-warrior   

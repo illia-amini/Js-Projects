@@ -708,6 +708,23 @@ ex;
       elements[0].innerHTML = "test3";
     </script>
 
+.Event;
+u can define anty event for tags, for ex if user click on button it alerts welcome,
+for ex;
+
+<button onclick="alert('hello')">Click me!</button>
+
+we use onclick for button if user press the button event hello
+
+,u better define event as function;
+ex;
+button onclick="handlerclick()">Click me!</button>
+    <script>
+      function handlerclick() {
+        alert("hello");
+        alert("how are u");
+      }
+
 ***in script write the codes below;
 let elemnts = document.getElementsByClassName('test'[0].innerHTML.hello)
 let elemnts = document.getElementsByClassName('test'[1].innerHTML.hi)
@@ -716,11 +733,19 @@ elements[0].innerhtml = 'test1';
 elements[2].innerhtml = 'test2';
 
 also we have, u can use use these propreites instead of .innerHtml for css section to converet design.
+***important***
+first u should use .innerhtml to dom then u can make changes.
 .innerHtml;
 .title;
 .style.color;
 .style.border;
 .style.background;
+
+ex;
+  document.getElementsByClassName("test")[0].innerHTML = "hello";
+  document.getElementsByClassName("test")[0].title = "this is a test";
+  document.getElementsByClassName("test")[0].style.color = "red";
+  document.getElementsByClassName("test")[0].style.border = "solid";
 
 .recesivly fnction;
 its a kind of func with u use the fun inside itself.
