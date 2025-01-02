@@ -67,6 +67,54 @@ Modal-Assect,
 //3-modal-e
 
 //4-programize-task-s
+//23-s
+//23-e
+//24-s
+//24-e
+
+//25-s
+//factord of num
+
+function $factorNums() {
+  let $factorNum = parseInt(prompt("Enter ur Number:"));
+  for (let i = 1; i <= $factorNum; i++) {
+    if (!($factorNum % i != 0)) {
+      console.log(i);
+    }
+  }
+}
+$factorNums();
+//25-e
+
+//26-s
+//sum of num via recursion.
+
+function $rSum() {
+  var num = Number(prompt(`Sum of:`));
+  var sum = 0;
+  for (let i = 0; i <= num; i++) {
+    sum += i;
+  }
+  return ` ur answer is ${sum}`;
+}
+var $result = $rSum();
+alert($result);
+//26-e
+
+//27-s
+//27-e
+//28-s
+//28-e
+//29-s
+//29-e
+//30-s
+//30-e
+//31-s
+//31-e
+//32-s
+//32-e
+//33-s
+//33-e
 //4-programize-task-e
 
 //5-timer-s
