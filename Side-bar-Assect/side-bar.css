@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+ /*====== Colors Section =======*/   
+ --body-color:#e4e9f7;
+ --sidebar-color:#fff;
+ --primary-color:#695cFE;
+ --primary-color-light:#f6f5ff;
+ --toggle-color:#ddd;
+ --text-color:#707070;
+ /*====== Transition Section =======*/
+ --tran-03:all 0.2s ease;
+ --tran-03:all 0.3s ease;
+ --tran-04:all 0.4s ease;
+ --tran-05:all 0.5s ease;
+}
+/*====== Config Section =======*/
+body{
+    height: 100vh;
+    background: var(--body-color);
+}
+.sidebar{
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    height: 100%;
+    width: 250px;
+    background: var(--sidebar-color);
+    padding: 10px 15px;
+   
+}
+.sidebar img{
+    width: 150px;
+    border-radius: 5px;
+
+}
+.img-logo{
+    width: 150px;
+    border-radius: 5px;
+}
+.sidebar header .image-text{
+    display: flex;
+    align-items: center;
+}
+.sidebar .text{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--sidebar-color);
+}
+.sidebar .image{
+    min-width:60px;
+    display: flex;
+    align-items: center;
+}
+header .image-text .header-text{
+    display: flex;
+    flex-direction: column;
+}
+.header-text .name{
+    font-weight: 600;
+
+}
+.header-text .proffesion{
+    margin-top: -3px;
+    
+}
