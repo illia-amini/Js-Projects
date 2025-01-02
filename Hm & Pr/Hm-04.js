@@ -102,6 +102,26 @@ alert($result);
 //26-e
 
 //27-s
+//random num game
+function $randomNum() {
+  const $rNum = Math.floor(Math.random() * 11);
+  let $count = 0;
+  while (true) {
+    let $userNum = parseInt(prompt("Guess ur number;"));
+    $count += 1;
+    if ($userNum == $rNum) {
+      console.log("Congarts,");
+      console.log(`Guess:${$count}\nCorrect answer:${$userNum}`);
+      break;
+    }
+  }
+  if ($count <= 5) {
+    console.log("GG");
+  } else {
+    console.log("How many!,\nU R NOOB!!!");
+  }
+}
+$randomNum();
 //27-e
 //28-s
 //28-e
