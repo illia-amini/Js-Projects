@@ -103,6 +103,7 @@ alert($result);
 
 //27-s
 //random num game
+
 function $randomNum() {
   const $rNum = Math.floor(Math.random() * 11);
   let $count = 0;
