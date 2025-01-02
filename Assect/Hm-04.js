@@ -51,9 +51,19 @@ $cSum(10,2,3);// here u can what nums u want.
 //1-max() & min () & sum ()-e
 
 //2-side-nav-s
+/*
+Written in,
+Side-bar-Assect,
+& Side-bar
+*/
 //2-side-nav-e
 
 //3-modal-s
+/*
+Written in,
+Modal-Assect,
+& Modal.
+*/
 //3-modal-e
 
 //4-programize-task-s
