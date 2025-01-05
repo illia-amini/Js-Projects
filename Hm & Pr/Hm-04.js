@@ -124,17 +124,85 @@ function $randomNum() {
 }
 $randomNum();
 //27-e
+
 //28-s
+
+
 //28-e
 //29-s
+//fibonacci & terms
+
+var $number = parseInt(prompt("Enter the number of terms: ")); //recive a range from user.
+function $fibo($number) {
+  let n1 = 0,
+    n2 = 1,
+    nextTerm; //var defines.
+  console.log("Fibonacci Series:"); //returns fibonacci series.
+  for (let i = 1; i <= $number; i++) {
+    console.log(n1); //returns new value of n1.
+    nextTerm = n1 + n2; //operation 1.
+    n1 = n2; //operation 3.
+    n2 = nextTerm; //operation 3.
+  }
+}
+$fibo($number);
 //29-e
+
 //30-s
 //30-e
 //31-s
 //31-e
 //32-s
+//Ascii value
+function $ascii() {
+  const $userNum = prompt("Enter ur number;");
+  const $userValue = $userNum.charCodeAt(0);
+  confirm($userValue);
+}
+$ascii();
+/*
+ in the case of reoetaition.?!?!
+       function $ascii(num) {
+        const $userNum = parseInt(prompt("Enter ur number;"));
+        $userChar;
+        for (let i = 0; i <= $userNum; i++) {
+          $userChar = $userNum.charCodeAt(i);
+        }
+        console.log($userChar);
+      }
+      $ascii();
+*/
 //32-e
+
 //33-s
+//palindrome of a str
+
+// program to check if the string is palindrome or not
+
+function checkPalindrome(string) {
+
+  // find the length of a string
+  const len = string.length;
+
+  // loop through half of the string
+  for (let i = 0; i < len / 2; i++) {
+
+      // check if first and last string are same
+      if (string[i] !== string[len - 1 - i]) {
+          return 'It is not a palindrome';
+      }
+  }
+  return 'It is a palindrome';
+}
+
+// take input
+const string = prompt('Enter a string: ');
+
+// call the function
+const value = checkPalindrome(string);
+
+console.log(value);
+
 //33-e
 //4-programize-task-e
 
