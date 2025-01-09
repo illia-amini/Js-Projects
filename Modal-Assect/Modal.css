@@ -54,6 +54,10 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
+.popup-img-02{
+    width: 100px;
+    margin-top: 20px;
+}
 .popup h2{
     font-size: 40px;
     font-weight: 500;
@@ -61,7 +65,7 @@ body{
 }
 .popup button{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 5px;
     padding: 10px 0;
     background: #6fd649;
     color: #fff;
@@ -71,4 +75,8 @@ body{
     border-radius: 4px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.5s;
+}
+.popup button:hover{
+    background-color: green;
 }
