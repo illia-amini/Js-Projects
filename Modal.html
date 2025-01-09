@@ -5,11 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="Modal-Assect/Modal.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <noscript
       >if u see this notification,first on ur js on ur web browser!!!</noscript
     >
+    <div class="container">
+      <div class="btn-container">
+        <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+        <button type="submit" class="btn" onclick="openPopup()">Cancel</button>
+      </div>
+      <div class="popup" id="popup">
+        <img
+          src="Modal-Assect/hand-drawn-green-check-mark-white-background_648871-6013.avif"
+          alt="Tick"
+          class="popup-img-01"
+        />
+        <h2>Thank U!</h2>
+        <p>Ur Purcheasse has been Submitted</p>
+        <img
+          src="Modal-Assect/525928028c88f02fb50261dd70ceb749-happy-emoticon-emoji.webp"
+          alt=""
+        />
+        <button type="button" onclick="closePopup()">Ok</button>
+      </div>
+    </div>
     <script src="Modal-Assect/Modal.js"></script>
   </body>
 </html>
