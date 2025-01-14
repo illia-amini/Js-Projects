@@ -14,6 +14,36 @@
   </style>
   <body>
     <noscript>Turn on ur JS</noscript>
-    <script></script>
+    <input type="text" id="num1" />
+    <br />
+    <input type="text" id="num2" />
+    <br />
+    <button onclick="calc()">Calculate</button>
+    <div id="result"></div>
+    <script>
+      function calc() {
+        var num1 = parseInt(document.getElementById("num1").value); //.value is an attribute of the input element,we should use it to get the value of the input element.
+        var num2 = parseInt(document.getElementById("num2").value);
+        //var result = `${num1} + ${num2} = ${num1 + num2}`;//
+        // alert(result); // we use alert to display the result in the alert box.
+        document.getElementById("result").innerHTML = `${num1} + ${num2}=${
+          num1 + num2
+        }`;
+        document.getElementById(
+          "result"
+        ).innerHTML += `<br>${num1} - ${num2} = ${num1 - num2}`;
+        document.getElementById(
+          "result"
+        ).innerHTML += `<br>${num1} * ${num2} = ${num1 * num2}`; //we use document.getElementById to get the element by id.and +=, means to save the previous result and add the new result to it.and print them all
+        document.getElementById(
+          "result"
+        ).innerHTML += `<br>${num1} / ${num2} = ${
+          Math.round((num1 / num2) * 100) / 100 //we use math.round to round the result to 2 decimal places.
+        }`;
+        document.getElementById(
+          "result"
+        ).innerHTML += `<br>${num1} ** ${num2} = ${num1 ** num2}`; //we use inner html to display the result in the div element.
+      }
+    </script>
   </body>
 </html>
