@@ -761,6 +761,19 @@ function fac(number){
 }
 consloe.log(result)
 
+.We have two type of function in js;
+1-Decleration Function;
+As far as we definead function in js is caleed declartion function
+ex;
+function calcArea(width,height){
+     return width * height;
+}
+2-Expression Function;
+here we put the func into a varaible;
+ex;
+let calcArea=function(width,height){
+     return width * height
+}
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
