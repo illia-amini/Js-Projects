@@ -813,6 +813,20 @@ ex;
      console.log(num1+num2)
 })(15,12)//returns 27
 
+5-Arrow Function;
+in this case u should know expression function first, what arrow function does it just make the written function
+becomes so much shorter and shorter; 
+ex;
+.before arrow;
+hello = function() {
+  return "Hello World!";
+}
+.after arrow;
+hello = () => {
+  return "Hello World!";
+}
+.arrow with one statement (RETURN);
+hello = () => "Hello World!";
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
