@@ -826,7 +826,12 @@ hello = () => {
   return "Hello World!";
 }
 .arrow with one statement (RETURN);
-hello = () => "Hello World!";
+1-hello = () => "Hello World!";
+let hello = "";
+      hello = (val) => "Hello " + val;
+      document.getElementById("demo").innerHTML = hello("World");
+      
+2-hello = (val) => "Hello " + val;
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
