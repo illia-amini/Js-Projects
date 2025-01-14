@@ -1009,3 +1009,9 @@ to other datattype ever,howerver, in dynamic you can do this
 
 .object;{}
 .array;[]
+
+
+
+
+BY UUSIN COMMAND+SHIFT+F FIND UR TODO PROJECTS.
+BUT FIRST MAKE ACOMMENT BY NAME OF TO DO IN UR SCRIPT SECTION
