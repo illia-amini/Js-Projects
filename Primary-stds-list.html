@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    table,
+    td,
+    th {
+      border: 1px solid black;
+      border-collapse: collapse; /* collapse=border will not be separated and connect to eachother */
+      padding: 10px;
+    }
+    table {
+      width: 100%;
+    }
+  </style>
+  <body>
+    <input type="text" id="stdName" /><button onclick="addToArray">ADD</button>
+    <table id="stds">
+      <tr>
+        <th>Number</th>
+        <th>Name</th>
+      </tr>
+    </table>
+    <script>
+      var std = ["Ali", "Ahmed", "alex", "Nasir", "Kamran"];
+      function $fillTable() {
+        let stdsTable = document.getElementById("stds");
+        stdsTable.innerHTML = `     <tr>
+        <th>id</th>
+        <th>name</th>
+        </tr>`;
+        for (let i = 0; i < std.length; i++) {
+          stdsTable.innerHTML += `<tr><td>${i}</td><td>${std[i]}</td></tr>`;
+        }
+      }
+      $fillTable();
+      function addToArray() {
+        let stdName = document.getElementById("stdName").value;
+        std.push(stdName);
+        $fillTable();
+      }
+    </script>
+  </body>
+</html>
