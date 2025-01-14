@@ -768,12 +768,18 @@ ex;
 function calcArea(width,height){
      return width * height;
 }
-2-Expression Function;
+let result1=calcArea(12,10);
+console.log(result)
+
+2-Expression Function; in js called anynmouse function(function without name)
 here we put the func into a varaible;
 ex;
 let calcArea=function(width,height){
      return width * height
 }
+let result1=calcArea(12,10);
+console.log(result)
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
