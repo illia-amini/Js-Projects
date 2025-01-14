@@ -805,6 +805,14 @@ const math={
 console.log(math.factorial(10));
 console.log(math.abs(-10));
 
+4-Self invold Function;
+its a function isolated the function from the others, and apply ones,
+it called itself
+ex;
+(function(num1,num2){
+     console.log(num1+num2)
+})(15,12)//returns 27
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
