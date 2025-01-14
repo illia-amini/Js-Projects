@@ -787,6 +787,24 @@ for ex in lin 20 u can acces to it even by calling in line 1 or perviouses line.
 but,but,Annymmouse func does not support this ability and it obey of
 script attribut.*imp
 
+3-Object Function;
+its normally used in math func;
+ex;
+const math={
+     factorial:function factorial(n){
+          if(n<=1){
+               return 1;
+          }
+          else return n* factorail(n-1);
+     },
+     abs: function abs(n){
+          if (n>=0)return n;
+          else return -1 * n;
+     }
+}
+console.log(math.factorial(10));
+console.log(math.abs(-10));
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
