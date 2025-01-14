@@ -10,10 +10,57 @@
         padding: 0px;
         box-sizing: border-box;
       }
+      .btn {
+        cursor: pointer;
+        padding: 5px;
+        position: relative;
+        top: 5px;
+        left: 5px;
+        background-color: white;
+        transition: 0.5s;
+      }
+      .btn:hover {
+        background-color: black;
+        color: white;
+      }
+      .modal {
+        position: fixed;
+        width: 300px;
+        height: auto;
+        border: 1px solid gray;
+        left: calc(50% - 150px);
+        top: 30%;
+        display: none;
+      }
+      .close {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+      .close:hover {
+        color: red;
+      }
     </style>
   </head>
   <body>
     <noscript>Turn on ur JS</noscript>
-    <script></script>
+    <button class="btn" onclick="Showmodal()">Click on me !</button>
+    <div class="modal">
+      <span class="close" onclick="Hidemodal()">x</span>
+      <p>Press x to close this screen!</p>
+      <br />
+    </div>
+    <script>
+      function Showmodal() {
+        let modal = document.getElementsByClassName("modal")[0]; //Exclude [0], it returns an array.Include [0], u marke whicever of elements u mean,this condition exsist for Getelement by calssname,
+        modal.style.display = "block";
+      }
+      function Hidemodal() {
+        let modal = document.getElementsByClassName("modal")[0];
+        modal.style.display = "none";
+      }
+    </script>
   </body>
 </html>
