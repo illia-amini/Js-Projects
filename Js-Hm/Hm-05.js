@@ -241,11 +241,22 @@ let res18 = str18.toLowerCase();//return hello world!, return the lower case str
 let str19 = "Hello world!";
 let res19 = str19.toUpperCase();//return HELLO WORLD!, return the upper case str.
 //21-trim()*imp
-let str20 = " Hello world! ";
-let res20 = str20.trim();//return Hello world!, return the trimmed str.
+let str20 = "     Hello world!      ";
+let res20 = str20.trim();//Returns a string with removed whitespaces
 //22-valueOf()
 let str21 = "Hello world!";
 let res21 = str21.valueOf();//return the perimitive value of str.
+
+//?? why length =1 ??
+let text0 = prompt("Enter a text");
+let arr = [];
+for (let i = 0; i < text0.length; i++) {
+    console.log(text0[i]);
+const myArray = text0.split(" ", 3);
+arr.push(myArray);
+console.log(arr);
+}
+
 
 //5-Array-Func
 
