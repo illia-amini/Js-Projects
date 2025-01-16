@@ -168,8 +168,18 @@ let n = num.toExponential();//return 5.56789e+0, return exponential number.in() 
 let num1 = 5.56789;
 let n1 = num.toFixed();//return 6, return fixed number.in() u can add a num to round hom many number u want to round in decimal part.
 //7-toString();
+let num2 = 15;
+let text = num2.toString(); //return 15 as a str
+console.log(typeof text);
+//8-toPrecision()
+let num3 = 5.56789;
+let n3 = num.toPrecision();//return the lenght of number,in () u can mark ho many numberz u want.
+//9-valueOf()
+let num4 = 15;
+let n4 = num.valueOf();//return the  perimitive value of number.
 
 //4-Str-Func
+
 //5-Array-Func
 
 //4-Read-all-func-e
