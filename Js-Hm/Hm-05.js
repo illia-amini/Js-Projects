@@ -11,15 +11,29 @@
 */
 
 //1-Dynamic-list-s
+/*** Uncompleted  Yet ***/
 //1-Daynamic-list-e
 
 //2-Crud-s
+/*** Uncompleted  Yet ***/
 //2-Crud-e
 
 //3-5-func-ex-s
+//1-Decloration-func
+//2-Experssion-func
+//3-Object-func
+//4-Self-invoking-func
+//5-Arrow-func
+
 //3-5-func-ex-e
 
 //4-Read-all-func-s
+//1-Math-Func
+//2-Date-Func
+//3-Num-Func
+//4-Str-Func
+//5-Array-Func
+
 //4-Read-all-func-e
 
 //Written-by-illia.amini
