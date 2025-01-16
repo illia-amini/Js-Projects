@@ -153,6 +153,22 @@ console.log(date.toLocaleTimeString());//return time in local string format.
 console.log(date.toLocaleString());//return date and time in local string format.
 
 //3-Num-Func
+//1-parseInt()*imp
+console.log(parseInt("5"));//return 5, return int number.
+//2-parseFloat()*imp
+console.log(parseFloat("5.5"));//return 5.5, return float number.
+//3-isNaN()*imp
+console.log(isNaN("5"));//return false, return boolean.to check is number or not.
+//4-isFinite()*imp
+console.log(isFinite(5));//return true, return boolean.to check is finite or not.
+//5-toExponential()
+let num = 5.56789;
+let n = num.toExponential();//return 5.56789e+0, return exponential number.in() u can add a number to show how many number u want to show.
+//6-toFixed()
+let num1 = 5.56789;
+let n1 = num.toFixed();//return 6, return fixed number.in() u can add a num to round hom many number u want to round in decimal part.
+//7-toString();
+
 //4-Str-Func
 //5-Array-Func
 
