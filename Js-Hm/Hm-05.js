@@ -81,6 +81,36 @@ console.log(Math.cbrt(8));//return 2, return cubic root of number.
 console.log(Math.hypot(3,4));//return 5, return hypotenuse of right triangle.
 
 //2-Date-Func
+//1-Date()
+let date=new Date();
+console.log(date);//return current date and time.
+//2-getFullYear()
+//let date=new Date(); every time we need to declare date.
+console.log(date.getFullYear());//return current year.
+//3-getMonth()
+//let date=new Date(); every time we need to declare date.
+console.log(date.getMonth());//return current month.
+//4-getDate()
+//let date=new Date(); every time we need to declare date.
+console.log(date.getDate());//return current date.
+//5-getDay()
+//let date=new Date(); every time we need to declare date.
+console.log(date.getDay());//return current day.
+//6-getHours()
+//let date=new Date(); every time we need to declare date.
+console.log(date.getHours());//return current hours.
+//7-getMinutes()
+//let date=new Date(); every time we need to declare date.
+console.log(date.getMinutes());//return current minutes.
+//8-getSeconds()
+//let date=new Date(); every time we need to declare date.
+console.log(date.getSeconds());//return current seconds.
+//9-getMilliseconds()
+//let date=new Date(); every time we need to declare date.
+console.log(date.getMilliseconds());//return current milliseconds.
+//10-toDateString()
+//let date=new Date(); every time we need to declare date.
+console.log(date.toDateString());//return date in string format.
 //3-Num-Func
 //4-Str-Func
 //5-Array-Func
