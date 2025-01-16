@@ -836,6 +836,28 @@ let hello = "";
 3-  let myFunction = (a, b) => {
         return a + b;
       }
+
+.Var & let & const:
+
+
+.Array function;
+
+1- filter():
+to filter the info from an arry we use this func;
+better to use Annymmouse Func here.
+ex;
+         let ages = [12, 13, 24, 50];
+      let result = ages.filter(function (item) {
+        return item >= 18 && item <= 30;
+      });
+      console.log(result); //wiil return 24  as array
+
+.Try & Catch:
+in the case of we face a bug from server or user 
+in our code. to ake the situation that the rest of the code will work,
+we need to apply this,otherwise,the rest code will not work and we face bug in our whole codes,
+
+.Throw;
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
