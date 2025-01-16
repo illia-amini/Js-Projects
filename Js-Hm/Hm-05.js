@@ -10,5 +10,17 @@
 .4-Read all func in Array,Obj,Math,Str,Num,Date.(required)  
 */
 
+//1-Dynamic-list-s
+//1-Daynamic-list-e
+
+//2-Crud-s
+//2-Crud-e
+
+//3-5-func-ex-s
+//3-5-func-ex-e
+
+//4-Read-all-func-s
+//4-Read-all-func-e
+
 //Written-by-illia.amini
 //Mind-of-king-,-Heart-of-warrior   
