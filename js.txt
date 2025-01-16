@@ -832,6 +832,10 @@ let hello = "";
       document.getElementById("demo").innerHTML = hello("World");
       
 2-hello = (val) => "Hello " + val;
+
+3-  let myFunction = (a, b) => {
+        return a + b;
+      }
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
