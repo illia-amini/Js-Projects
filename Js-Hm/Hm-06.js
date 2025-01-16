@@ -4,6 +4,7 @@
 //camelCase-written;
 
 /*
+.1-Setter & getter.(optional)
 */
 
 //Written-by-illia.amini

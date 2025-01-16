@@ -858,6 +858,8 @@ in our code. to ake the situation that the rest of the code will work,
 we need to apply this,otherwise,the rest code will not work and we face bug in our whole codes,
 
 .Throw;
+
+.Query selectore
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************

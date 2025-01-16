@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    .btn-container {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    button {
+      padding: 10px 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+  </style>
+  <body>
+    <div class="btn-container">
+      <button onclick="clickHndler()">Click me!</button>
+      <button onclick="cancelEvent()">Cancel</button>
+    </div>
+  </body>
+</html>

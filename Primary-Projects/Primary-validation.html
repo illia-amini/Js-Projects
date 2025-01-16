@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      button {
+        margin-top: 20px;
+      }
+      #msg {
+        color: red;
+        font-size: 10px;
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="val" placeholder="Enter a number:" />
+    <p id="msg">dadadad</p>
+    <button onclick="validation()">Click here!</button>
+    <script>
+      function validation() {
+        let val = document.getElementById("val").value;
+        let msg = document.getElementById("msg");
+        if (val == " " || val <= 0 || val > 20) {
+          msg.innerHtml = "invalid syntax";
+        } else {
+          msg.innerHTML = "valid syntax";
+        }
+      }
+    </script>
+  </body>
+</html>
