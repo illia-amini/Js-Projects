@@ -151,6 +151,7 @@ console.log(date.toLocaleTimeString());//return time in local string format.
 //21-toLocaleString()
 //let date=new Date(); every time we need to declare date.
 console.log(date.toLocaleString());//return date and time in local string format.
+
 //3-Num-Func
 //4-Str-Func
 //5-Array-Func
