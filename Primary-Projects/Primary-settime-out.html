@@ -28,8 +28,26 @@
   </style>
   <body>
     <div class="btn-container">
-      <button onclick="clickHndler()">Click me!</button>
+      <button onclick="clickHandler()">Click me!</button>
       <button onclick="cancelEvent()">Cancel</button>
     </div>
+    <script>
+      let timeOutId = null;
+      function clickHandler() {
+        if (timeOutId == null) {
+          timeOutId = setTimeout(function () {
+            alert("hi");
+            timeOutId = null;
+          }, 2000);
+        }
+        console.log(timeOutId);
+      }
+      function cancelEvent() {
+        if (timeOutId != null) {
+          clearTimeout(timeOutId);
+          timeOutId = null;
+        }
+      }
+    </script>
   </body>
 </html>

@@ -5,5 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Counter</h1>
+    <div id="demo">0</div>
+    <button onclick="up()">UP</button>
+    <button onclick="down()">DOWN</button>
+    <button onclick="stop()">STOP</button>
+    <script>
+      function updateCountDisplay() {
+        document.getElementById("demo").innerHTML = countNumber;
+      }
+      let IntervalId = null;
+      let countNumber = 0;
+      function up() {}
+    </script>
+  </body>
 </html>
