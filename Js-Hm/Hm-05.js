@@ -179,6 +179,73 @@ let num4 = 15;
 let n4 = num.valueOf();//return the  perimitive value of number.
 
 //4-Str-Func
+//1-charAt()*imp
+let str = "Hello world!";
+let res = str.charAt(0);//return H, return the char at the index.
+//2-charCodeAt()
+let str1 = "Hello world!";
+let res1 = str1.charCodeAt(0);//return 72, return the ascii value of char at the index.
+//3-concat()*imp
+let str2 = "Hello ";
+let str3 = "world!";
+let res2 = str2.concat(str3);//return Hello world!, return the concatination of two str.
+//4-endsWith()*imp
+let str4 = "Hello world!";
+let res3 = str4.endsWith("!");//return true, return boolean.
+//5-fromCharCode()
+let res4 = String.fromCharCode(72);//return H, return the char of ascii value.
+//6-includes()*imp
+let str5 = "Hello world!";
+let res5 = str5.includes("world");//return true, return boolean.
+//7-indexOf()*imp
+let str6 = "Hello world!";
+let res6 = str6.indexOf("world");//return 6, return the index of the char.
+//8-lastIndexOf()*imp
+let str7 = "Hello world!";
+let res7 = str7.lastIndexOf("world");//return 6, return the last index of the char.
+//9-length()*imp
+let str8 = "Hello world!";
+let res8 = str8.length;//return 12, return the length of the str.
+//10-match()*imp
+let str9 = "Hello world!";
+let res9 = str9.match("world");//return world, return the matched str.
+//11-repeat()*imp
+let str10 = "Hello world!";
+let res10 = str10.repeat(2);//return Hello world!Hello world!, return the repeated str.
+//12-replace()*imp 
+let str11 = "Hello world!";
+let res11 = str11.replace("world", "earth");//return Hello earth!, return the replaced str.
+//13-search()*imp
+let str12 = "Hello world!";
+let res12 = str12.search("world");//return 6, return the index of the char.
+//14-slice()*imp
+let str13 = "Hello world!";
+let res13 = str13.slice(0, 5);//return 0 to 5 index value',hELLO
+console.log(res13);
+//15-split()*imp
+let str14 = "Hello world!";
+let res14 = str14.split(" ");//return Hello,world!, return the splited str.
+//16-startsWith()*imp
+let str15 = "Hello world!";
+let res15 = str15.startsWith("Hello");//return true, return boolean.
+//17-substr()*imp
+let str16 = "Hello world!";
+let res16 = str16.substr(6, 5);//return world, return the sub str.
+//18-substring()*imp
+let str17 = "Hello world!";
+let res17 = str17.substring(6, 11);//return world, return the sub str.
+//19-toLowerCase()*imp
+let str18 = "Hello world!";
+let res18 = str18.toLowerCase();//return hello world!, return the lower case str.
+//20-toUpperCase()*imp
+let str19 = "Hello world!";
+let res19 = str19.toUpperCase();//return HELLO WORLD!, return the upper case str.
+//21-trim()*imp
+let str20 = " Hello world! ";
+let res20 = str20.trim();//return Hello world!, return the trimmed str.
+//22-valueOf()
+let str21 = "Hello world!";
+let res21 = str21.valueOf();//return the perimitive value of str.
 
 //5-Array-Func
 
