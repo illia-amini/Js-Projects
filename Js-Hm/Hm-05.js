@@ -111,6 +111,46 @@ console.log(date.getMilliseconds());//return current milliseconds.
 //10-toDateString()
 //let date=new Date(); every time we need to declare date.
 console.log(date.toDateString());//return date in string format.
+//11-toTimeString()
+//let date=new Date(); every time we need to declare date.
+console.log(date.toTimeString());//return time in string format.
+//12-setDate()
+//let date=new Date(); every time we need to declare date.
+date.setDate(5);//set date to 5.
+console.log(date);//return date with 5.
+//13-setFullYear()
+//let date=new Date(); every time we need to declare date.
+date.setFullYear(2020);//set year to 2020.
+console.log(date);//return date with 2020.
+//14-setMonth()
+//let date=new Date(); every time we need to declare date.
+date.setMonth(5);//set month to 5.
+console.log(date);//return date with 5.
+//15-setHours()
+//let date=new Date(); every time we need to declare date.
+date.setHours(5);//set hours to 5.
+console.log(date);//return date with 5.
+//16-setMinutes()
+//let date=new Date(); every time we need to declare date.
+date.setMinutes(5);//set minutes to 5.
+console.log(date);//return date with 5.
+//17-setSeconds()
+//let date=new Date(); every time we need to declare date.
+date.setSeconds(5);//set seconds to 5.
+console.log(date);//return date with 5.
+//18-setMilliseconds()
+//let date=new Date(); every time we need to declare date.
+date.setMilliseconds(5);//set milliseconds to 5.
+console.log(date);//return date with 5.
+//19-toLocaleDateString()
+//let date=new Date(); every time we need to declare date.
+console.log(date.toLocaleDateString());//return date in local string format.
+//20-toLocaleTimeString()
+//let date=new Date(); every time we need to declare date.
+console.log(date.toLocaleTimeString());//return time in local string format.
+//21-toLocaleString()
+//let date=new Date(); every time we need to declare date.
+console.log(date.toLocaleString());//return date and time in local string format.
 //3-Num-Func
 //4-Str-Func
 //5-Array-Func
