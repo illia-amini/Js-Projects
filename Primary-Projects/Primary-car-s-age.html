@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Car {
+        constructor(Name, Age) {
+          this.Name = Name;
+          this.Age = Age;
+        }
+        age() {
+          const date = new Date();
+          return date.getFullYear() - this.Age;
+        }
+        info() {
+          console.log(
+            `ur car model is ${
+              this.Name
+            }\nand the age of ur car is ${myCar.age()} years.`
+          );
+        }
+      }
+      let myCar = new Car("Ford", 2014);
+      console.log(myCar.info());
+    </script>
+  </body>
+</html>
