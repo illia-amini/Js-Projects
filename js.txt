@@ -858,7 +858,9 @@ ex;
 const greet = (name) => "Hello, " + name + "!";
 
 console.log(greet("John")); // Output: "Hello, John!"
-
+ex; 
+const sum =(a,b,c) => a+b+c;
+alert(sum(1,2,3));
 7-Object Function;
 its normally used in math func;
 ex;

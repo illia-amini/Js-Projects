@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*
+        it will written,
+        as two type of func.
+        1-Dec func
+        2-Arrow func.
+        */
+      //1-Dec func;
+      function ask(question, yes, no) {
+        if (confirm(question)) yes();
+        else no();
+      }
+      ask(
+        "Do U Accept to pay this bill?",
+        function () {
+          alert("U Agreed to pay!");
+        },
+        function () {
+          alert("U Canceled to pay!");
+        }
+      );
+      //2-Arrow func;
+    </script>
+  </body>
+</html>
