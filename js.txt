@@ -981,6 +981,24 @@ ex, Math.pow() is a static methode.
       console.log(urCar.info()); //we order,that this object apply sm.
       console.log(urCar.goleft()); //we order to see info of object.
       Car.version();//methode static
+      
+***tip***
+     const obj = {
+        i: 10,
+        b: () => console.log(this.i, this),
+        c: function () {
+          console.log(this.i, this);
+        },
+      };
+      console.log(i); //print 10
+      console.log(b()); //b(),bescuse b is func.print window
+      console.log(c()); //c(),bescuse b is func.print object
+
+      here  for b we define an arrow func and used this,
+      this.i,this  in b means: this in arrow func lead u to window of browser,
+      this.i,this  in c means: print 10 (this.i) and this in anymouse func or dec func means object.
+      therefor,if u want to acess to any object from this do not use arrow func,instead use dec or anymouse func.
+***tip***
 
 ***********+++++++++***************
 ***********+++++++++***************
