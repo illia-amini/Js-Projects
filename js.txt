@@ -946,6 +946,42 @@ static version (){
      console.log('version:1.0.0')
 }
 Car.version();
+ex, Math.pow() is a static methode.
+
+.An ex include  whole class methode;
+//defien a class
+      class Car {
+        //define primary propriteis or first time,as constructor
+        constructor(m, c, w) {
+          //this. meaning is this model this color to connecet propriteis of object to class(required always)
+          this.model = m;
+          this.color = c;
+          this.weight = w;
+        }
+
+        info() {
+          console.log(
+            `ur car\nmodel is ${this.model}\ncolor is ${this.color}\nweight is ${this.weight}` //define a methode to see info of object
+          );
+        }
+        goright() {
+          console.log(`${this.model} go right`); //define methode 4ex.
+        }
+        goleft() {
+          console.log(`${this.model} go left`); //define methode 4ex.
+        }
+        static version() {//define static methode
+          console.log("version 1.0.0");
+        }
+      }
+      let myCar = new Car("Benz", "Blue", "200");
+      console.log(myCar.info()); //we order to see info of object.
+      console.log(myCar.goright()); //we order,that this object apply sm.
+      let urCar = new Car("Bmw", "Red", "500");
+      console.log(urCar.info()); //we order,that this object apply sm.
+      console.log(urCar.goleft()); //we order to see info of object.
+      Car.version();//methode static
+      
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
