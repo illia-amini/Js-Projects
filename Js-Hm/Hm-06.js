@@ -4,7 +4,8 @@
 //camelCase-written;
 
 /*
-.1-Setter & getter.(optional)
+.1-10 ex of class in js methode & proprities (required)
+.2-Setter & getter.(optional)
 */
 
 //Written-by-illia.amini
