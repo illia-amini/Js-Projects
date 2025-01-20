@@ -981,7 +981,7 @@ ex, Math.pow() is a static methode.
       console.log(urCar.info()); //we order,that this object apply sm.
       console.log(urCar.goleft()); //we order to see info of object.
       Car.version();//methode static
-      
+
 ***tip***
      const obj = {
         i: 10,
@@ -999,6 +999,10 @@ ex, Math.pow() is a static methode.
       this.i,this  in c means: print 10 (this.i) and this in anymouse func or dec func means object.
       therefor,if u want to acess to any object from this do not use arrow func,instead use dec or anymouse func.
 ***tip***
+
+.Dom-querySelector('');
+usage;
+to get acess to element by queryselector,
 
 ***********+++++++++***************
 ***********+++++++++***************
