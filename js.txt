@@ -764,7 +764,8 @@ consloe.log(result)
 .We have two type of function in js;
 
 1-Decleration Function;
-As far as we definead function in js is caleed declartion function
+As far as we definead function in js is caleed declartion function,
+declartion funcs are hoisted, meaning they can be called before they are defined in the code.
 ex;
 function calcArea(width,height){
      return width * height;
@@ -772,22 +773,93 @@ function calcArea(width,height){
 let result1=calcArea(12,10);
 console.log(result)
 
-2-Expression Function; in js called anynmouse function(function without name)
+2-Expression Function;
 here we put the func into a varaible;
+exprsion func are not hoisted,meaning they must be defined before they can be called.
 ex;
 let calcArea=function(width,height){
      return width * height
 }
+ex;
 let result1=calcArea(12,10);
 console.log(result)
-
+ex;
+const greet = function (name) {
+  console.log("Hello, " + name + "!");
+};
+greet("John"); // Output: "Hello, John!"
 ***The Diffrences between these function***
 Decolration func has hoisting attribute which means if u define this func
 for ex in lin 20 u can acces to it even by calling in line 1 or perviouses line.
 but,but,Annymmouse func does not support this ability and it obey of
 script attribut.*imp
 
-3-Object Function;
+3-Anonyumouse func;
+the func without the name.they used in expression func.and as argument in other func.
+and they typicaaly ised in event handlers.
+ex;
+function(parameters) {
+// function body
+}
+ex;
+ <button id="myButton">click me!</button>
+ *in script sec;*
+     document.getElementById("myButton").onclick = function () {
+     alert("Button clicked!");
+};
+
+4-Named Exp func;
+named expreesion func are simillar to exp func.but they include a nem after function.
+and they are useful to debug,as the func name will appear in call stack.
+ex;
+const functionName = function namedFunction(parameters) {
+  // function body
+};
+ex;
+const greet = function greetWithName(name) {
+  console.log("Hello, " + name + "!");
+};
+ex;
+const greet = function greetWithName(name) {
+  console.log("Hello, " + name + "!");
+};
+
+greet("John"); // Output: "Hello, John!"
+
+5-immediately invoked func expreesion(IIFEs);
+is defiened and executed immedaitly affter its certion.it is wrapped in parentheses
+to make it an expression and followed by an additional set of paranthess to invoke it.
+ex;
+(function (parameters) {
+  // function body
+})(arguments);
+ex;
+(function () {
+  const message = "Hello, world!";
+  console.log(message);
+})(); // Output: "Hello, world!"
+ex;
+      (function () {
+        let uName = prompt("enter ur name");
+        alert(`Hello,${uName}`);
+      })();
+
+6-Arrow Func;
+Arrow functions are a concise(summerize) way of writing function expressions.
+They use the => syntax and have a shorter syntax than regular function expressions:
+Arrow functions are particularly useful for short, one-line functions and have an implicit 
+return when the curly braces are omitted:
+
+ex;
+const functionName = (parameters) => {
+  // function body
+};
+ex;
+const greet = (name) => "Hello, " + name + "!";
+
+console.log(greet("John")); // Output: "Hello, John!"
+
+7-Object Function;
 its normally used in math func;
 ex;
 const math={
@@ -804,38 +876,6 @@ const math={
 }
 console.log(math.factorial(10));
 console.log(math.abs(-10));
-
-4-Self invold Function;
-its a function isolated the function from the others, and apply ones,
-it called itself
-ex;
-(function(num1,num2){
-     console.log(num1+num2)
-})(15,12)//returns 27
-
-5-Arrow Function;
-in this case u should know expression function first, what arrow function does it just make the written function
-becomes so much shorter and shorter; 
-ex;
-.before arrow;
-hello = function() {
-  return "Hello World!";
-}
-.after arrow;
-hello = () => {
-  return "Hello World!";
-}
-.arrow with one statement (RETURN);
-1-hello = () => "Hello World!";
-let hello = "";
-      hello = (val) => "Hello " + val;
-      document.getElementById("demo").innerHTML = hello("World");
-      
-2-hello = (val) => "Hello " + val;
-
-3-  let myFunction = (a, b) => {
-        return a + b;
-      }
 
 .Var & let & const:
 
