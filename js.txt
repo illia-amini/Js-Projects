@@ -901,7 +901,10 @@ we need to apply this,otherwise,the rest code will not work and we face bug in o
 
 .Throw;
 
-.Query selectore
+.js is functional languge,
+.react.js is object oareinted languge.
+
+.Class in js;
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
