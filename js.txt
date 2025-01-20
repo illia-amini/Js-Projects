@@ -909,26 +909,27 @@ we define a class and constructor to create objects from inside of the class, cl
 for all objects however u can customize for each user
 the usage in game and website product list and ...
 also necessery to use this. to connect prperyty to class proprety
+to use methode in class, u must define an object.
 ex;
 //defien a class
       class Car {
         //define primary propriteis or first time,as constructor
         constructor(m, c, w) {
           //this. meaning is this model this color to connecet propriteis of object to class(required always)
-          this.model = m;
-          this.color = c;
-          this.weight = w;
+          this.model = m;//proprety
+          this.color = c;//proprety
+          this.weight = w;//proprety
         }
 
-        info() {
+        info() {//a methode defined
           console.log(
             `ur car\nmodel is ${this.model}\ncolor is ${this.color}\nweight is ${this.weight}` //define a methode to see info of object
           );
         }
-        goright() {
+        goright() {//methode
           console.log(`${this.model} go right`); //define methode 4ex.
         }
-        goleft() {
+        goleft() {//methodes
           console.log(`${this.model} go left`); //define methode 4ex.
         }
       }
@@ -938,6 +939,13 @@ ex;
       let urCar = new Car("Bmw", "Red", "500");
       console.log(urCar.info()); //we order,that this object apply sm.
       console.log(urCar.goleft()); //we order to see info of object.
+
+Also u can define a methode without a object,(static);
+ex;
+static version (){
+     console.log('version:1.0.0')
+}
+Car.version();
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
