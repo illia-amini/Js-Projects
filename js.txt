@@ -1002,8 +1002,29 @@ ex, Math.pow() is a static methode.
 
 .Dom-querySelector('');
 usage;
-to get acess to element by queryselector,
-
+to get acess to element by queryselector,and querySelectoraLL('')
+in ('') u can write elements .classname or just .calssname if u write queryselectorAll('')
+u can mention ex;[0] whicever element u mean.
+if u write queryselectorelemnent u cant use [] beacuse its single and u shouuld use ('tag.class')
+ex;
+    <p>Lorem ipsum dolor sit.</p>
+    <p class="test">Lorem ipsum dolor sit.</p>
+    <p class="test">Lorem ipsum dolor sit.</p>
+    <div class="test">Lorem ipsum dolor sit.</div>
+    <script>
+      let elements = document.querySelector(".test");
+      console.log(elements);
+      elements.innerHTML = "Hi";
+ex;
+     <p>Lorem ipsum dolor sit.</p>
+    <p class="test">Lorem ipsum dolor sit.</p>
+    <p class="test">Lorem ipsum dolor sit.</p>
+    <div class="test">Lorem ipsum dolor sit.</div>
+    <script>
+      let elements = document.querySelectorAll(".test");
+      console.log(elements);
+      elements[0].innerHTML = "Hi";
+      
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
