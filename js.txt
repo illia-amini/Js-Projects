@@ -971,7 +971,7 @@ ex, Math.pow() is a static methode.
           console.log(`${this.model} go left`); //define methode 4ex.
         }
         static version() {//define static methode
-          console.log("version 1.0.0");
+          console.l  og("version 1.0.0");
         }
       }
       let myCar = new Car("Benz", "Blue", "200");
@@ -981,7 +981,7 @@ ex, Math.pow() is a static methode.
       console.log(urCar.info()); //we order,that this object apply sm.
       console.log(urCar.goleft()); //we order to see info of object.
       Car.version();//methode static
-      
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
