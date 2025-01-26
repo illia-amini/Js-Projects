@@ -18,16 +18,18 @@
     <button onclick="clickHandler2()">Click me 2!</button><br />
     <button onclick="cancelEvent()">Cancel</button>
     <script>
-      let timeOutId = null;
+      let timeOutId = null; //to cancel the events se should first creat a timeoutid
       function clickHandler() {
         //1-Define settime out via anymouse func
         if (timeOutId == null) {
+          //this condition is for the user press the button for several in a row, time but the time out id recuve just a certain number
           timeOutId = setTimeout(function () {
+            //here time out id recive a number
             //there is settime out func,which it delay what u want to show
             alert("hi"); //for st time out func first u should defin an anymouse func,or whatever u wnat to present in delay,
-            timeOutId = null;
+            timeOutId = null; //again we reset the value of time out id to null, in the case of user press the buton for several time the func will work once.and being able to cancel the event witout the bug
           }, 2000); //then a time in ms. here 2s
-          console.log(timeOutId);
+          console.log(timeOutId); //we can see the number of timeout id in console log eachtime
         }
       } //it alert hi in 2s
       //2-Define settime out func via, callback func
@@ -44,8 +46,8 @@
       }
       function cancelEvent() {
         if (timeOutId != null) {
-          clearTimeout(timeOutId);
-          timeOutId = null;
+          clearTimeout(timeOutId); //to cancel the events we should use clear time out id
+          timeOutId = null; //this one give option to user to press to button for several time,beacuse each time cancel event apply it turns time out id to null,and again the order above apply
         }
         if (timeOutId2 != null) {
           clearTimeout(timeOutId2);
