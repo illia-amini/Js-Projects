@@ -29,19 +29,14 @@
       //upper pattern's code
 
       var $java = "javascript";
-
-      var $count = [];
-
+      var $count = '';
       for (let i of $java) {
         $count += i;
         console.log($count);
       }
-
       //lower pattern's code
-
-      // ?? is how to star from end char to first char ?? 
-      for (let i of $java) {
-        $count -= i;
+      for (let i = $java.length-1;i>=0;i--) {
+        $count = $java.slice(0,i);
         console.log($count);
       }
 
