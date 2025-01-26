@@ -1026,6 +1026,11 @@ ex;
       console.log(elements);
       elements[0].innerHTML = "Hi";
       
+.Document.cookie;
+for the website which u alerady logead in and after u while u come back.
+u dont need to log in again automatically u log in, it means cookie.
+
+.
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
