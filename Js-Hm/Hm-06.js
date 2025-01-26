@@ -15,4 +15,4 @@
 
 //5 & 6 examples  are in written in thier own files.
 //Written-by-illia.amini
-//Mind-of-king-,-Heart-of-warrior
+//Mind-of-king-,-Heart-of-warrior 
