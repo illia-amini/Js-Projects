@@ -25,13 +25,10 @@
       align-items: center;
       justify-content: center;
     }
-    #demo span {
-      padding: 5px 5px;
-    }
   </style>
   <body>
     <h1>Counter</h1>
-    <div id="demo"><span>0</span></div>
+    <div id="demo"></div>
     <div class="btn-container">
       <button onclick="countUp()">UP</button>
       <button onclick="countDown()">DOWN</button>
@@ -39,12 +36,16 @@
     </div>
     <script>
       let countNumber = 0;
+      updateCountDisplay(); //using caalback func,
       function countUp() {
         countNumber += 1;
-        document.getElementById("demo").innerHTML = countNumber;
+        updateCountDisplay();
       }
       function countDown() {
         countNumber -= 1;
+        updateCountDisplay();
+      }
+      function updateCountDisplay() {
         document.getElementById("demo").innerHTML = countNumber;
       }
     </script>
