@@ -9,9 +9,19 @@
     * {
       margin: 0px;
       padding: 0px;
+      box-sizing: border-box;
     }
   </style>
   <body>
-    <script></script>
+    <div id="demo"></div>
+    <button onclick="clickHandler()">Click me!</button>
+    <script>
+      function clickHandler() {
+        setTimeout(function () {
+          //there is settime out func,which it delay what u want to show
+          alert("hi"); //for st time out func first u should defin an anymouse func,or whatever u wnat to present in delay,
+        }, 2000); //then a time in ms. here 2s
+      } //it alert hi in 2s
+    </script>
   </body>
 </html>
