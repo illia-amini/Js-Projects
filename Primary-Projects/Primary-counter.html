@@ -5,15 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    .btn-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding-top: 50px;
+    }
+    .btn-container button {
+      cursor: pointer;
+    }
+    #demo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #demo span {
+      padding: 5px 5px;
+    }
+  </style>
   <body>
     <h1>Counter</h1>
-    <div id="demo"></div>
-    <button onclick="up()">UP</button>
-    <button onclick="down()">DOWN</button>
-    <button onclick="stop()">STOP</button>
+    <div id="demo"><span>0</span></div>
+    <div class="btn-container">
+      <button onclick="countUp()">UP</button>
+      <button onclick="countDown()">DOWN</button>
+      <button onclick="stop()">STOP</button>
+    </div>
     <script>
       let countNumber = 0;
-      document.getElementById("demo").innerHTML = 0;
+      function countUp() {
+        countNumber += 1;
+        document.getElementById("demo").innerHTML = countNumber;
+      }
+      function countDown() {
+        countNumber -= 1;
+        document.getElementById("demo").innerHTML = countNumber;
+      }
     </script>
   </body>
 </html>
