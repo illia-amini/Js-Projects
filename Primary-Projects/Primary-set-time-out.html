@@ -15,21 +15,42 @@
   <body>
     <div id="demo"></div>
     <button onclick="clickHandler()">Click me!</button><br />
-    <button onclick="clickHandler2()">Click me 2!</button>
+    <button onclick="clickHandler2()">Click me 2!</button><br />
+    <button onclick="cancelEvent()">Cancel</button>
     <script>
+      let timeOutId = null;
       function clickHandler() {
         //1-Define settime out via anymouse func
-        setTimeout(function () {
-          //there is settime out func,which it delay what u want to show
-          alert("hi"); //for st time out func first u should defin an anymouse func,or whatever u wnat to present in delay,
-        }, 2000); //then a time in ms. here 2s
+        if (timeOutId == null) {
+          timeOutId = setTimeout(function () {
+            //there is settime out func,which it delay what u want to show
+            alert("hi"); //for st time out func first u should defin an anymouse func,or whatever u wnat to present in delay,
+            timeOutId = null;
+          }, 2000); //then a time in ms. here 2s
+          console.log(timeOutId);
+        }
       } //it alert hi in 2s
       //2-Define settime out func via, callback func
+      let timeOutId2 = null;
       function clickHandler2() {
-        setTimeout(sayHello, 3000); //call back func methode
+        if (timeOutId2 == null) {
+          timeOutId2 = setTimeout(sayHello, 3000);
+          //call back func methode
+          console.log(timeOutId2);
+        }
       } //*** be careful here!, if u use callback func and put () after func here sayHello set time out will not work,do not put () at all.***
       function sayHello() {
         alert("Hello");
+      }
+      function cancelEvent() {
+        if (timeOutId != null) {
+          clearTimeout(timeOutId);
+          timeOutId = null;
+        }
+        if (timeOutId2 != null) {
+          clearTimeout(timeOutId2);
+          timeOutId2 = null;
+        }
       }
     </script>
   </body>
