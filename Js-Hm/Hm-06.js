@@ -6,6 +6,7 @@
 /*
 .1-10 ex of class in js methode & proprities (required)
 .2-Setter & getter.(optional)
+.3-Create 3 buttons,with dynamic pic.(required)
 */
 
 //Written-by-illia.amini
