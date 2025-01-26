@@ -11,28 +11,45 @@
         box-sizing: border-box;
       }
       button {
-        margin-top: 20px;
+        margin-top: 10px;
+        padding: 10px;
+      }
+      input {
+        margin-top: 10px;
+        padding: 5px 5px;
       }
       #msg {
-        color: red;
-        font-size: 10px;
+        font-size: 20px;
         padding-top: 10px;
       }
     </style>
   </head>
   <body>
-    <input type="text" id="val" placeholder="Enter a number:" />
-    <p id="msg">dadadad</p>
+    <input type="text" id="numb" placeholder="Enter a number:" /><br />
     <button onclick="validation()">Click here!</button>
+    <p id="msg"></p>
     <script>
       function validation() {
-        let val = document.getElementById("val").value;
-        let msg = document.getElementById("msg");
-        if (val == " " || val <= 0 || val > 20) {
-          msg.innerHtml = "invalid syntax";
+        let x = document.getElementById("numb").value;
+        let text = null;
+        let color = null;
+        if (isNaN(x) || x == "") {
+          text = "Enter ur grade plz!";
+          color = "black";
+        } else if (x < 10) {
+          text = "U failed :(";
+          color = "red";
+        } else if (x <= 20) {
+          text = "U passed :)";
+          color = "green";
         } else {
-          msg.innerHTML = "valid syntax";
+          text = "Invalid Grade!";
+          color = "black";
         }
+        let msgElement = document.getElementById("msg");
+        msgElement.innerHTML = text;
+        msgElement.style.color = color;
+        //define these order isnside of the function
       }
     </script>
   </body>
