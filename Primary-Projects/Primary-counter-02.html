@@ -4,6 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      #demo {
+        margin-left: 50%;
+      }
+      .btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div id="demo"></div>
+    <div class="btn-container">
+      <button onclick="countUp()">UP</button><br /><br />
+      <button onclick="countDown()">DOWN</button><br /><br />
+      <button onclick="stop()">Stop</button><br /><br />
+      <button onclick="reset()">Reset</button>
+    </div>
+    <script>
+      let countNumber = 0;
+      let intervalId = null;
+      updateCountDisplay();
+      function countUp() {
+        if (intervalId != null) {
+          clearInterval(intervalId);
+        }
+        intervalId = setInterval(function () {
+          countNumber++;
+          updateCountDisplay();
+        }, 1000);
+      }
+      function countDown() {
+        if (intervalId != null) {
+          clearInterval(intervalId);
+        }
+        intervalId = setInterval(function () {
+          countNumber--;
+          updateCountDisplay();
+        }, 1000);
+      }
+      function stop() {
+        clearInterval(intervalId);
+        intervalId = null;
+      }
+      function reset() {
+        stop();
+        countNumber = 0;
+        updateCountDisplay();
+      }
+      function updateCountDisplay() {
+        document.getElementById("demo").innerHTML = countNumber;
+      }
+    </script>
+  </body>
 </html>
