@@ -12,7 +12,10 @@
 .6-Aos.(Animation on scroll)(required)
 .7-swiffer slider.(required)
 */
-
+//1-Class-ex-s
+//1-Class-ex-e
+//2-Setter & Getter-s
+//2-Setter & Getter-e
 //5 & 6 examples  are in written in thier own files.
 //Written-by-illia.amini
 //Mind-of-king-,-Heart-of-warrior 
