@@ -55,6 +55,7 @@ const person = {
   }
 };
 
+
 // Set an object property using a setter:
 person.lang = "en";
 
