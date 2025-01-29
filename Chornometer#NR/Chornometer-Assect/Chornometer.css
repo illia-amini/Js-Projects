@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{   
+font-family: "Poppins", serif;
+font-weight: 200;
+font-style: normal;
+background-color: #183661;
+}
+.container{
+    width: 40%;
+    min-width: 500px;
+    /* to locate stopwacth in the center*/
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+    background-color: #dd6b4d;
+}
+.time-display{
+    position: relative;
+    width: 92%;
+    background-color: #dae1e7;
+    left: 4%;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    color: #183661;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow:0 0 20px rgba(65, 5, 145, 0.25);
+}
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;/* it wiil apply align items center also,*/
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.buttons button{
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color:#1c4b82 ;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+/*
+why it does not work!!!
+*/
+/* .buttons button :nth-last-child(2){
+    background-color: #e35209;
+}
+.buttons button :nth-last-child(1){
+    background-color: yellow;
+} */
+.buttons button:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    color: #183661;
+}
+.start{
+    background-color:#40A578!important
+}
+.pause{
+    background-color:#FFDA76!important 
+}
+.restart{
+    background-color:#A02334!important
+}
