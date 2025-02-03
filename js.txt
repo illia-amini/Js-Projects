@@ -1041,6 +1041,20 @@ ex;
         //id here is h2, and its changable
       }
     </script>
+
+2-precent two events via two ways;
+ex;
+     <h2>click me</h2>
+     <h3>click me</h3>
+    <script>
+      document.querySelector("h2").onclick = sayHi;//Do NOT PUT () HERE, IF SO, THE FUNCTION WILL WORK BEFORE U CLICK ON IT, BUT VIA THIS METHODE U BORROW THE FUNC TO THE QUERYSELECTOR THEN UD EFINE IT REMEMBER ITS IMP***
+      document.querySelector("h3").onclick = function () {
+        alert("say hi");
+      };
+      function sayHi() {
+        alert("say hi");
+      }
+    </script>
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
