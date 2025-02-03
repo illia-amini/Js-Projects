@@ -1031,7 +1031,16 @@ ex;
 for the website which u alerady logead in and after u while u come back.
 u dont need to log in again automatically u log in, it means cookie.
 
-.
+.Dom events;
+1-(this).to change any text u can use (this) & (id) in the fuctiob defeintion;
+ex;
+<h2 onclick="changeText(this)">Click on this</h2>
+    <script>
+      function changeText(id) {
+        id.innerHTML = "oops";
+        //id here is h2, and its changable
+      }
+    </script>
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
