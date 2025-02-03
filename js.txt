@@ -1059,8 +1059,18 @@ ex;
 3-onload & onunload;to use in load page or excit of any page its used
 4-oninput:to define a fun inside of the inputs
 ex;
+<input type="text" id="fname" oninput="upperCase()" />
+ function upperCase() {
+        const x = document.getElementById("fname");
+        x.value = x.value.toUpperCase();
+      }
 5-onchange;its same with oninput but whenever u click outside it works,
-
+ex;
+<input type="text" id="lname" onchange="upperCase()" />
+   function upperCase() {
+        const y = document.getElementById("lname");
+        y.value = y.value.toUpperCase();
+      }
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
