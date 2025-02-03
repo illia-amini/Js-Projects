@@ -30,6 +30,7 @@
         font-size: 14px;
         font-weight: 900;
         color: darkblue;
+        margin-bottom: 10px;
       }
       .box .add {
         background-color: greenyellow;
@@ -54,9 +55,9 @@
       <div class="box">
         <h2>Product 1:</h2>
         <p class="price">1200$</p>
-        <button class="add">add</button>
+        <button class="add" onclick="add()">add</button>
         <input type="text" readonly />
-        <button class="remove">remove</button>
+        <button class="remove" onclick="remove()">remove</button>
       </div>
       <div class="box">2</div>
       <div class="box">3</div>
@@ -82,6 +83,17 @@
           inventory: 3,
         },
       ];
+      let boxParent = document.querySelector(".container");
+      boxParent.innerHTML = "";
+      for (let i in products) {
+        boxParent.innerHTML += `<div class="box">
+        <h2>${products[i].title} (${products[i].inventory})</h2>
+        <p class="price">${products[i].price} (${products[i].color})</p>
+        <button class="add" onclick="add()">add</button>
+        <input type="text" readonly />
+        <button class="remove" onclick="remove()">remove</button>
+      </div>`;
+      }
     </script>
   </body>
 </html>
