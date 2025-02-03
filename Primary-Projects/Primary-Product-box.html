@@ -4,6 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto; /* to center the box*/
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .box {
+        width: 100%;
+        border: 1px solid lightblue;
+        padding: 5px;
+      }
+      .box h2 {
+        font-size: 18px;
+      }
+      .box .price {
+        font-size: 14px;
+        font-weight: 900;
+        color: darkblue;
+      }
+      .box .add {
+        background-color: greenyellow;
+        cursor: pointer;
+        border: none;
+      }
+      .box .remove {
+        background-color: red;
+        cursor: pointer;
+        border: none;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2>Product 1:</h2>
+        <p class="price">1200$</p>
+        <button class="add">add</button>
+        <input type="text" readonly />
+        <button class="remove">remove</button>
+      </div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+    <script>
+      let products = [
+        {
+          title: "product one",
+          color: "red",
+          price: "1200$",
+          inventory: 21,
+        },
+        {
+          title: "product two",
+          color: "orange",
+          price: "1300$",
+          inventory: 13,
+        },
+        {
+          title: "product three",
+          color: "blue",
+          price: "1500$",
+          inventory: 3,
+        },
+      ];
+    </script>
+  </body>
 </html>
