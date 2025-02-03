@@ -97,19 +97,6 @@
         <button class="remove" onclick="remove(${item.id})">remove</button>
       </div>`;
       }
-      let countNumber = 0;
-      updateCountDisplay();
-      function add() {
-        countNumber = +1;
-        updateCountDisplay();
-      }
-      function remove() {
-        countNumber = -1;
-        updateCountDisplay();
-      }
-      function updateCountDisplay() {
-        document.getElementById("demo").innerHTML = countNumber;
-      }
     </script>
   </body>
 </html>
