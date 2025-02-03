@@ -1056,7 +1056,10 @@ ex;
       }
     </script>
 
-3-onload;
+3-onload & onunload;to use in load page or excit of any page its used
+4-oninput:to define a fun inside of the inputs
+ex;
+5-onchange;its same with oninput but whenever u click outside it works,
 
 ***********+++++++++***************
 ***********+++++++++***************
