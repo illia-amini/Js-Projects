@@ -1042,7 +1042,7 @@ ex;
       }
     </script>
 
-2-precent two events via two ways;
+2-onclick via two ways;
 ex;
      <h2>click me</h2>
      <h3>click me</h3>
@@ -1055,6 +1055,9 @@ ex;
         alert("say hi");
       }
     </script>
+
+3-onload;
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
