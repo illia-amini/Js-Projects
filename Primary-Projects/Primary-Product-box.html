@@ -65,33 +65,36 @@
     <script>
       let products = [
         {
+          id: 21,
           title: "product one",
           color: "red",
           price: "1200$",
           inventory: 21,
         },
         {
+          id: 22,
           title: "product two",
           color: "orange",
           price: "1300$",
           inventory: 13,
         },
         {
+          id: 23,
           title: "product three",
           color: "blue",
           price: "1500$",
           inventory: 3,
         },
       ];
-      let boxParent = document.querySelector(".container");
+      let boxParent = document.querySelector(". container");
       boxParent.innerHTML = "";
-      for (let i in products) {
+      for (let item of products) {
         boxParent.innerHTML += `<div class="box">
-        <h2>${products[i].title} (${products[i].inventory})</h2>
-        <p class="price">${products[i].price} (${products[i].color})</p>
-        <button class="add" onclick="add()">add</button>
+        <h2>${item.title} (${item.inventory})</h2>
+        <p class="price">${item.price} (${item.color})</p>
+        <button class="add" onclick="add(${item.id})">add</button>
         <input type="text" readonly value=0 id='demo' />
-        <button class="remove" onclick="remove()">remove</button>
+        <button class="remove" onclick="remove(${item.id})">remove</button>
       </div>`;
       }
       let countNumber = 0;
