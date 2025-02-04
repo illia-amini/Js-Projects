@@ -1097,6 +1097,10 @@ ex;
     
 .(this) when u used put obj or id in function definition
 
+7-onmousedown & onmouseup:
+first when mouse click on it, its onmousedown and vice versa.
+ex;
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
