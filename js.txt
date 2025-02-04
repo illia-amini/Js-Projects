@@ -1097,10 +1097,60 @@ ex;
     
 .(this) when u used put obj or id in function definition
 
-7-onmousedown & onmouseup:
-first when mouse click on it, its onmousedown and vice versa.
+7-onmousedown & onmouseup & onclick:
+there are some difrencess betwen these elements for ex onclick u must just click on the button not outter of the button.
+on mosedown whenever u precc the button it works so soon and mouseup if u press outter of the btn and leave it on the btn it will works,
 ex;
-
+<body>
+    <noscript>plz,reactive ur web browser javascr</noscript>
+    <button
+      onmousedown="mDown(this)"
+      style="
+        background-color: #d94a38;
+        width: 120px;
+        height: 20px;
+        padding: 40px;
+      "
+    >
+      click me!
+    </button>
+    <button
+      onmouseup="mUp(this)"
+      style="
+        background-color: #d94a38;
+        width: 120px;
+        height: 20px;
+        padding: 40px;
+      "
+    >
+      click me!
+    </button>
+    <button
+      onclick="mClick(this)"
+      style="
+        background-color: #d94a38;
+        width: 120px;
+        height: 20px;
+        padding: 40px;
+      "
+    >
+      click me!
+    </button>
+    <script>
+      function mDown(obj) {
+        obj.innerHTML;
+        alert("hi");
+      }
+      function mUp(obj) {
+        obj.innerHTML;
+        alert("Not Hi");
+      }
+      function mClick(obj) {
+        obj.innerHTML;
+        alert("What1");
+      }
+    </script>
+  </body>
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
