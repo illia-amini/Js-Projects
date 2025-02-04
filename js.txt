@@ -1071,7 +1071,29 @@ ex;
         const y = document.getElementById("lname");
         y.value = y.value.toUpperCase();
       }
-6-on
+6-onmouserover & onmouseout;
+first when mouse over an element seconde when mouse out wiil apply
+ex;
+ <div
+      onmouseover="mOver(this)"
+      onmouseout="mOut(this)"
+      style="
+        background-color: #d94a38;
+        width: 120px;
+        height: 20px;
+        padding: 40px;
+      "
+    >
+      Mouse Over Me!
+    </div>
+    <script>
+      function mOver(obj) {
+        obj.innerHTML = "Thank U!";
+      }
+      function mOut(obj) {
+        obj.innerHTML = "Mouse on me!";
+      }
+    </script>
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
