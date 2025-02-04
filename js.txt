@@ -1154,10 +1154,27 @@ ex;
   </body>
 
 .The rest of the Events;
-1-onKeyDown & onKeyUp;
+1-onKeyDown & onKeyUp & onFocus & OnBlur;
 same with onmouser over & down just it works via keybords;
 ex;
-
+ <input type="text" onkeydown="sayHi(this)" />
+    <input type="text" onkeyup="sayNo(this)" />
+    <input type="text" onfocus="sayFocus(this)" />
+    <input type="text" onblur="sayBlur(this)" />
+    <script>
+      function sayHi(obj) {
+        alert("Hi");//First u enter ur keywords func will aply the ur keyword will print
+      }
+      function sayNo(obj) {
+        alert("No");//First u enter ur keywords, then func will apply
+      }
+      function sayFocus(obj) {
+        console.log("Focus");//Whenever u focus on the element the func will apply
+      }
+      function sayBlur(obj) {
+        console.log("Blur");//Whenever u press the out side function will apply
+      }
+    </script>
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
