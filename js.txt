@@ -1153,7 +1153,11 @@ ex;
     </script>
   </body>
 
-.
+.The rest of the Events;
+1-onKeyDown & onKeyUp;
+same with onmouser over & down just it works via keybords;
+ex;
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
