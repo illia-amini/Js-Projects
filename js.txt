@@ -1095,7 +1095,8 @@ ex;
       }
     </script>
     
-.(this) when u used put obj or id in function definition
+.(this) when u used it means u are borrowing an object to ur func, and in the case of defintion of func 
+u can pick any nmae u wnat, 
 
 7-onmousedown & onmouseup & onclick:
 there are some difrencess betwen these elements for ex onclick u must just click on the button not outter of the button.
@@ -1151,6 +1152,8 @@ ex;
       }
     </script>
   </body>
+
+.
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
