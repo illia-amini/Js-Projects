@@ -1094,6 +1094,9 @@ ex;
         obj.innerHTML = "Mouse on me!";
       }
     </script>
+    
+.(this) when u used put obj or id in function definition
+
 ***********+++++++++***************
 ***********+++++++++***************
 ***********+++++++++***************
