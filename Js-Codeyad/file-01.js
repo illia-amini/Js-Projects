@@ -143,8 +143,12 @@ console.log(isEqual);
 
 //<----------------------->
 
-//trnimory condition(?:)
-
+//trnimory condition(?:),its tripple condition statment
+var d,e;
+var isEqual;
+a=50;
+b=5;
+a==b ? isEqual=true : isEqual=false;
 
 //<----------------------->
 
