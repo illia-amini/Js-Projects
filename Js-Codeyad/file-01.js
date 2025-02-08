@@ -67,3 +67,19 @@ console.log(colors)//it wiil return the  arr and its indexes, if u want to see s
 //another methode to defiene an array,
 var names=new Array('ali','mohamad','milad','amir');
 console.log(names[0])//it will return ali, becuse its the zero undex of array.
+
+//array can have diffrent types of var
+var myArr=['ali',22,true,'Arak']
+console.log(myArr);//it returns myArr completly without problem.
+
+//Func in Array;
+//1-reverse()
+colors.reverse();//it will reverse the aaray index.
+//2-shift()
+colors.shift();// it reruns the the 0 index of array and replace it with the 1 index of array.
+//3-unshift();
+colors.unshift('white');//it returns the white as a 0 index of array.and push the other to further.it add from the first.
+//4-pup();
+colors.pup();//it will delete the the last element of array.
+//5-push();
+colors.push('dark');//it will add dark from the last. 
