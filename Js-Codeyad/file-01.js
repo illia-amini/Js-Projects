@@ -103,3 +103,48 @@ console.log(oldArry);
 
 //<----------------------->
 
+//conditional statements;in js
+//1-if & else:
+var a,b;
+var isEqual;
+a=5;
+b=5;
+if(a==b){//== jsut check in the value,not datatype
+    isEqual=true
+    console.log(a+b);
+
+}else{
+    isEqual=false
+    console.log(a-b);
+
+}
+console.log(isEqual)
+
+//ex-02
+var c, b;
+var isEqual;
+a = 5;
+b = "5";
+if (a === b) {// === also checks the datatype besiede the value.
+    isEqual = true;
+    console.log(a + b);
+    } else {
+        var isEqual = false;
+        console.log(a - b);
+      }
+console.log(isEqual);
+
+//<----------------------->
+
+//Operation in conditon statement.
+// Not(!=,!===)
+//And (&);both conditon are true,it will print true
+//Or(|);either on of them is true  it return true,
+
+//<----------------------->
+
+//Multiple condition
+
+//<----------------------->
+
+//2-switch:
