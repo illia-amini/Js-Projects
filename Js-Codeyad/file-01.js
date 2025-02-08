@@ -3,11 +3,11 @@ js-syntax (;).
 */
 console.log('Connected...');
 /*
-js-Varaibles (var,let,const).
+js-Varaibles (var).
 */
-var fName='Ali';
-let lName='Amini';
-const age = 22;
+var fName='Ali';var lName='Amini'
 console.log(fName);
 console.log(lName);
-console.log(age);
+/* 
+js-
+*/
