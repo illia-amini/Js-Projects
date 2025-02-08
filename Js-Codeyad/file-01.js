@@ -16,6 +16,7 @@ window.alert(fName);
 js-comment(/**).
 it will not read by js
 */
+//<----------------------->
 /* 
 js-datatype(num,str,obj,boolean).
 all types of varaibles in js.
@@ -52,5 +53,8 @@ var isComplete;//boolean
 isComplete=false
 var isEqual;
 isEqual=(num1==num2);//it wiil return true
-
+//<----------------------->
+/*
+js-Arrays().
+*/
 
