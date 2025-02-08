@@ -16,3 +16,9 @@ window.alert(fName);
 js-comment(/**).
 it will not read by js
 */
+/* 
+js-datatype(int,str,float).
+all types of varaibles in js.
+*/
+var number=22;
+var name='Ali';
