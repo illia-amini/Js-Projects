@@ -60,5 +60,10 @@ whenever we use aaray that, we want to save some var in a list,
 we should use array.Arrays has index that starts from 0,
 in js, array is called list.
 */
+
 var colors=['blue','red','black']//this list has 2 indexes
 console.log(colors)//it wiil return the  arr and its indexes, if u want to see specific index write its num inside of the [] like, colors[0]
+
+//another methode to defiene an array,
+var names=new Array('ali','mohamad','milad','amir');
+console.log(names[0])//it will return ali, becuse its the zero undex of array.
