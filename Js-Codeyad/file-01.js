@@ -3,6 +3,9 @@ js-syntax (;).
 js defeintion.
 */
 console.log('Connected...');
+
+//<----------------------->
+
 /*
 js-Varaibles (var).
 define a varaible in js
@@ -16,7 +19,9 @@ window.alert(fName);
 js-comment(/**).
 it will not read by js
 */
+
 //<----------------------->
+
 /* 
 js-datatype(num,str,obj,boolean).
 all types of varaibles in js.
@@ -53,7 +58,9 @@ var isComplete;//boolean
 isComplete=false
 var isEqual;
 isEqual=(num1==num2);//it wiil return true
+
 //<----------------------->
+
 /*
 js-Arrays([]).
 whenever we use aaray that, we want to save some var in a list,
@@ -72,10 +79,12 @@ console.log(names[0])//it will return ali, becuse its the zero undex of array.
 var myArr=['ali',22,true,'Arak']
 console.log(myArr);//it returns myArr completly without problem.
 
+//<----------------------->
+
 //Func in Array;
-//1-reverse()
+//1-reverse();
 colors.reverse();//it will reverse the aaray index.
-//2-shift()
+//2-shift();
 colors.shift();// it reruns the the 0 index of array and replace it with the 1 index of array.
 //3-unshift();
 colors.unshift('white');//it returns the white as a 0 index of array.and push the other to further.it add from the first.
@@ -83,3 +92,14 @@ colors.unshift('white');//it returns the white as a 0 index of array.and push th
 colors.pup();//it will delete the the last element of array.
 //5-push();
 colors.push('dark');//it will add dark from the last. 
+//6-slice();
+var newColors=colors.slice();//copy from our array, and paste into other var,
+//7-indexOf();
+var result=colors.indexOf('blue',0)//whwenever u want search a data in array we use of this func, we write the data, then we mention from which number of index search for it
+console.log(result)//it will return 0,which means this data is in 0 index of array
+//8-join();
+var oldArry=colors.join(' | ');//it wiil join all the elemnts of aaray into string,and the inside of the () u can define what shape or space u want to put between the elements.
+console.log(oldArry);
+
+//<----------------------->
+
