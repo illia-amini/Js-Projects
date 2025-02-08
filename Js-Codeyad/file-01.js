@@ -17,7 +17,7 @@ js-comment(/**).
 it will not read by js
 */
 /* 
-js-datatype(num,str,obj,...).
+js-datatype(num,str,obj,boolean).
 all types of varaibles in js.
 in js varaibles define from left to right if its str it behaves with others like str and vice versa,
 */
@@ -40,3 +40,17 @@ var person01={//obj
     gender:'male',
 }
 document.write(person01.firstName + ' ' + person01.lastName);
+
+/* 
+what boolean means?
+its a varaible , that saves 0 or 1 inside itself ,either true or false,
+which use with (is) , and normally use in if and swtitch.
+*/
+var num1=10;
+var num2=10;
+var isComplete;//boolean
+isComplete=false
+var isEqual;
+isEqual=(num1==num2);//it wiil return true
+
+
