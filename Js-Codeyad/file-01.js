@@ -137,13 +137,14 @@ console.log(isEqual);
 //<----------------------->
 
 //Operation in conditon statement.
-// Not(!=,!===)
-//And (&);both conditon are true,it will print true
-//Or(|);either on of them is true  it return true,
+//1-Not(!=,!===)
+//2-And (&);both conditon are true,it will print true
+//3-Or(|);either on of them is true  it return true,
 
 //<----------------------->
 
-//Multiple condition
+//trnimory condition(?:)
+
 
 //<----------------------->
 
