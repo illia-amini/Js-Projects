@@ -152,4 +152,33 @@ a==b ? isEqual=true : isEqual=false;
 
 //<----------------------->
 
-//2-switch:
+//2-switch & case & break & default:
+//Normally it is used for nested if & else & else if,thre is another option called switch.
+var today=new Date().getDate();//this func called up to date func
+var day;
+console.log(today);//returns typeof as a number means date.
+switch(today){
+    case 0:
+        day='Sunday';
+        break;
+    case 1:
+        day='Monday';
+        break;
+    case 2:
+        day='Thusday';
+        break;
+    case 3:
+        day='Wedsnday';
+        break;
+    case 4:
+        day='Thursday';
+        break;
+    case 5:
+        day='Friday';
+        break;
+    case 6:
+        day='Saturday';
+        break;
+        default://whenever u not defien a var in switch u should define this
+            day='ur value is not defiened'
+}
