@@ -232,6 +232,10 @@ console.log(smallestNumber(1,2));//in anymouse func whenever i want to call, unl
 //*imp* if u dont give any value or parameter,it will return the main func, its necssery at leats put the () at the end of the callinfg anymouse func
 //<----------------------->
 
-//3-invoke func:
-
+//3-invoke func:the func that immediatly apply as soon as u defined the func, normalluy used for specific events taht u want to use for specific time or events not in genral,(function(arguments){})(parameters)
+var theBiggestNumber=(function (c,d){
+c>d ? result=['firstnumber',c]:result=['SecondeNumber',d];
+return result;
+})(7,5)//Parameter are wirtten here
+console.log(`The largest number is ${result}`);
 //<----------------------->
