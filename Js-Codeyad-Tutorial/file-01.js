@@ -256,3 +256,5 @@ var varaible1='Varaible1';// this is Global varaible, global varaible its not de
  function myFunction(){
     var varaible2='Vraible2';// this Local varaible,its defiened in func,its not eaddsy to aces to it
  }
+ console.log(varaible1);//returns the value of varaible1,in order to its global variabkle
+ console.log(varaible2);//returns not define, in order to its a local varaible 
