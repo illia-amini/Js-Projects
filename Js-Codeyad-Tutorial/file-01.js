@@ -299,4 +299,4 @@ function logScope() {
 
 //<----------------------->
 
-//Object;
+//Object{};
