@@ -308,6 +308,9 @@ function logScope() {
       };
       console.log(person01); //type is object
       console.log(person01.age);
+
+      //<----------------------->
+
       //ex02
       //Another methode to define object, new object() => new means sample, it means u already have an object give a sample of it
       let person02 = new Object( //in this case use = instead of :
@@ -317,6 +320,9 @@ function logScope() {
       );
       console.log(person02); //type is string
       console.log(person02.firstname);
+
+      //<----------------------->
+
       //ex03
       let course = {
         title: "Js",
@@ -331,3 +337,6 @@ function logScope() {
       console.log(course.view);//view is 0
       course.updateView();//view upadted to 1
       console.log(course);//view is 1
+
+      //<----------------------->
+      
