@@ -368,7 +368,7 @@ function logScope() {
     //<----------------------->
 
     //For of & For in:
-    //1-for in:
+    //1-for in: wiil give use the key of obj,and in array wiould return the index(number) as key
     const people = {
       firstName: "Ali",
       lastName: "Amini",
@@ -380,12 +380,24 @@ function logScope() {
       //and whateer is after the : its called value
       //if u use for in and write item in consol log u will see just the keys u defien.
       //but if u write the obj name and item inside [] u will see the value
-      console.log(people[item]);
+      console.log(people[item]);//this shape will return the value.
+    }
+    const people2 = {
+      firstName: "Ali",
+      lastName: "Amini",
+      age: 22,
+      isActive: true,
+    };
+    for(value of people2){
+      console.log(value);
     }
     //<----------------------->
 
-    //2-for of:
-
+    //2-for of: its just used in array,the acees to value of the array not index
+    let cars2 = ["benz", "bmw", "porsche", "peykan", "pride"];
+    for (value of cars2) {
+      console.log(value);
+    }
     //<----------------------->
 
     //While:
