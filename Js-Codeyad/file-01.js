@@ -213,6 +213,7 @@ findSmallestFraction(firstFraction,secondFraction);//thse are called parameter
 findSmallestFraction(3/64,6/7);//u can value also in this way.
 
 //ex03***much more and more better
+
 function largestNumber(e, f) {
     e > f ? (result = ["firstNum", e]) : (result = ["secondeNum", f]);
     return result;
@@ -230,9 +231,11 @@ return result;
 }
 console.log(smallestNumber(1,2));//in anymouse func whenever i want to call, unlike the m=named func u sould just call the naem of the varaible not the name of the func.*imp
 //*imp* if u dont give any value or parameter,it will return the main func, its necssery at leats put the () at the end of the callinfg anymouse func
+
 //<----------------------->
 
-//3-invoke func:the func that immediatly apply as soon as u defined the func, normalluy used for specific events taht u want to use for specific time or events not in genral,(function(arguments){})(parameters)
+//3-invoke func:the func that immediatly apply as soon as u defined the func, normalluy used for specific events taht u want to use for specific time or events not in genral,(function(arguments){})(parameters)]
+
 var theBiggestNumber=(function (c,d){
 c>d ? result=['firstnumber',c]:result=['SecondeNumber',d];
 return result;
