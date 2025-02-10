@@ -339,4 +339,21 @@ function logScope() {
       console.log(course);//view is 1
 
       //<----------------------->
-      
+
+      //Object constructor;> means to create a func that create object with same shap but diffrent info. use this* imp
+
+      function Course(title, teacher, level, isActive, views, upadateView) {
+        //to define object constrouctor we use first word as capital, here Course for ex.
+        (this.title = title),
+          (this.teacher = teacher),
+          (this.level = level),
+          (this.isActive = isActive),
+          (this.views = views),
+          (this.upadateView = function () {
+            return ++Course.views;
+          });
+      }
+      var Cours1 = new Course("Js", "Ali Amini", 1, true, 0);
+      var Cours2 = new Course("Pyhton", "Amir rohi", 10, false, 2);
+      console.log(Cours1);
+      console.log(Cours2);
