@@ -191,14 +191,24 @@ switch(today){
 
 //1-Named Func: function has a var name
 
-function findBiggestFraction(){
+function findBiggestFraction(){//This way of coding is not satisfiyin, in order to, u better define some arguments for the func, which u have arguments and parameters which func will put one by one parameters in arguments and apply the orders , in ex02
     console.log('The func is running!');//named func whenever will run,that u CALLLLE THE FUNC
     a>b ? console.log('a;'+a) : console.log('b:'+b);// ?=if & :=else
 
 }
 var a=3/4;//if u  write the var after the func call, it wont run beacuse js is a script lang.
 var b=5/7;
+
 findBiggestFraction();//This How u Call any Named func
+
+//ex-02***Much more better,
+
+function findSmallestFraction(c,d){//These ara called arguments
+c<d ? console.log('c'+c) : console.log('d'+d);
+}
+var firstFraction=3/5;
+var secondFraction=3/6;
+findSmallestFraction(firstFraction,secondFraction);//thse are called parameter
 
 //<----------------------->
 
