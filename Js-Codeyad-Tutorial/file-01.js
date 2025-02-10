@@ -244,3 +244,15 @@ console.log(`The largest number is ${result}`);
 console.log(theBiggestNumber);//also u can return like this,
 
 //<----------------------->
+
+//ECMAScript;there are some edition which haapens on js to upadte and debug this progrramming languge called ECMA SCRIPT.
+//First version on 1997.
+//Now ES14,published on 2023 for js latest version.
+
+//<----------------------->
+
+//Local & Global variables;
+var varaible1='Varaible1';// this is Global varaible, global varaible its not defiend in function, its easy to acces to it
+ function myFunction(){
+    var varaible2='Vraible2';// this Local varaible,its defiened in func,its not eaddsy to aces to it
+ }
