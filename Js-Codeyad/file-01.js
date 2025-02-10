@@ -209,6 +209,7 @@ c<d ? console.log('c'+c) : console.log('d'+d);
 var firstFraction=3/5;
 var secondFraction=3/6;
 findSmallestFraction(firstFraction,secondFraction);//thse are called parameter
+findSmallestFraction(3/64,6/7);//u can value also in this way.
 
 //<----------------------->
 
