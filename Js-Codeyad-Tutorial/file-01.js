@@ -398,10 +398,45 @@ function logScope() {
     for (value of cars2) {
       console.log(value);
     }
+
     //<----------------------->
 
-    //While:
+    //While:untill the conditio is true while will work,
+    const myCars = ["benz", "bmw", "pride", "peykan", "207"];
+      let i = 0;
+      while (myCars[i]) {
+        console.log(myCars[i]);
+        i++;
+      }
 
-     //<----------------------->
+      //<----------------------->
+         
+      //do-while;first it run the order then condtion will be check.even the sitution will not match with condition at least order will apply once,
+      let y = 0;
+      do {
+        console.log(y);//returns 0
+        y++;//returns 1
+      } while (y > 10);
+
+      //<----------------------->
+
+      //break;whenever it reaches to breaks it wont continue
+      for (let i = 0; i < 10; i++) {
+        if (i == 5) {
+          break;
+        }
+        console.log(i);
+      }
+
+      //<----------------------->
+
+      //continue;whenever it reaches to continue it hidde the specific condtion and then continue,
+      for (let i = 0; i < 10; i++) {
+        if (i == 5) {
+          continue;
+        }
+        console.log(i);
+      }
+    //<----------------------->
      
         
