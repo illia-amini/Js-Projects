@@ -238,4 +238,6 @@ c>d ? result=['firstnumber',c]:result=['SecondeNumber',d];
 return result;
 })(7,5)//Parameter are wirtten here
 console.log(`The largest number is ${result}`);
+console.log(theBiggestNumber);//also u can return like this,
+
 //<----------------------->
