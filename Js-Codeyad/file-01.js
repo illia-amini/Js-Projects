@@ -188,6 +188,7 @@ switch(today){
 //Fuctions;
 //There are orders,which we define or already defined in js ,to make the sitution to define orders,
 //How to define? => function name(){ order here}
+//If u hover ur mouse onto the func u see (void) => means empty,why? beacuse it applies sm and wont return value of recuuring, in ex03
 
 //1-Named Func: function has a var name
 
@@ -210,6 +211,14 @@ var firstFraction=3/5;
 var secondFraction=3/6;
 findSmallestFraction(firstFraction,secondFraction);//thse are called parameter
 findSmallestFraction(3/64,6/7);//u can value also in this way.
+
+//ex03***much more and more better
+function largestNumber(e, f) {
+    e > f ? (result = ["firstNum", e]) : (result = ["secondeNum", f]);
+    return result;
+  }
+  var newResult = largestNumber(1, 2);
+  console.log(`largest number  is ${result}`)
 
 //<----------------------->
 
