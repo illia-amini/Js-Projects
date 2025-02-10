@@ -224,12 +224,12 @@ function largestNumber(e, f) {
 
 //2-Anynoumus func: the func has no name, which it must define in a var or in the events its called anymouse func
 
-var smallestNumber=function(a,b){
+var smallestNumber=function(a,b){// There is no name for anymouse func,it defiens inside of the var or in events,
 a<b ? result=['firstnum',a] : result=['secondeNum',b];
 return result;
 }
 console.log(smallestNumber(1,2));//in anymouse func whenever i want to call, unlike the m=named func u sould just call the naem of the varaible not the name of the func.*imp
-
+//*imp* if u dont give any value or parameter,it will return the main func, its necssery at leats put the () at the end of the callinfg anymouse func
 //<----------------------->
 
 //3-invoke func:
