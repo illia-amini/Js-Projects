@@ -182,3 +182,30 @@ switch(today){
         default://whenever u not defien a var in switch u should define this
             day='ur value is not defiened'
 }
+
+//<----------------------->
+
+//Fuctions;
+//There are orders,which we define or already defined in js ,to make the sitution to define orders,
+//How to define? => function name(){ order here}
+
+//1-Named Func: function has a var name
+
+function findBiggestFraction(){
+    console.log('The func is running!');//named func whenever will run,that u CALLLLE THE FUNC
+    a>b ? console.log('a;'+a) : console.log('b:'+b);// ?=if & :=else
+
+}
+var a=3/4;//if u  write the var after the func call, it wont run beacuse js is a script lang.
+var b=5/7;
+findBiggestFraction();//This How u Call any Named func
+
+//<----------------------->
+
+//2-Anynoumus func:
+
+//<----------------------->
+
+//3-invoke func:
+
+//<----------------------->
