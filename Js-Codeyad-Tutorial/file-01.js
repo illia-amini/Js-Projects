@@ -361,7 +361,10 @@ function logScope() {
     //<----------------------->
 
     //For loop:
-
+    let cars=['benz','bmw','porsche','peykan','pride'];
+    for(let i=0;i<=cars.length;i++){
+      console.log(cars[i])
+    }
     //<----------------------->
 
     //For of & For in:
