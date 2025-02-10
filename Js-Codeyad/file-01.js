@@ -222,7 +222,13 @@ function largestNumber(e, f) {
 
 //<----------------------->
 
-//2-Anynoumus func:
+//2-Anynoumus func: the func has no name, which it must define in a var or in the events its called anymouse func
+
+var smallestNumber=function(a,b){
+a<b ? result=['firstnum',a] : result=['secondeNum',b];
+return result;
+}
+console.log(smallestNumber(1,2));//in anymouse func whenever i want to call, unlike the m=named func u sould just call the naem of the varaible not the name of the func.*imp
 
 //<----------------------->
 
