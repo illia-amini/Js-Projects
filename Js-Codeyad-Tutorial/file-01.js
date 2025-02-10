@@ -357,3 +357,19 @@ function logScope() {
       var Cours2 = new Course("Pyhton", "Amir rohi", 10, false, 2);
       console.log(Cours1);
       console.log(Cours2);
+
+    //<----------------------->
+
+    //For loop:
+
+    //<----------------------->
+
+    //For of & For in:
+
+    //<----------------------->
+
+    //While:
+
+     //<----------------------->
+     
+        
