@@ -254,7 +254,23 @@ console.log(theBiggestNumber);//also u can return like this,
 //Local & Global variables;
 var varaible1='Varaible1';// this is Global varaible, global varaible its not defiend in function, its easy to acces to it
  function myFunction(){
-    var varaible2='Vraible2';// this Local varaible,its defiened in func,its not eaddsy to aces to it
+    var varaible2='Varaible2';// this Local varaible,its defiened in func,its not eaddsy to aces to it
+    console.log(varaible2);//to acess to local var,
  }
  console.log(varaible1);//returns the value of varaible1,in order to its global variabkle
  console.log(varaible2);//returns not define, in order to its a local varaible 
+ myFunction();//to show varaible2
+
+//<----------------------->
+
+//Const & let
+//1-Const:whenever u defien a var , via const u cant not convert the value of const in our codes at all,
+const result=2;
+console.log(result);//returns 2
+result=3;//it will error
+
+//<----------------------->
+
+//2-Let:
+
+//<----------------------->
