@@ -271,6 +271,30 @@ result=3;//it will error
 
 //<----------------------->
 
-//2-Let:
+//2-Let:*better then all var, beacuse its Block Scope.
+//Block Scope;its block scope,what deos t mean?> it means in nested body if u use let in the case that in the rest of the code the var which defiend via let it wont affect the order of the other section, and each scope will effect seperatly but if u define via var in the case a scope effects on the varaible till the end effect will remain,
+//ex01
+function logScope(){
+    var localVar=2;
+    if(localVar==2){
+        var localVar='diffrent var'
+        console.log('Nested local var '+ localVar)
+    }
+    console.log(localVar);
+}
+logScope();
+
+//<----------------------->
+
+//ex02
+function logScope() {
+    let localVar = 2;
+    if (localVar == 2) {
+      let localVar = "diffrent var";
+      console.log("local var " + localVar);//returns diffrent var
+    }
+    console.log('localvar:'+localVar);//returns 2
+  }
+  logScope(); 
 
 //<----------------------->
