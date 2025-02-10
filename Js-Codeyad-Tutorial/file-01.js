@@ -368,11 +368,23 @@ function logScope() {
     //<----------------------->
 
     //For of & For in:
-    //1-for of:
-
+    //1-for in:
+    const people = {
+      firstName: "Ali",
+      lastName: "Amini",
+      age: 22,
+      isActive: true,
+    };
+    for (item in people) {
+      //each object has two imp features 1-key & 2-value, key is waht we define here firstName,lastNmae,age, whatever before:
+      //and whateer is after the : its called value
+      //if u use for in and write item in consol log u will see just the keys u defien.
+      //but if u write the obj name and item inside [] u will see the value
+      console.log(people[item]);
+    }
     //<----------------------->
 
-    //2-for in:
+    //2-for of:
 
     //<----------------------->
 
