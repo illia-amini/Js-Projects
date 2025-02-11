@@ -437,6 +437,10 @@ function logScope() {
         }
         console.log(i);
       }
+
     //<----------------------->
+
+    //Dom:
+    //Bom VS Dom:
      
         
