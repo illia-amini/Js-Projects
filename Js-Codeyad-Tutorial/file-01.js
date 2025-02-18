@@ -496,6 +496,8 @@ for (let i = 0; i < 10; i++) {
 
 //<----------------------->
 
+//Dom in class:
+
 //outterHtml=//u can see the tag of html and the content of tag in consol section,
 
 //U can chage the class name or any attribute of tags via above func
@@ -511,3 +513,7 @@ for (let i = 0; i < 10; i++) {
 }
 
 //this topic name is propreities of elemnts some of them used to chnage the value of elemnts some of them is read only.
+
+//<----------------------->
+
+//Dom in Html Attribut:
