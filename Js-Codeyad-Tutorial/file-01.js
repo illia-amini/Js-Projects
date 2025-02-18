@@ -517,3 +517,28 @@ for (let i = 0; i < 10; i++) {
 //<----------------------->
 
 //Dom in Html Attribut:
+
+//there are some func to get accsess to html attribuite
+//1-hasAttribiutte();
+//ex
+{
+  /* <a href="#" id="demo"></a>
+<script>
+  const element = document.getElementById("demo").hasAttribute("href");
+  console.log(element);//it will check if tag a has attribute of href it will retun true or false.
+</script> */
+}
+
+//2-setAttribute(); it takes two value 1-qualifyNmae(str) 2-name(str)
+//if ur tag has already have the attribute ut will change, otherwise it will add to the tag
+//ex-02
+{
+  /* <a href="#" id="demo"></a>
+    <script>
+      const element = document
+        .getElementById("demo")
+        .setAttribute("class", "test"); //it wont have returning value,to visit the result copy from .documnt... to conole section and see the finall result
+    </script> */
+}
+
+//3-removeAttribute;//it will remove the attribute and its value as well,
