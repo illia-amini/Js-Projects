@@ -442,5 +442,24 @@ function logScope() {
 
     //Dom:
     //Bom VS Dom:
-     
+    //Bom: borwser object model, all the browser and tabs are objects in the page,and the objects named bom. also bom means to model defiened as object for browser,
+    //Dom: document object model, all html tags in bom is called dom with we can acess to the via dom,means connection between js and html.We have a tree of dom,and each element is a called a node like  tag of head and...
+    //How to acess dom in page? document.getelementby id/class/tag('').inner.html / text => it will return a node
+
+    //<----------------------->
+
+    //ex;
+    // <p id="demo">Hello world!</p>
+    // <script>
+    //   document.getElementById("demo").innerHTML = "Hello Ali";
+    // </script>
+
+    //<-----------------------> 
+
+    //ex02;via varaible
+    // <p id="demo">Hello world!</p>
+    // <script>
+    //   const element = document.getElementById("demo");
+    //   element.innerHTML = "Hello dom";
+    // element.innerHTML = "date;" + Date(); via func
         
