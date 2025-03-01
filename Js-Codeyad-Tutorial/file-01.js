@@ -498,10 +498,11 @@ for (let i = 0; i < 10; i++) {
 
 //Dom in class:
 
-//outterHtml=//u can see the tag of html and the content of tag in consol section,
-
+//.outterHtml=//u can see the tag of html and the content of tag in consol section,ex <h2>hello</h2/>
+//these proprities which u can access to elemnt of html are divided into two types 1-Read Only & 2-Normal, normal u can convert the content of tag but read only is just for reading, this pro is normal
 //U can chage the class name or any attribute of tags via above func
-
+//U can acces to the tags which have same class names.bt .classList will return html collection as list, to acess to any index use [0,1,...] in front of the class list. this pro is read only
+//if u want to make some changes u sholud use of func like add() to add or remove() to delete toggle() first time add true seconde time remove false, any class u want.
 //ex
 {
   /* <h2 class="main-title">Hello world!</h2>
