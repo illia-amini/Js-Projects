@@ -356,7 +356,7 @@ console.log(course); //view is 1
 
 //Object constructor;> means to create a func that create object with same shap but diffrent info. use this* imp
 
-function Course(title, teacher, level, isActive, views, upadateView) {
+function course(title, teacher, level, isActive, views, upadateView) {
   //to define object constrouctor we use first word as capital, here Course for ex.
   (this.title = title),
     (this.teacher = teacher),
@@ -364,7 +364,7 @@ function Course(title, teacher, level, isActive, views, upadateView) {
     (this.isActive = isActive),
     (this.views = views),
     (this.upadateView = function () {
-      return ++Course.views;
+      return ++course.views;
     });
 }
 var Cours1 = new Course("Js", "Ali Amini", 1, true, 0);
@@ -456,8 +456,8 @@ for (let i = 0; i < 10; i++) {
 
 //Dom:
 //Bom VS Dom:
-//Bom: borwser object model, all the browser and tabs are objects in the page,and the objects named bom. also bom means to model defiened as object for browser,
-//Dom: document object model, all html tags in bom is called dom with we can acess to the via dom,means connection between js and html.We have a tree of dom,and each element is a called a node like  tag of head and...
+//Bom: borwser object model; all the browser and tabs are objects in the page,and the objects named bom. also bom means to model defiened as object for browser,
+//Dom: document object model; all html tags in bom is called dom with we can acess to the via dom,means connection between js and html.We have a tree of dom,and each element is a called a node like tag of head and body and ...
 //How to acess dom in page? document.getelementby id/class/tag('').inner.html / text => it will return a node
 //1-getElementById('');
 
