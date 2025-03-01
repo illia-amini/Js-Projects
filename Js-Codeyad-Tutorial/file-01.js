@@ -490,9 +490,9 @@ for (let i = 0; i < 10; i++) {
 
 //<----------------------->
 
-//4-querySelector('');u can use css selectors to access the element ex; queryselectore('#id / .class / ... ')
+//4-querySelector('');u can use css selectors to access the element ex also it wont return as html collection; queryselectore('#id / .class / ... ')
 //will retuen  ONLY THE FIRST element respect to css selectors u chosee in the case u have many tags with same featurs only THE FIRST ONES WILL RETURN NOT ALL.
-//if u want to returns all use querySelectorAll() u can return all. return as node list
+//if u want to returns all use querySelectorAll() u can return all. return as node list or html colection,
 
 //<----------------------->
 
