@@ -586,6 +586,7 @@ console.log(element);
 //<----------------------->
 
 //.Add element to Dom;
+
 //1-crateElement('str');it will create a node.
 //2-createTextNode('str'); it will add a text to our node
 //3-appendChild(varaible); it will append text node to node, and node to another node/*imp* do not put '' in append child()
@@ -619,7 +620,96 @@ console.log(element);
 </script> */
 }
 
+//pro ex;
+{
+  /* <div class="container">
+      <a href="#" target="_blank">Click me</a>
+    </div>
+    <script>
+      const element = document.querySelector(".container a");
+      element.removeChild(element.childNodes[1]);
+      element.parentElement.removeChild(element);
+      function pName() {
+        let node = document.createElement("p");
+        let txtnode = document.createTextNode("This is a paragraph");
+        node.appendChild(txtnode);
+        document.querySelector(".container").appendChild(node);
+      }
+      pName();
+  
+    </script> */
+}
+
 //<----------------------->
 
 //Change in inlinline css;*imp*
 //make changes in style of css via js.
+//there are 3 ways to make some changes in ur inline css.
+//1-style.property = value; //it will change the value of style
+//2-style.cssText = "property:value;"; //it will change the value of style also u can write all ur css style in str in 1 line.
+//3-setAttribute("style","property:value;"); //it will change the value of style
+//ex
+{
+  /* <p id="demo" style="color: red">Hello world!</p>
+<script>
+  const element = document.getElementById("demo");
+  element.style.color = "blue";
+  element.style.cssText = "color: green";
+  element.setAttribute("style", "color: yellow");
+</script> */
+}
+
+//ex2;via cssText
+{
+  /* <a href="#" style="display: block; width: 100%; color: orange" id="demo"
+      >Click me!</a
+    >
+    <script>
+      const element = (document.getElementById("demo").style.cssText =
+        "color:purple; border:1px red solid; background-color:orange;"); //it will retun cssstyle declaration and node list
+      console.log(element);
+    </script> */
+}
+
+//ex3;via setAttribute
+{
+  /* <a href="#" style="display: block; width: 100%; color: orange" id="demo"
+      >Click me!</a
+    >
+    <script>
+      const element = document.getElementById("demo").setAttribute("style", "color: yellow");
+      console.log(element);
+    </script> */
+}
+
+//tip; in inline css u should use camel case, in the case u want to use more than one word in css, u should use the first word in small letter and the seconde word in capital letter.
+//ex; backgroundColor
+//tip; i inline css whenever u use this form, it will overwrite the previous style, in the case u want to add more than one style u should use of cssText.
+
+//<----------------------->
+
+//remove element from Dom;
+//1-remove(); it will remove the element from dom
+//2-removeChild(); it will remove the child from the parent
+//ex
+{
+  /* <a href="#" id="demo">Click me!</a>
+    <script>
+      const element = document.getElementById("demo");
+      element.remove();
+    </script> */
+}
+//ex2 removeChild
+{
+  /* <div class="container">
+      <a href="#" target="_blank">Click me</a>
+    </div>
+    <script>
+      const element = document.querySelector(".container a");
+      element.parentElement.removeChild(element);
+    </script> */
+}
+
+//<----------------------->
+
+//Events in Dom;
