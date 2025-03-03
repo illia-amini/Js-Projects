@@ -585,4 +585,36 @@ console.log(element);
 
 //<----------------------->
 
-//.Add elemnt to Dom;
+//.Add element to Dom;
+//1-crateElement('str');it will create a node.
+//2-createTextNode('str'); it will add a text to our node
+//3-appendChild(varaible); it will append text node to node, and node to another node/*imp* do not put '' in append child()
+//ex
+{
+  /* <ul id="chos"></ul> */
+}
+// function liName() {//define a named func
+//   let node = document.createElement("li");
+//   let txtnode = document.createTextNode("Ali");
+//   node.appendChild(txtnode);
+//   document.querySelector("#chos").appendChild(node);
+// }
+// liName();
+
+//pro ex;
+{
+  /* <ul id="chos"></ul>
+<script>
+  const myArr = ["ali", "mohamad", "reza", "arda"];
+  function liName() {
+    //define a named func
+    for (const item of myArr) {
+      let node = document.createElement("li");
+      let txtnode = document.createTextNode(item);
+      node.appendChild(txtnode);
+      document.querySelector("#chos").appendChild(node);
+    }
+  }
+  liName();
+</script> */
+}
