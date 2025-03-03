@@ -618,3 +618,8 @@ console.log(element);
   liName();
 </script> */
 }
+
+//<----------------------->
+
+//Change in inlinline css;*imp*
+//make changes in style of css via js.
