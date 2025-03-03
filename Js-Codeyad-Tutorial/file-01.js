@@ -530,8 +530,9 @@ for (let i = 0; i < 10; i++) {
 </script> */
 }
 
-//2-setAttribute(); it takes two value 1-qualifyNmae(str) 2-name(str)
-//if ur tag has already have the attribute ut will change, otherwise it will add to the tag
+//2-setAttribute(); it takes two value 1-qualifyNmae(str)ex;class,id, 2-name(str)
+//if ur tag has already have the attribute it will change, otherwise it will add to the tag
+//if u console log it will return undefiend,if u want to see the result copy from ( .document .getElementById("demo")) on console section,
 //ex-02
 {
   /* <a href="#" id="demo"></a>
@@ -542,4 +543,44 @@ for (let i = 0; i < 10; i++) {
     </script> */
 }
 
-//3-removeAttribute;//it will remove the attribute and its value as well,
+//3-removeAttribute;
+// //it will remove the attribute and its value as well,
+//its same with setAttribute
+//ex
+//<a href="#" id="demo" class="test1">click me</a>
+{
+  /* <script>
+const element = document
+  .querySelector("#demo")
+  .removeAttribute("class", "test2");
+console.log(element);
+</script> */
+}
+
+//4-attributtes;
+//to check whatever attributea a html tags included,return as a node list and starts from 0
+//ex
+{
+  /* <a href="#" id="demo" class="test1" style="display: block">click me</a>
+<script>
+  const element = document.querySelector("#demo");
+  console.log(element.attributes);
+</script> */
+}
+//full ex
+{
+  /* <div class="container">
+      <a href="#" target="_blank">Click me</a>
+    </div>
+    <script>
+      const element = document.querySelector(".container a");
+      if (element.hasAttribute("target")) {
+        console.log(element.getAttribute("target")); //it will return if the attribute exsisit,
+      } else {
+        console.log(element.setAttribute("target", "_blank"));
+      }
+      console.log(element.attributes);
+    </script> */
+}
+
+//<----------------------->
