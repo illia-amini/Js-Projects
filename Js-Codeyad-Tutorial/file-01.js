@@ -584,3 +584,5 @@ console.log(element);
 }
 
 //<----------------------->
+
+//.Add elemnt to Dom;
