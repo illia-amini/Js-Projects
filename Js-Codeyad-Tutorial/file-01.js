@@ -731,3 +731,63 @@ console.log(element);
   }
   Hi.onclick = Open;//call the function and event */
 }
+
+//Events Object; whenever u want to use the event in the func u should use of event object, in order to use the event object u should define the event in the func and then use of it in the func.
+//ex
+{
+  /* <button>Click me!</button>
+<script>
+  const Hi = document.querySelector("button");
+  function Open(e) {
+    e.preventDefault();
+    Hi.classList.toggle("btn");
+    alert("Hello, World!");
+  }
+  Hi.onclick = Open;
+</script> */
+}
+
+//<----------------------->
+
+//Inline events; in the case u want to use the event in html tags, u should use of inline events, like onclick,onmouseover,onmouseout,onload,onunload,onchange,onsubmit,onreset,onselect,onblur,onfocus,onkeydown,onkeyup,onkeypress
+
+//examples;
+{
+  /* <input
+type="text"
+onfocus="highlightInput(this)"
+onblur="fillInput(this)"
+/>
+<button>Click me</button>
+<hr />
+<select onchange="alert('U change the value')">
+<option value="">Select option</option>
+<option value="">Male</option>
+<option value="">Female</option>
+</select>
+<hr />
+<div id="Hover">Hover me</div>
+<script>
+const HOVER = document.getElementById("Hover");
+Hover.style.cssText =
+  "cursor: pointer; text-align: center; width: 100px; height: 100px; background-color: blue";
+Hover.onmousemove = function () {
+  Hover.style.backgroundColor = "red";
+};
+Hover.onmouseout = function () {
+  Hover.style.backgroundColor = "blue";
+};
+const FOCUS = document.querySelector("input");
+function highlightInput(element) {
+  element.style.backgroundColor = "yellow";
+}
+function fillInput(element) {
+  element.style.backgroundColor = "red";
+  alert("You are leaving the input field");
+}
+</script> */
+}
+
+//<----------------------->
+
+//Event Listeners; in the case u want to use the event in js, u should use of event listeners, like addEventListener(),removeEventListener(),dispatchEvent()
