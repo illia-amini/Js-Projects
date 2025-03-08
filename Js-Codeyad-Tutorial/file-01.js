@@ -790,4 +790,52 @@ function fillInput(element) {
 
 //<----------------------->
 
+//*** recommended in terms of using events in js
 //Event Listeners; in the case u want to use the event in js, u should use of event listeners, like addEventListener(),removeEventListener(),dispatchEvent()
+//Why its better to use this? beacuse u can add more than one event to the same element, and also u can remove the event from the element, and also u can use the event in the other elements as well.
+//ex
+{
+  /* <button>Click</button>
+    <p class="test"></p>
+    <hr />
+    <button id="test">click me</button>
+    <hr />
+    <button id="test2">Click</button>
+    <hr />
+    <button id="clculator">click me</button>
+    <p id="calc"></p>
+    <script>
+      let ARG = document.getElementsByTagName("button");
+      ARG[0].addEventListener("click", showDate); //[0] is used to get the first element of the array
+      function showDate() {
+        document.getElementsByClassName("test")[0].innerHTML = Date();
+      }
+      //this is another ex, in the case u can defiene two events at the same time
+      let ARG1 = document.getElementById("test");
+      ARG1.addEventListener("click", myfunction);
+      ARG1.addEventListener("click", otherFunction);
+      function myfunction() {
+        alert("hello");
+      }
+      function otherFunction() {
+        alert("bye");
+      }
+      //via anomuse func
+      let ARG2 = document.getElementById("test2");
+      ARG2.addEventListener("click", function () {
+        alert(" SAlam");
+      });
+      //Prompt input and anymouse func
+      let val1 = Number(prompt("enter num1"));
+      let val2 = Number(prompt("enter num2"));
+      let ARG3 = document.getElementById("clculator");
+      ARG3.addEventListener("click", function () {
+        Calculator(val1, val2); //here we pass our inputs to function to apply operation
+      });
+      function Calculator(a, b) {
+        document.getElementById("calc").innerHTML = a * b;
+      }
+    </script> */
+}
+
+//<----------------------->
