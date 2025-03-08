@@ -713,3 +713,21 @@ console.log(element);
 //<----------------------->
 
 //Events in Dom;
+//Events; whatever happens in the browser is called events, like click,hover,scroll,resize,load,unload,change,submit,reset,select,blur,focus,keydown,keyup,keypress,load,resize,scroll,unload,click,dblclick,mouseenter,mouseleave,mouseover,mouseout,mousemove,mousedown,mouseup,submit,reset,change,select,blur,focus,keydown,keyup,keypress
+//How to use events in js? => 1-define the event 2-define the func 3-call the func
+//Events are exsits for dom and bom. in dom we have 3 types of events 1-html events 2-dom events 3-user events
+//1-html events; are the events which are defined in html tags, like onclick,onmouseover,onmouseout,onload,onunload,onchange,onsubmit,onreset,onselect,onblur,onfocus,onkeydown,onkeyup,onkeypress
+//2-dom events; are the events which are defined in js, like addEventListener(),removeEventListener(),dispatchEvent()
+//3-user events; are the events which are defined by users, like createEvent(),initEvent(),preventDefault(),stopPropagation(),stopImmediatePropagation()
+//ex-01
+{
+  /* <button>Click me!</button>
+<script>
+  const Hi = document.querySelector("button");//First defien a varaible
+  function Open(e) {//here e is a symbole of definetion of preventDefaualt func. why? in order to prevent the default action of the event
+    e.preventDefault();//prevent the default action of the event
+    Hi.classList.toggle("btn");//toggle the class of the button,toggle means if the class is not present then add the class and if the class is present then remove the class
+    alert("Hello, World!");
+  }
+  Hi.onclick = Open;//call the function and event */
+}
