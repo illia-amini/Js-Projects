@@ -886,3 +886,22 @@ function fillInput(element) {
 //<----------------------->
 
 //removeeventlistners();
+//in the case u want that the deifiend event, will stop and not working anymore. u should use of this
+//ex
+{
+  /* <div id="mydiv">
+      <p id="myp1">Hello world</p>
+  </div>
+    <button id="rmv">Remove event</button>
+    <p id="test"></p> */
+}
+
+// division1.addEventListener("mousemove", randomeNum);//it will count a random num when u hever on it
+// function randomeNum() {
+//   document.getElementById("test").innerHTML = Math.random();//it will count a random num when u hever on it
+// }
+// const btnElement = document.getElementById("rmv");//to acess to btn
+// btnElement.addEventListener("click", removeEVENTFROMDIV);//it will stop the upper func
+// function removeEVENTFROMDIV() {
+//   division1.removeEventListener("mousemove", randomeNum);//it will stop the upper func
+// }
