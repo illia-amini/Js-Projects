@@ -744,6 +744,9 @@ console.log(element);
     alert("Hello, World!");
   }
   Hi.onclick = Open;
+  ***imp**
+  //whenver u caalback a func and coonect the func to a events,that events will give a object to our func that names ***EVENT OBJECT*** that containes value,info,...
+  //how to use event object? => u should giv a value or input to ur func here e and use e.preventdefault() is using event object.
 </script> */
 }
 
