@@ -839,3 +839,50 @@ function fillInput(element) {
 }
 
 //<----------------------->
+
+//Boobling(false) vs usecapchering(true) in event listners;
+
+//ex;
+{
+  /* <style>
+      #mydiv {
+        background-color: blue;
+        padding: 50px;
+      }
+      #myp1 {
+        background-color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>plz,reactive ur web browser javascr</noscript>
+    <div id="mydiv">
+      <p id="myp1">Hello world</p>
+    </div>
+    <script>
+      const division1 = document.getElementById("mydiv");
+      division1.addEventListener(
+        "click",
+        function () {
+          alert("u clicked on division");
+        },
+        true
+      );
+      const par = document.querySelector("#myp1");
+      par.addEventListener(
+        "click",
+        function () {
+          alert("u clciked on par"); //We have boobling
+        },
+        true //this true here means capchering != boobling
+      );
+    </script> */
+}
+
+//<----------------------->
+
+//removeeventlistners();
