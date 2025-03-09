@@ -841,7 +841,15 @@ function fillInput(element) {
 //<----------------------->
 
 //Boobling(false) vs usecapchering(true) in event listners;
-
+//1-Boobling(false);
+//this topic is imp, in the case u have nested node here we have a p in div if we defien an events for div and another for tag of a in order to the tag of a is
+//inside of the div when u run the ttag of div will apply the events of itself BUT BUT BUT the tag of a will paly for itself and div also ********
+//it is called BoObling. if u defein a anoumouse func after } u write false it works like boobling.
+//2-Usecapcher(true);
+//also this topic is imp in order to u have a nested node and if u want to events will aplly from ouuter to inner reverce of boobling us hold use usecapchaca
+//just write true after } and it works vice versa.
+//*** also there is case u use true and false  one events can handle true and another ones handle false in this case
+//the proitrey is whicever handle true then false
 //ex;
 {
   /* <style>
@@ -905,3 +913,7 @@ function fillInput(element) {
 // function removeEVENTFROMDIV() {
 //   division1.removeEventListener("mousemove", randomeNum);//it will stop the upper func
 // }
+
+//<----------------------->
+
+//Typing speed Tester Project:
