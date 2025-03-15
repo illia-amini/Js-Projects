@@ -12,6 +12,7 @@ function timerCounneter() {//this funnction needs to be called in regular time i
     //define primary time
     // let currentTime= timer[0] + ':' + timer[1] + ':' + timer[2],,,,  it wass primary version the latest version is written below,
     let currentTime= leadingZero(timer[0]) + ':' + leadingZero(timer[1]) + ':' +leadingZero(timer[2])
+    let interval;
     theTime.innerHTML=currentTime;//putting in html doc => div.timer .
 
     //operations & logics ***imp***
@@ -45,12 +46,47 @@ function timerCounneter() {//this funnction needs to be called in regular time i
     let textPrompt=testArea.value.length; // to get acess what user entered
     if (textPrompt==0 && !timerRunnig) { //*** imp *** ;we have two logic here. for textprompt it will check if user ennter a words then delete it set interval dunc willl not recall again annd againn beaccuse it will effect onn timer speed. herer !TIMER RUUNIG MEANNS => timeer runnnig==
         timerRunnig=true; // *** imp ***; and timer ruuning logic for if user ennter then delete ennter then delete they single word. it winot add to timer speed.
-        setInterval((timerCounneter),10);//each 10s this func will be called,
+        interval=setInterval((timerCounneter),10);//each 10s this func will be called,
     }
  }
 testArea.addEventListener('keypress',start); // defeine event by keypress & start func
 
 //3-FinishTimer;
-//info;
+//info;compare what use r enter with main txt.
+
+const originTxt=document.querySelector('#origin-text p').innerHTML;
+const testWrapper=document.querySelector('.test-wrapper');
+
+function spellCheck() {//
+    let userTxt=testArea.value;
+    let originTxtMatch=originTxt.substring(0,userTxt.length);
+    if (userTxt==originTxt) {
+        testWrapper.style.borderColor='green';
+        clearInterval(interval);
+    }else{
+        if (userTxt==originTxtMatch) {
+              testWrapper.style.borderColor='yellow';
+        }else{
+            testWrapper.style.borderColor='red';
+        }
+    }
+}
+
+testArea.addEventListener('keyup',spellCheck);
 
 
+//
+const reset=document.querySelector('#reset')
+
+function restart() {
+    clearInterval(interval);
+    interval=null;
+    timer-[0,0,0,0];
+    timerRunnig=false;
+
+    testArea.value='';
+    theTime.innerHTML='00:00:00';
+    testWrapper.style.borderColor='gray';
+}
+
+reset.addEventListener('click',restart)
