@@ -16,14 +16,14 @@ console.log(fName);
 console.log(lName);
 document.write(fName, lName); /* it will write  on html page */
 window.alert(fName);
-/* 
+/*
 js-comment(/**).
 it will not read by js
 */
 
 //<----------------------->
 
-/* 
+/*
 js-datatype(num,str,obj,boolean).
 all types of varaibles in js.
 in js varaibles define from left to right if its str it behaves with others like str and vice versa,
@@ -46,7 +46,7 @@ var c02 =
 /*
 what object means?
 obj is,anything which has a some features it is called obj
-for ex; a car, a phone and..., they have many of features which included. 
+for ex; a car, a phone and..., they have many of features which included.
 How to define in js: {}
 */
 var person01 = {
@@ -58,7 +58,7 @@ var person01 = {
 };
 document.write(person01.firstName + " " + person01.lastName);
 
-/* 
+/*
 what boolean means?
 its a varaible , that saves 0 or 1 inside itself ,either true or false,
 which use with (is) , and normally use in if and swtitch.
@@ -636,7 +636,7 @@ console.log(element);
         document.querySelector(".container").appendChild(node);
       }
       pName();
-  
+
     </script> */
 }
 
