@@ -42,7 +42,7 @@ function timerCounneter() {//this funnction needs to be called in regular time i
  const testArea=document.querySelector('#test-area'); // the logic of this; to define the cliennt that usser want to type,alls to conntrl more if user delete what they prompt, annd thenn delete to not effect on timer spped
  function start() {
     let textPrompt=testArea.value.length; // to get acess what user entered
-    if (textPrompt==0 && !timerRunnig) { //*** imp *** ;we have two logic here. for textprompt it will check if user ennter a words then delete it set interval dunc willl not recall again annd againn beaccuse it will effect onn timer speed. herer !TIMER RUUNIG MEANNS => timeer runnnig==false
+    if (textPrompt==0 && !timerRunnig) { //*** imp *** ;we have two logic here. for textprompt it will check if user ennter a words then delete it set interval dunc willl not recall again annd againn beaccuse it will effect onn timer speed. herer !TIMER RUUNIG MEANNS => timeer runnnig==
         timerRunnig=true; // *** imp ***; and timer ruuning logic for if user ennter then delete ennter then delete they single word. it winot add to timer speed.
         setInterval((timerCounneter),10);//each 10s this func will be called,
     }
