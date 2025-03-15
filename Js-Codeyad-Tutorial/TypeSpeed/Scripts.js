@@ -37,6 +37,7 @@ function timerCounneter() {//this funnction needs to be called in regular time i
 
 
  //2-Events defeintion. ***imp***
+ //info; Evennt & logic are added.
 
  let timerRunnig=false; // the logic of this, we want to control more on our timer if user enter a words and thenn delete it, it wonnt effecct onn timer speed,
  const testArea=document.querySelector('#test-area'); // the logic of this; to define the cliennt that usser want to type,alls to conntrl more if user delete what they prompt, annd thenn delete to not effect on timer spped
@@ -47,4 +48,9 @@ function timerCounneter() {//this funnction needs to be called in regular time i
         setInterval((timerCounneter),10);//each 10s this func will be called,
     }
  }
-testArea.addEventListener('keypress',start); // defeine event by keypress & start funnc
+testArea.addEventListener('keypress',start); // defeine event by keypress & start func
+
+//3-FinishTimer;
+//info;
+
+
