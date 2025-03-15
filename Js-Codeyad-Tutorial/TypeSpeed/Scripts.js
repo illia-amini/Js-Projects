@@ -12,7 +12,7 @@ function timerCounneter() {//this funnction needs to be called in regular time i
     //define primary time
     // let currentTime= timer[0] + ':' + timer[1] + ':' + timer[2],,,,  it wass primary version the latest version is written below,
     let currentTime= leadingZero(timer[0]) + ':' + leadingZero(timer[1]) + ':' +leadingZero(timer[2])
-    let interval;
+    let interval;// it is for last season, to put setinnterval & clearinterval in this vvaraibel,beacuse it is used in two diffrent funnc,
     theTime.innerHTML=currentTime;//putting in html doc => div.timer .
 
     //operations & logics ***imp***
@@ -54,15 +54,15 @@ testArea.addEventListener('keypress',start); // defeine event by keypress & star
 //3-FinishTimer;
 //info;compare what use r enter with main txt.
 
-const originTxt=document.querySelector('#origin-text p').innerHTML;
-const testWrapper=document.querySelector('.test-wrapper');
+const originTxt=document.querySelector('#origin-text p').innerHTML;// to get access to waht is innside of the box
+const testWrapper=document.querySelector('.test-wrapper');//the box of typinng are
 
-function spellCheck() {//
-    let userTxt=testArea.value;
-    let originTxtMatch=originTxt.substring(0,userTxt.length);
+function spellCheck() {// *** imp *** to check user txt with original text and its reaction.
+    let userTxt=testArea.value//what user is entering
+    let originTxtMatch=originTxt.substring(0,userTxt.length);//*** substring funnc will come annd sepearate from start to end point,
     if (userTxt==originTxt) {
         testWrapper.style.borderColor='green';
-        clearInterval(interval);
+        clearInterval(interval);//stop timer
     }else{
         if (userTxt==originTxtMatch) {
               testWrapper.style.borderColor='yellow';
@@ -72,12 +72,11 @@ function spellCheck() {//
     }
 }
 
-testArea.addEventListener('keyup',spellCheck);
+testArea.addEventListener('keyup',spellCheck);//keyup is like keypress , buy onnly diffrent is when user leave the btn.
 
+// Restart button;
 
-//
 const reset=document.querySelector('#reset')
-
 function restart() {
     clearInterval(interval);
     interval=null;
@@ -88,5 +87,4 @@ function restart() {
     theTime.innerHTML='00:00:00';
     testWrapper.style.borderColor='gray';
 }
-
 reset.addEventListener('click',restart)
