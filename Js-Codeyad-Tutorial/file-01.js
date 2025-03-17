@@ -952,9 +952,25 @@ function fillInput(element) {
 
 //5-Types of Bug & error:
 
-//1-Range Error:whenever u have a num varaible, but u give more then one value to it.
+//1-Range Error: whenever u have a num varaible, but u give more then one value to it.
 //ex;
 // const array=[90,44];
 // array.length=90**88; U WILL SEE RANGE ERORR IN CONSOLE.
-//2-
+
+//2-Refrrence Error: whenever u u call a func or var,but that func or var its not defiened or not to access.
+//ex:
+// const red='red';
+// red;
+// blue;  U Will see Refrencess error, beacuse blue is nnot defiend
+
+//3-Syntax Error: whennever u write a code, annd u use a structer that not defeinned on ur progrraming languge,
+//ex;
+// let ca          t='cat'; // u will see SSynntax error
+
+//4-Type Errot:u have some var annd they are nnums and u defien some func that not defeined for that typr of data,
+//ex;
+// const number=123;
+// number.toUpperCase(); // u will see type error beacuse upper casse is not a func for numbers
+
+//5-
 //<----------------------->
