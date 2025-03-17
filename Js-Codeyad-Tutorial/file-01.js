@@ -927,4 +927,11 @@ function fillInput(element) {
 
 //Error handling & debugging:
 
+//There are 5 types of debbaginnig:
+
+//1-Web tools: use Break points, How? press inspect => source => breakpoint, press & put break poinnt inn any func or any if or loop o varaibeles u want, and it will apply wahtever u defien before that breakepoint.
+//2-Online tools: 
+//3-eslient:
+//4-Ctach & try:
+
 //<----------------------->
