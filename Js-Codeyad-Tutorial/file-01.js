@@ -921,6 +921,11 @@ function fillInput(element) {
 
 //Typing speed Tester Project:
 
+//In type speed project
+
 //<----------------------->
 
 //Error handling & debugging:
+
+
+//<----------------------->
