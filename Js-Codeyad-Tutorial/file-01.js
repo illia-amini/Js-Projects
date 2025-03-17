@@ -930,8 +930,8 @@ function fillInput(element) {
 //There are 5 types of debbaginnig:
 
 //1-Web tools: use Break points, How? press inspect => source => breakpoint, press & put break poinnt inn any func or any if or loop o varaibeles u want, and it will apply wahtever u defien before that breakepoint.
-//2-Online tools: 
-//3-eslient:
+//2-Online tools: JS lint & jshint: there is website as the names mentioned, copy paste ur code to notice ur code details.
+//3-Eslient:
 //4-Ctach & try:
 
 //<----------------------->
