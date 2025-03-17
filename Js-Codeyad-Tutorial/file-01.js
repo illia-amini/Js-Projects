@@ -952,4 +952,9 @@ function fillInput(element) {
 
 //5-Types of Bug & error:
 
+//1-Range Error:whenever u have a num varaible, but u give more then one value to it.
+//ex;
+// const array=[90,44];
+// array.length=90**88; U WILL SEE RANGE ERORR IN CONSOLE.
+//2-
 //<----------------------->
