@@ -931,7 +931,23 @@ function fillInput(element) {
 
 //1-Web tools: use Break points, How? press inspect => source => breakpoint, press & put break poinnt inn any func or any if or loop o varaibeles u want, and it will apply wahtever u defien before that breakepoint.
 //2-Online tools: JS lint & jshint: there is website as the names mentioned, copy paste ur code to notice ur code details.
-//3-Eslient:
-//4-Ctach & try:
+//3-Eslient:/*******************************
+//4-Try & catch & finally: for probaly bug we use of this structer.
+//ex;
+//try:the codes,have a probly of perparing bud we write in try. We wrtie dangerous codes here in the case we face a bug in here, js will not apply this section and will go directly to catch
+//catch;here what we write supporting codes.
+//fianlly;there is part either or codes apply in try or inn catch, does not imp, it will run inn anny case.
+//ex
+// try{
+//     console.log('START OF TRY');
+//      JustForTest();
+//     console.log('eND OF TRY,,,NEVVER RUN')
+// }catch{
+//     console.log('Error is: Error');
+// }finally{
+//     console.log('Finally alwaays runs')
+// }
+
+//How upper code work? => it will print first console, but it will see a funnc whic is nnot defiend,so seconde console will not work, it will go directly to catch annd finally section will work, but if u delete that funnc secconde console will work and catch sectiom will not work
 
 //<----------------------->
