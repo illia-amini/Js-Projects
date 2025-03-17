@@ -972,5 +972,11 @@ function fillInput(element) {
 // const number=123;
 // number.toUpperCase(); // u will see type error beacuse upper casse is not a func for numbers
 
-//5-
+//5-internal Error;when u have code that connsume manny storage of ur computer;
+//ex;
+// function foo() {
+//     foo()
+// }
+// foo(); u wiil see internal error
+
 //<----------------------->
