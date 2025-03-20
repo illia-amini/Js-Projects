@@ -982,3 +982,16 @@ function fillInput(element) {
 //<----------------------->
 
 //Ajax:
+
+//Http; its a protocol, that allows u to connect ur computer (client), to destionotion computer (server).
+//Http= hyper text transfer protocol.
+//how this conection will happen? whenever u go to any websire or press on link or url, a request will sennd to server, that server will check ur request
+//And it will return a response to ur client, and that response incloudes 1-head 2-body(hyper text is here, json,Xml,Html)
+//THE TYPE OF REQUEST IS THE MOST IMP THING.
+//We have many type of request=> 1-Get 2-Delete 3-post 4-Podr ...
+//
+
+
+//whenver a response will be return from server, it includes a Status, and that status will say how was our request situatuion.
+//If it returns,for ex 200 => ur request is ok & applied. or in the range of 200 is succssfully
+//For more info => check response codes
