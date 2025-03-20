@@ -999,3 +999,29 @@ function fillInput(element) {
 //<----------------------->
 
 //Ajax:
+//Its a techonnology to make cconnection betwwen client & server easier.
+//To be able to use ajax. u should use of an object name is XMLHttpRequest()
+//Explantion of code below:
+//We must write new XmlHttpRequest() in a new varaible ,and create a new of this opject, then we must use open funcc to acees to inside of it,insside of the openn func we write 1-requeste type 2-destiontion url 3-
+//we diffen for our var in unload a funnc to check its status here if its succesfully will retutn this response.
+//then we ssennd our request by using send func
+//ex;
+    {/* <button id="my-btn">Click on me!</button>
+    <br>
+    <br>
+    <div id="txt"></div>dy>
+   > */}
+    // const mybtn=document.getElementById('my-btn');
+    // const mytxtDiv=document.getElementById('txt');
+    // function loadTxt(){
+    //     let xhr=new XMLHttpRequest ();
+    //     // console.log(xhr);
+    //     xhr.open('GET','Hello Ajax',true);
+    //     xhr.onload=function(){
+    //         if(xhr.status==200){
+    //             txt.innerHtml=this.response;
+    //         }
+    //     }
+    //     xhr.send();
+    // }
+    // mybtn.addEventListener('click',loadTxt)
