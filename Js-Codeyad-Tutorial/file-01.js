@@ -1002,7 +1002,7 @@ function fillInput(element) {
 //Its a techonnology to make cconnection betwwen client & server easier.
 //To be able to use ajax. u should use of an object name is XMLHttpRequest()
 //Explantion of code below:
-//We must write new XmlHttpRequest() in a new varaible ,and create a new of this opject, then we must use open funcc to acees to inside of it,insside of the openn func we write 1-requeste type 2-destiontion url 3-Syncronose(true) or inSyncronose(false)
+//We must write new XmlHttpRequest() in a new varaible ,and create a new of this opject, then we must use open funcc to acees to inside of it,insside of the openn func we write 1-requeste type 2-destiontion url 3-Syncronose(false) or inSyncronose(true)
 //we diffen for our var in unload a funnc to check its status here if its succesfully will retutn this responses.
 //then we ssennd our request by using send func
 //ex;
@@ -1029,5 +1029,5 @@ function fillInput(element) {
 
     //syncronose & insyncronose; the methode of applying or running of our code,
     //Syncronse; means line by line and at the same time.
-    //insyncronose; means not at the same time not line by line all our codes will apply at once  and its not related to its previoud or fllowind codes,
-    //  .
+    //insyncronose; means not at the same time not line by line all our codes will apply at once  and its not related to its previoud or fllowind codes and also to its server it allows that codes will work at the same time that u sent a request to the server,
+    // always better to use insyncranose (true).
