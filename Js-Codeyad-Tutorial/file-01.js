@@ -981,7 +981,7 @@ function fillInput(element) {
 
 //<----------------------->
 
-//Ajax:
+//Http & response & request:
 
 //Http; its a protocol, that allows u to connect ur computer (client), to destionotion computer (server).
 //Http= hyper text transfer protocol.
@@ -995,3 +995,7 @@ function fillInput(element) {
 //whenver a response will be return from server, it includes a Status, and that status will say how was our request situatuion.
 //If it returns,for ex 200 => ur request is ok & applied. or in the range of 200 is succssfully
 //For more info => check response codes
+
+//<----------------------->
+
+//Ajax:
