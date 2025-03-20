@@ -1031,3 +1031,8 @@ function fillInput(element) {
     //Syncronse; means line by line and at the same time.
     //insyncronose; means not at the same time not line by line all our codes will apply at once  and its not related to its previoud or fllowind codes and also to its server it allows that codes will work at the same time that u sent a request to the server,
     // always better to use insyncranose (true).
+
+    //Ajax propreties:
+
+    
+    //<----------------------->
