@@ -980,3 +980,5 @@ function fillInput(element) {
 // foo(); u wiil see internal error
 
 //<----------------------->
+
+//Ajax:
