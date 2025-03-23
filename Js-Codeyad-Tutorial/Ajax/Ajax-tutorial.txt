@@ -1,0 +1,45 @@
+Hello Ajax !!!
+
+<-------------------->
+
+U are working on Ajax.
+
+<-------------------->
+
+http: hyper text transfer protocol, its a browser protocol and structer that helps u to connect between from ur device (client) to sever. 
+
+How connection will happen? => whenever u click on url or go to any website a REQUEST will be sumbmited to server, that sever will check then RESPONE.
+
+Response => inludes some info head & body(html,json,xml,...),
+
+What json & Xml are? => some frames that Raw Data will transfer inside of them. (***Json***)
+
+REQUEST => Data of device, *** Type of REQUEST *** , lang,...
+
+Type of Request:
+
+1-GET: When u want to recive infos from server,
+
+2-Post: When u want to post some info into server. 
+
+3-Put: When u Want  to convert some info in the server,
+
+4-Delete: when u want to remove info inside of the server.
+
+whenever u send of these type of Request to server it will  check & respone some info,
+
+type of server  and version and status are the most imp info in response,
+
+if stsatus is in range of 200 is succesfull,for more info google it.
+
+if status is in range of 400 is problem from client,
+
+<-------------------->
+
+.Ajax:
+
+There are some func, that let u to use Ajax.
+
+There is an object, will aplly Respone & request without need to reload ur page
+
+object is xmlHttpRequest, via this object u can use Ajax on ur client without relaod ur page 
