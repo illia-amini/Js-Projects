@@ -991,7 +991,6 @@ function fillInput(element) {
 //We have many type of request=> 1-Get 2-Delete 3-post 4-Podr ...
 //
 
-
 //whenver a response will be return from server, it includes a Status, and that status will say how was our request situatuion.
 //If it returns,for ex 200 => ur request is ok & applied. or in the range of 200 is succssfully
 //For more info => check response codes
@@ -999,40 +998,7 @@ function fillInput(element) {
 //<----------------------->
 
 //Ajax:
-//Its a techonnology to make cconnection betwwen client & server easier.
-//To be able to use ajax. u should use of an object name is XMLHttpRequest()
-//Explantion of code below:
-//We must write new XmlHttpRequest() in a new varaible ,and create a new of this opject, then we must use open funcc to acees to inside of it,insside of the openn func we write 1-requeste type 2-destiontion url 3-Syncronose(false) or inSyncronose(true)
-//we diffen for our var in unload a funnc to check its status here if its succesfully will retutn this responses.
-//then we ssennd our request by using send func
-//ex;
-    {/* <button id="my-btn">Click on me!</button>
-    <br>
-    <br>
-    <div id="txt"></div>dy>
-   > */}
-    // const mybtn=document.getElementById('my-btn');
-    // const mytxtDiv=document.getElementById('txt');
-    // function loadTxt(){
-    //     let xhr=new XMLHttpRequest ();
-    //     // console.log(xhr);
-    //     xhr.open('GET','Hello Ajax',true);
-    //     xhr.onload=function(){
-    //         if(xhr.status==200){
-    //             txt.innerHtml=this.response;
-    //         }
-    //     }
-    //     xhr.send();
-    // }
-    // mybtn.addEventListener('click',loadTxt)
 
+//Written in Ajax Doc.
 
-    //syncronose & insyncronose; the methode of applying or running of our code,
-    //Syncronse; means line by line and at the same time.
-    //insyncronose; means not at the same time not line by line all our codes will apply at once  and its not related to its previoud or fllowind codes and also to its server it allows that codes will work at the same time that u sent a request to the server,
-    // always better to use insyncranose (true).
-
-    //Ajax propreties:
-
-    
-    //<----------------------->
+//<----------------------->
