@@ -16,14 +16,14 @@ console.log(fName);
 console.log(lName);
 document.write(fName, lName); /* it will write  on html page */
 window.alert(fName);
-/* 
+/*
 js-comment(/**).
 it will not read by js
 */
 
 //<----------------------->
 
-/* 
+/*
 js-datatype(num,str,obj,boolean).
 all types of varaibles in js.
 in js varaibles define from left to right if its str it behaves with others like str and vice versa,
@@ -46,7 +46,7 @@ var c02 =
 /*
 what object means?
 obj is,anything which has a some features it is called obj
-for ex; a car, a phone and..., they have many of features which included. 
+for ex; a car, a phone and..., they have many of features which included.
 How to define in js: {}
 */
 var person01 = {
@@ -58,7 +58,7 @@ var person01 = {
 };
 document.write(person01.firstName + " " + person01.lastName);
 
-/* 
+/*
 what boolean means?
 its a varaible , that saves 0 or 1 inside itself ,either true or false,
 which use with (is) , and normally use in if and swtitch.
@@ -636,7 +636,7 @@ console.log(element);
         document.querySelector(".container").appendChild(node);
       }
       pName();
-  
+
     </script> */
 }
 
@@ -921,6 +921,118 @@ function fillInput(element) {
 
 //Typing speed Tester Project:
 
+//In type speed project
+
 //<----------------------->
 
 //Error handling & debugging:
+
+//There are 4 types of debbaginnig:
+
+//1-Web tools: use Break points, How? press inspect => source => breakpoint, press & put break poinnt inn any func or any if or loop o varaibeles u want, and it will apply wahtever u defien before that breakepoint.
+//2-Online tools: JS lint & jshint: there is website as the names mentioned, copy paste ur code to notice ur code details.
+//3-Eslient:/*******************************
+//4-Try & catch & finally: for probaly bug we use of this structer.
+//ex;
+//try:the codes,have a probly of perparing bud we write in try. We wrtie dangerous codes here in the case we face a bug in here, js will not apply this section and will go directly to catch
+//catch;here what we write supporting codes.
+//fianlly;there is part either or codes apply in try or inn catch, does not imp, it will run inn anny case.
+//ex
+// try{
+//     console.log('START OF TRY');
+//      JustForTest();
+//     console.log('eND OF TRY,,,NEVVER RUN')
+// }catch{
+//     console.log('Error is: Error');
+// }finally{
+//     console.log('Finally alwaays runs')
+// }
+
+//How upper code work? => it will print first console, but it will see a funnc whic is nnot defiend,so seconde console will not work, it will go directly to catch annd finally section will work, but if u delete that funnc secconde console will work and catch sectiom will not work
+
+//5-Types of Bug & error:
+
+//1-Range Error: whenever u have a num varaible, but u give more then one value to it.
+//ex;
+// const array=[90,44];
+// array.length=90**88; U WILL SEE RANGE ERORR IN CONSOLE.
+
+//2-Refrrence Error: whenever u u call a func or var,but that func or var its not defiened or not to access.
+//ex:
+// const red='red';
+// red;
+// blue;  U Will see Refrencess error, beacuse blue is nnot defiend
+
+//3-Syntax Error: whennever u write a code, annd u use a structer that not defeinned on ur progrraming languge,
+//ex;
+// let ca          t='cat'; // u will see SSynntax error
+
+//4-Type Errot:u have some var annd they are nnums and u defien some func that not defeined for that typr of data,
+//ex;
+// const number=123;
+// number.toUpperCase(); // u will see type error beacuse upper casse is not a func for numbers
+
+//5-internal Error;when u have code that connsume manny storage of ur computer;
+//ex;
+// function foo() {
+//     foo()
+// }
+// foo(); u wiil see internal error
+
+//<----------------------->
+
+//Http & response & request:
+
+//Http; its a protocol, that allows u to connect ur computer (client), to destionotion computer (server).
+//Http= hyper text transfer protocol.
+//how this conection will happen? whenever u go to any websire or press on link or url, a request will sennd to server, that server will check ur request
+//And it will return a response to ur client, and that response incloudes 1-head 2-body(hyper text is here, json,Xml,Html)
+//THE TYPE OF REQUEST IS THE MOST IMP THING.
+//We have many type of request=> 1-Get 2-Delete 3-post 4-Podr ...
+//
+
+
+//whenver a response will be return from server, it includes a Status, and that status will say how was our request situatuion.
+//If it returns,for ex 200 => ur request is ok & applied. or in the range of 200 is succssfully
+//For more info => check response codes
+
+//<----------------------->
+
+//Ajax:
+//Its a techonnology to make cconnection betwwen client & server easier.
+//To be able to use ajax. u should use of an object name is XMLHttpRequest()
+//Explantion of code below:
+//We must write new XmlHttpRequest() in a new varaible ,and create a new of this opject, then we must use open funcc to acees to inside of it,insside of the openn func we write 1-requeste type 2-destiontion url 3-Syncronose(false) or inSyncronose(true)
+//we diffen for our var in unload a funnc to check its status here if its succesfully will retutn this responses.
+//then we ssennd our request by using send func
+//ex;
+    {/* <button id="my-btn">Click on me!</button>
+    <br>
+    <br>
+    <div id="txt"></div>dy>
+   > */}
+    // const mybtn=document.getElementById('my-btn');
+    // const mytxtDiv=document.getElementById('txt');
+    // function loadTxt(){
+    //     let xhr=new XMLHttpRequest ();
+    //     // console.log(xhr);
+    //     xhr.open('GET','Hello Ajax',true);
+    //     xhr.onload=function(){
+    //         if(xhr.status==200){
+    //             txt.innerHtml=this.response;
+    //         }
+    //     }
+    //     xhr.send();
+    // }
+    // mybtn.addEventListener('click',loadTxt)
+
+
+    //syncronose & insyncronose; the methode of applying or running of our code,
+    //Syncronse; means line by line and at the same time.
+    //insyncronose; means not at the same time not line by line all our codes will apply at once  and its not related to its previoud or fllowind codes and also to its server it allows that codes will work at the same time that u sent a request to the server,
+    // always better to use insyncranose (true).
+
+    //Ajax propreties:
+
+    
+    //<----------------------->
