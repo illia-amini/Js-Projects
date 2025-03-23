@@ -132,6 +132,18 @@ for whenever ready state change, u can use insted of onload.
 
 ex;
 
+instead of;
+
+ //   xhr.onload = function () {
+  //     if (xhr.status == 200) {
+  //       txtDiv.innerHTML = this.response;
+  //     }
+  //   };
+
+write codes below:
+
+but u need mention also the value of readystate 
+
 xhr.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       txtDiv.innerHTML = this.responseText;
