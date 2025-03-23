@@ -151,3 +151,9 @@ xhr.onreadystatechange = function () {
   };
 
 <-------------------->
+
+.Get data as Xml in Ajax;
+
+Xml & json are two frames that include many data, to transfer and save inside of therself,
+
+<-------------------->
