@@ -1,11 +1,11 @@
-function loadXml() {
+function myXml() {
   let xhr = new XMLHttpRequest();
   xhr.open("GET", "cd-collection.xml", true);
   xhr.onload = function () {
-    if (xhr == 200) {
-      console.log(this.responseText);
+    if (this.status == 200) {
+      console.log(xhr);
     }
   };
   xhr.send();
 }
-loadXml();
+myBtn02.addEventListener("Click", myXml);
