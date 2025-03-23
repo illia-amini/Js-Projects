@@ -1,15 +1,15 @@
 const myBtn = document.getElementById("my-btn");
-const txt = document.getElementById("text");
+const txtDiv = document.getElementById("text");
 function loadText() {
-  let xhi = new XMLHttpRequest();
+  let xhr = new XMLHttpRequest();
   //   console.log(xhi);
-  xhi.open("GET", "Ajax/Ajax-tutorial.txt", true);
-  xhi.onload = function () {
-    if (xhi.status == 200) {
-      txt.innerHTML = this.response;
+  xhr.open("GET", "Ajax-tutorial.txt", true);
+  xhr.onload = function () {
+    if (xhr.status == 200) {
+      txtDiv.innerHTML = this.response;
     }
   };
-  xhi.send();
+  xhr.send();
 }
 
 myBtn.addEventListener("click", loadText);
