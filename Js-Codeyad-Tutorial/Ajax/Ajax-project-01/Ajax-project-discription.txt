@@ -1,0 +1,47 @@
+The project is ro show user who logged in github
+print the avart-img, & id via json & ajax & Dom,
+***imp***
+***imp***
+***imp***
+
+1-first we create a html doc & css.
+
+2-we have a work with ul & li section,
+
+3-off to js section
+
+4- defeine a function for this,
+
+5-we define xhr to acess to ajax
+
+6- using open func and etc...
+
+7-defien on load fuunc also u can use readystatechange here,
+
+8-we using JSON.parse(this.responseText); for getting data from github as json and also using this.responseText to convert json datas to text ***imp**
+
+9-define a loop better ro use for in beacuse its an array,
+
+10-we are usin dom here, to create li & img & h3 & a and thir attribute excatly like in html doc,after creating we command what we wrote in html doc
+
+11-giving classname to li as same as in html doc
+
+12-create img and its class name,also it has src attribute that we using setattribute('src',user[i].avatar-img);
+
+tip;here users[i].avatar-img means, for each user in github go to array look for each index of user that name is avatar-img we actaully apply such a this thing for their username,
+
+13-then we use append() func to set this attribut inside of the img
+
+14-we apply what we done before for h3
+
+15-for tag of a we apply what we done before
+also for that of a we dont need to use set attribute in order to it has already carry href,
+just we say innerttxtand users[i].login => .login means for their login username,
+
+16-then we append a to h3 
+
+17- we mention that the tag of img will put after h3.
+
+18-we select ul and append what is inside of li in to it,
+
+19-and finally send func
