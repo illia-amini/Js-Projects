@@ -42,13 +42,15 @@ There is an object, will aplly Respone & request without need to reload ur page
 
 object is xmlHttpRequest, via this object u can use Ajax on ur client without relaod ur page 
 
-ex;xhi.open("GET", "Ajax/Ajax-tutorial.txt", true); 
+ex;
+
+xhi.open("GET", "Ajax/Ajax-tutorial.txt", true); 
 
 here first we must open the object,by using open func
 
 second we guding this func we mention first our type of request then, destinon, 
 
-third
+third is synchronoues or Asynchronoues.
 
 after that ,
 
@@ -68,3 +70,72 @@ after that,
   xhi.send();
 
 we send the our codes to ajax,
+
+<-------------------->
+
+.Synchronoues(false) & Asynchronoues(true)
+
+ex; 
+
+xhi.open("GET", "Ajax/Ajax-tutorial.txt", true); true here is Synchronoues.
+
+Synchronoues: means At the same time, our codes will aplly regurally, and in the case our codes bug it will not go to next code,
+
+Asynchronoues: means not at the same time, it not scriptly shape, it  make code work, not relating to the previeous codes,it make all codes work,
+
+better to use Asynchronoues  when u use of Ajax ,beacuse if the server bugs or response latley it wont wast the time on server or bugs,
+
+<-------------------->
+
+.Ajax proprerty;
+
+.readystate
+
+ex ; xhr.readystate
+
+it will return a value, that value means, the status of our request. and each value means a sm,
+
+vlaues can be ;
+
+0: UNsent, client has been created, open() not called yet.
+
+1: Opened, open() has been called.
+
+2: Heders-Recived, send() has been called and headers and status are avaliable
+
+3: Loading: Downloding 
+
+4: Done. the operation complete,
+
+.xhr.onprogrees
+
+its usually defien whenever ur is browser is loading,and u want to show to ur user,
+
+the ready state here is 3
+
+and its defien before onload func.
+
+ex;
+
+hr.onprogress = function () {
+    console.log("Redystate:", xhr.readyState); //readystate is 3
+  };
+  xhr.onload = function () {
+    if (xhr.status == 200) {
+      txtDiv.innerHTML = this.response;
+    }
+  };
+
+.onreadystatechange;
+
+for whenever ready state change, u can use insted of onload.
+
+ex;
+
+xhr.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+      txtDiv.innerHTML = this.responseText;
+    }
+  };
+
+<-------------------->
