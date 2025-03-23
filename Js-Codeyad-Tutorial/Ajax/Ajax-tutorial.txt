@@ -38,8 +38,33 @@ if status is in range of 400 is problem from client,
 
 .Ajax:
 
-There are some func, that let u to use Ajax.
-
 There is an object, will aplly Respone & request without need to reload ur page
 
 object is xmlHttpRequest, via this object u can use Ajax on ur client without relaod ur page 
+
+ex;xhi.open("GET", "Ajax/Ajax-tutorial.txt", true); 
+
+here first we must open the object,by using open func
+
+second we guding this func we mention first our type of request then, destinon, 
+
+third
+
+after that ,
+
+xhi.onload = function () {
+    if (xhi.status == 200) {
+      txt.innerHTML = this.response;
+    }
+  };
+
+
+we use another func name is on load, on loading process what is gonna happen,
+
+we say if the status of our code is 200 return us the docs on Ajax-toturial file , this respone,
+
+after that,
+
+  xhi.send();
+
+we send the our codes to ajax,
