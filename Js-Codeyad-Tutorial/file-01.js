@@ -1002,3 +1002,37 @@ function fillInput(element) {
 //Written in Ajax Doc.
 
 //<----------------------->
+
+//Arrow Functions;
+
+//its a syntax to defien func in js, thats add in Es6 added to js
+
+//Its a well-known func to summerizes the named func or anomouse func,
+
+//u just needs to use (input)=>{},u should give an input that u define before then if u have only on line to run u don
+//ex;
+
+//Anymouse func:
+// (a, b) => { here we have some inputs
+//   let c = 42;
+//   return a + b;
+// };
+
+// let d = 4;
+// let e = 5;
+// () => d + e + 100;bwithout input but define already
+
+// let g;
+// () => g + 100; one line
+
+//Nmaed func:
+
+// function bob() {
+//   return a + 100;
+// }
+
+//conver to =>
+
+// let bob = (a) => a + 100;
+
+//<----------------------->
