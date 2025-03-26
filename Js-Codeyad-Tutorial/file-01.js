@@ -1036,3 +1036,34 @@ function fillInput(element) {
 // let bob = (a) => a + 100;
 
 //<----------------------->
+
+//forEach();
+
+//there is a func for array, that it will count the indexes of aaray
+//compare to array indexs.
+
+//for ex;
+
+// const nums = [65, 44, 32, 4];
+
+// nums.forEach(function (item, index, arr) {
+//   console.log(`item=${item} index=${index}`);
+//   console.log(`arr=${arr}`);
+// });
+
+//Via Arrow func
+
+// nums.forEach((item, index, arr) => {
+//   console.log(`item=${item}, index=${index}`);
+//   console.log(`arr=${arr}`);
+// });
+
+//this fun will give of three output, item , index and array,
+//u can use of one of them or three of them.
+
+//<----------------------->
+
+//Json;
+
+//for creatin json doc we shuld start with [] array then put all {} objects inside of it
+//each elemnt inside of the object mst be in "" and separate each {} by puttin , at the end of  }, and each elemnts,
