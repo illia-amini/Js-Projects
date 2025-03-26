@@ -3,7 +3,7 @@ const myBtn = document.getElementById("getText");
 // function getTet() {
 //   fetch("Fetch-Api")
 //     .then(function (result) { // then() func will come if fetch () promise was successfill then it will aolly sm., here run a func
-//       return result.text(); //we say return result.text, rsult its the result of sample of text
+//       return result.text(); //we say return result.text, rsult its the result of sample of text taht if u consol it it will retun a response
 //     })
 //     .then(function (data) {// data =result.text
 //       console.log(data);
