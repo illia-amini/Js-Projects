@@ -1,0 +1,15 @@
+What is Fetch-Api?
+
+Fectch-Api like XmlHttpRequest, is a func that can request & response a http.
+
+is modern then XmlHttpRequest.
+
+How to use? use fetch() func.
+
+console.log(fetch("Fetch-Api")); // It will return promide as an object.
+
+Promise; it will give u promise us to apply somthing, fetch func promise use to make a connection to url and...
+
+it can be successful or not successful or take time to happen,bby using some func
+
+fetch func will apply our jobs via Asyncronose,thats why it return promise.
