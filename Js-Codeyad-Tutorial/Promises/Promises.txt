@@ -15,3 +15,43 @@ console.log("Tea");
 
 //Asyncronose version; here it see first line, it noticsed
 // fisr line code takes 3s to run so it runs other lines code then it will apply fisrtline code
+
+
+
+//------------------------
+
+
+
+.callback func()
+
+
+let greeting = (fname) => console.log(`Hello ${fname}`);
+
+const userInfo = (fname, lname, callback) => {
+  const fullName = ` welcome ${fname}  ${lname}`;
+  callback(fullName);
+};
+
+userInfo("Mohamd", "Hashemi", greeting);
+
+//Discription:
+
+//Waht is happining here, first we defien an arrow func,
+
+//in seconde line we difene an arrow func,that takes 3 inputs
+
+//two string and last one as call back is a func,
+
+//we difine a fuul name two fname and lname
+
+//and then we call callback func, to show full name,
+
+//then we give some input by hand and we call our main func,
+
+//callback func is func to used for passing func to eachother,but there is problem,
+
+//if the amount of func is increased we will have callbackhell,
+
+//and surely we can not undderstand what is happening
+
+//then in ECs6 promises release that is like callback func asyuncronse, and it prevents of callback hell,
