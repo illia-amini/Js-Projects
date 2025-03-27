@@ -1,0 +1,17 @@
+// syncronose version, line by line.
+
+console.log("Coffee");
+console.log("Tost");
+console.log("Tea");
+
+
+//------------------------
+
+setTimeout((coffee) => {
+  console.log("coffee");
+}, 3000);
+console.log("Tost");
+console.log("Tea");
+
+//Asyncronose version; here it see first line, it noticsed
+// fisr line code takes 3s to run so it runs other lines code then it will apply fisrtline code
