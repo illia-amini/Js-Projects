@@ -13,8 +13,14 @@ const myBtn = document.getElementById("getText");
 //Written in aarow func
 
 function getText() {
-  fetch("Fetch-Api").then((result) =>
-    result.text().then((data) => console.log(data))
-  );
+  fetch("Fetch-Api.txt").then((res) => {
+    //the diffrences between fetch api and xml http request u need to write the type of doc at the end of the ur file name for ex here is .txt
+    res.text().then((data) => {
+      //re.text() is a result or response of fetch(fetch-api)
+      //then we put in another func to see the data
+      console.log(data);
+    });
+  });
 }
-myBtn.addEventListener("click", getText); // it will return a respone
+
+myBtn.addEventListener("click", getText);
