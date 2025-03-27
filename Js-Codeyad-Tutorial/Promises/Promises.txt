@@ -55,3 +55,12 @@ userInfo("Mohamd", "Hashemi", greeting);
 //and surely we can not undderstand what is happening
 
 //then in ECs6 promises release that is like callback func asyuncronse, and it prevents of callback hell,
+
+
+//------------------------
+
+.Promises:
+
+const meeting = new Promise((resolve, reject));
+
+//to create promise ,that takes an input,which the inputs is func, and that func takes two inputs as reslove & reject
