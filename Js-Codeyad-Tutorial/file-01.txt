@@ -1087,6 +1087,7 @@ ex;
 
 it will help u that to improve the speed of ur website 
 
+also the func,which apply this method will return a promise,
 
-
+that includes promise state and promise result,
 //<----------------------->
