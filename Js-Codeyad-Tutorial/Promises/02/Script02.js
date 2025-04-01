@@ -16,11 +16,17 @@ let meeting = new Promise((myResolve, myReject) => {
 meeting.then(function (value) {
   console.log(value);
 });
+meeting.then(addToCalender); //to pass meeting to addcalneder func
 meeting.catch(function (error) {
   myDisplayer(error);
 });
 
-const addToCalender = meetingDetails;
+const addToCalender = (meetingDetails) => {
+  return new Promise((resolve) => {
+    let calender = `${meetingDetails.name} is scheduled at ${meetingDetails.time} on ${meetingDetails.location}`;
+    resolve(calender);
+  });
+};
 
 function myDisplayer(some) {
   document.getElementById("Display").innerHTML = some;
