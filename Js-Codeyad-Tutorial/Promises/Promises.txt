@@ -1,4 +1,4 @@
-// syncronose version, line by line.
+// syncronose version,  apply codes line by line.
 
 console.log("Coffee");
 console.log("Tost");
@@ -13,17 +13,12 @@ setTimeout((coffee) => {
 console.log("Tost");
 console.log("Tea");
 
-//Asyncronose version; here it see first line, it noticsed
-// fisr line code takes 3s to run so it runs other lines code then it will apply fisrtline code
-
-
+//Asyncronose version; here it see first line, it noticed
+// fist line code takes 3s to run so it runs other lines code then it will apply fisrtline code
 
 //------------------------
 
-
-
 .callback func()
-
 
 let greeting = (fname) => console.log(`Hello ${fname}`);
 
