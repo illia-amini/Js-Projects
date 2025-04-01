@@ -7,6 +7,7 @@ let meeting = new Promise((myResolve, myReject) => {
   };
   if (hasMeeting) {
     myResolve(meetingDetails);
+    //also return in console meeting details is not defiend
   } else {
     myReject("Sorry!!!");
   }
