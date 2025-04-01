@@ -41,11 +41,13 @@ userInfo("Mohamd", "Hashemi", greeting);
 
 //and then we call callback func, to show full name,
 
+//Whenever u pass a func to another func,it means call back func,
+
 //then we give some input by hand and we call our main func,
 
 //callback func is func to used for passing func to eachother,but there is problem,
 
-//if the amount of func is increased we will have callbackhell,
+//if the amount of func is increased we will have callback-hell,
 
 //and surely we can not undderstand what is happening
 
@@ -56,6 +58,98 @@ userInfo("Mohamd", "Hashemi", greeting);
 
 .Promises:
 
-const meeting = new Promise((resolve, reject));
+Promises, created to prevent of callback-hell.
 
-//to create promise ,that takes an input,which the inputs is func, and that func takes two inputs as reslove & reject
+promise includes two type of codes
+
+1-Producing code; is code that can take some time,
+
+2-Consuming code; is code that must wait for the result.
+
+a promises is an object that links producing code to consuming code,
+
+
+Promise syntax:
+
+
+let myPromise = new Promise(function(myResolve, myReject) {// here it takes an input or func u can use arrow func. this func takes two inputs known as Resolve & Reject,
+
+// "Producing Code" (May take some time)
+
+  myResolve(); // when successful
+  myReject();  // when error
+});
+
+// "Consuming Code" (Must wait for a fulfilled Promise)
+
+myPromise.then(
+  function(value) { /* code if successful */ },
+  function(error) { /* code if some error */ }
+);
+
+when the producing code obtains the result,it sould call one of the two callbacks;
+
+success: myResolve(result value);
+
+Error: myReject(error value);
+
+
+Promise object prperties
+
+A JavaScript Promise object state can be:
+
+Pending
+
+Fulfilled
+
+Rejected
+
+The Promise object supports two properties: state and result.
+
+While a Promise object is "pending" (working), the result is undefined.
+
+When a Promise object is "fulfilled", the result is a value.
+
+When a Promise object is "rejected", the result is an error object.
+
+
+myPromise.state	  myPromise.result
+"pending"	      undefined
+"fulfilled"	      a result value
+"rejected"	      an error object
+
+
+How to use promise?
+
+Here is how to use a Promise:
+
+myPromise.then( // in consuming code we difene two call back func ,max, also u can even define one.
+  function(value) { /* code if successful */ },
+  function(error) { /* code if some error */ }
+);
+
+promise.then() => takes two arguments, a callback for success and another callback for error,
+
+
+ex;
+
+function myDisplayer(some) {
+  document.getElementById("demo").innerHTML = some;
+}
+
+let myPromise = new Promise(function(myResolve, myReject) {
+  let x = 0;
+
+// The producing code (this may take some time)
+
+  if (x == 0) {
+    myResolve("OK");
+  } else {
+    myReject("Error");
+  }
+});
+
+myPromise.then(
+  function(value) {myDisplayer(value);},
+  function(error) {myDisplayer(error);}
+);
