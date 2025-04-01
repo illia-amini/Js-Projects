@@ -6,18 +6,20 @@ let meeting = new Promise((myResolve, myReject) => {
     name: "AliAmini",
   };
   if (hasMeeting) {
-    myResolve("Welcome to the meeting!!!");
+    myResolve(meetingDetails);
   } else {
     myReject("Sorry!!!");
   }
 });
 
 meeting.then(function (value) {
-  myDisplayer(value);
+  console.log(value);
 });
 meeting.catch(function (error) {
   myDisplayer(error);
 });
+
+const addToCalender = meetingDetails;
 
 function myDisplayer(some) {
   document.getElementById("Display").innerHTML = some;
