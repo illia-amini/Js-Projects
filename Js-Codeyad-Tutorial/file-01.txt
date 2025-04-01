@@ -1070,9 +1070,22 @@ function fillInput(element) {
 
 //<----------------------->
 
-//Await & ASync;
+//Await & Async;
 
+all func normally,works syncronose,
 
+but if u want a func work in Asyncronsly u must use async 
+
+before thhe func,
+
+ex;
+
+ async function myFunc() {
+        return "Hello world!!!";
+      }
+      console.log(myFunc());
+
+it will help u that to improve the speed of ur website 
 
 
 
