@@ -1067,3 +1067,9 @@ function fillInput(element) {
 
 //for creatin json doc we shuld start with [] array then put all {} objects inside of it
 //each elemnt inside of the object mst be in "" and separate each {} by puttin , at the end of  }, and each elemnts,
+
+//<----------------------->
+
+//Await & ASync;
+
+//<----------------------->
