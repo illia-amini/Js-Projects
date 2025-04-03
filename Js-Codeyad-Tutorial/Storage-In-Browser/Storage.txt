@@ -1,6 +1,24 @@
 All broweser have a ability,that allow server and client,
 
-to save some info in clients storage,
+to save some users info in clients storage via js,
+
+like sign-up,or any enterene of browser
 
 .Local Storage:
 
+//we want to, the name of fname is called from local storage
+//for this there is an object called local storage in js use localStorage
+//then we must use getitem to catch key & value.
+//How to get access to key & value?
+//u should go to web browser, go to application section, press local storage and u see key and value,
+// what key & value are? infos are saved in key & value u shold define by localstorage.setitem() a key and a value.
+//first one is key, seconde one is value,
+//then by local storage get item u can access to key and recive it
+//also if u want to delete an item from local storage use removeitem
+//just remeber that, u must define local storage.setitem before getitem,or reomve.
+
+
+.Seassion Storage:
+
+
+.IndexDB:
