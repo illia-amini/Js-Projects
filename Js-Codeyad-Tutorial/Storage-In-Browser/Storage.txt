@@ -1,0 +1,6 @@
+All broweser have a ability,that allow server and client,
+
+to save some info in clients storage,
+
+.Local Storage:
+
